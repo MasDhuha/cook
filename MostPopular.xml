@@ -1,0 +1,38 @@
+<xml>
+	<title>
+15. Most Popular (M)
+	</title>
+	<dependencies><![CDATA[
+		must be in right rail<br>
+		uses SNI.CC.Omniture.MultiVar
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-e"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-e" class="clrfix">
+				</div>
+			</div>		
+	]]></region>	
+	<code><![CDATA[
+
+		<div id="most-popular" class="pod popular clrfix">
+			<h3>Most Popular Recipes</h3>
+			<ol>
+				<li><span class="popularNum">1</span><a class="thumb" rel="mpri-1" title="I Want to Marry You Cookies" href="/recipes/i-want-to-marry-you-cookies-recipe/index.html">
+				<img alt="I Want to Marry You Cookies" src="http://img.foodnetwork.com/FOOD/2011/06/27/CCPRF110_Chocolate-Chip-Cookies-2_s4x3_sm.jpg">
+				</a>
+				<a class="description" rel="mpr-1" href="/recipes/i-want-to-marry-you-cookies-recipe/index.html" title="I Want to Marry You Cookies">I Want to Marry You Cookies</a></li>
+				<li><span class="popularNum">2</span><a class="description" rel="mpr-2" href="/recipes/drunken-spaghetti-recipe/index.html" title="Drunken Spaghetti">Drunken Spaghetti</a></li>
+				<li><span class="popularNum">3</span><a class="description" rel="mpr-3" href="/recipes/chicken-in-white-wine-recipe/index.html" title="Chicken in White Wine">Chicken in White Wine</a></li>
+				<li><span class="popularNum">4</span><a class="description" rel="mpr-4" href="/recipes/kelsey-nixon/chicken-cacciatore-recipe/index.html" title="Chicken Cacciatore">Chicken Cacciatore</a></li>
+				<li><span class="popularNum">5</span><a class="description" rel="mpr-5" href="/recipes/laura-calder/the-miracle-boule-recipe/index.html" title="The Miracle Boule">The Miracle Boule</a></li>
+			</ol>
+		</div>
+		<script type="text/javascript">
+		    		SNI.CC.Omniture.MultiVar("#most-popular", "Most Popular");
+					</script>
+
+	]]></code>
+</xml>

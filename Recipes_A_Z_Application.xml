@@ -1,0 +1,229 @@
+<xml>
+	<title>
+21. Recipes A-Z Application (M)
+	</title>
+	<dependencies><![CDATA[
+Content width will depend on container.
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/cook/about_us/index/0,,COOK_42605_93219_A-1,00.html
+	</location>
+	<region id="sni-w"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					
+				</div>
+			</div>
+	]]></region>	
+	<code><![CDATA[
+
+<div class="pod topics-a-z clrfix">
+	<div class="head">
+		<div class="page-title clrfix">
+			<h1>Recipes A to Z : </h1>
+			<div class="letter">
+				<span>A</span>
+			</div>
+		</div>
+		<div class="showing">
+			Showing 1 - 150 of 370 recipes beginning with &lsquo;A&rsquo;
+		</div>
+	</div>
+	<div class="topics-nav">
+		<ul class="menu button-nav clrfix">
+			<li><a class="active" href="/cook/about_us/index/0,1001204,COOK_42605_93219_A-1,00.html"><span>A</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_B-1,00.html"><span>B</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_C-1,00.html"><span>C</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_D-1,00.html"><span>D</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_E-1,00.html"><span>E</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_F-1,00.html"><span>F</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_G-1,00.html"><span>G</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_H-1,00.html"><span>H</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_I-1,00.html"><span>I</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_J-1,00.html"><span>J</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_K-1,00.html"><span>K</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_L-1,00.html"><span>L</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_M-1,00.html"><span>M</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_N-1,00.html"><span>N</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_O-1,00.html"><span>O</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_P-1,00.html"><span>P</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_Q-1,00.html"><span>Q</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_R-1,00.html"><span>R</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_S-1,00.html"><span>S</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_T-1,00.html"><span>T</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_U-1,00.html"><span>U</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_V-1,00.html"><span>V</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_W-1,00.html"><span>W</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_XYZ-1,00.html"><span>XYZ</span></a></li>
+			<li><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_-1,00.html"><span>123</span></a></li>
+		</ul>
+	</div>
+	<div class="a-z-list-recipe clrfix">
+		<div class="col">
+			<ul class="list">
+				<li><a href="/recipes/a-beer-and-a-ball-recipe/index.html">A Beer and a Ball</a></li>
+				<li><a href="/recipes/tyler-florence/a-gooey-decadent-chocolate-cake-recipe/index.html">A Gooey, Decadent Chocolate Cake</a></li>
+				<li><a href="/recipes/a-luau-recipe/index.html">A Luau (Clarissa Dickson Wright and Jennifer Paterson)</a></li>
+				<li><a href="/recipes/clarissa-dickson-wright-and-jennifer-paterson/a-ns-slow-shoulder-of-lamb-recipe/index.html">A. N.'s Slow Shoulder of Lamb (Clarissa Dickson Wright and Jennifer Paterson)</a></li>
+				<li><a href="/recipes/a-real-pie-pizza-rustica-recipe/index.html">A Real Pie: Pizza Rustica</a></li>
+				<li><a href="/recipes/a-soup-the-color-of-marigolds-carrot-soup-recipe/index.html">A Soup the Color of Marigolds (Carrot Soup)</a></li>
+				<li><a href="/recipes/a-supper-of-zucchini-tomatoes-and-basil-recipe/index.html">A Supper of Zucchini, Tomatoes, and Basil</a></li>
+				<li><a href="/recipes/abalone-cakes-recipe/index.html">Abalone Cakes</a></li>
+				<li><a href="/recipes/abalone-hors-doeuvres-recipe/index.html">Abalone Hors d'oeuvres</a></li>
+				<li><a href="/recipes/emeril-lagasse/abbacchio-o-capretto-brodettato-baby-lamb-with-egg-sauce-recipe/index.html">Abbacchio O Capretto Brodettato: Baby Lamb with Egg Sauce</a></li>
+				<li><a href="/recipes/mario-batali/abruzzo-style-dumplings-gnocchi-di-semolina-allabruzzo-recipe/index.html">Abruzzo Style Dumplings: Gnocchi di Semolina all'Abruzzo</a></li>
+				<li><a href="/recipes/alton-brown/abs-b-and-bs-recipe/index.html">Ab's B and B's</a></li>
+				<li><a href="/recipes/alton-brown/abs-beefy-broth-recipe/index.html">AB's Beefy Broth</a></li>
+				<li><a href="/recipes/acaraje-recipe/index.html">Acaraje (Clarissa Dickson Wright and Jennifer Paterson)</a></li>
+				<li><a href="/recipes/debi-mazar-and-gabriele-corcos/acciugata-di-renato-recipe/index.html">Acciugata Di Renato (Debi Mazar and Gabriele Corcos)</a></li>
+				<li><a href="/recipes/alton-brown/acid-jellies-recipe/index.html">Acid Jellies</a></li>
+				<li><a href="/recipes/ackee-and-potato-soup-with-crab-salad-recipe/index.html">Ackee and Potato Soup with Crab Salad</a></li>
+				<li><a href="/recipes/david-rocco/acquacotta-recipe/index.html">Acquacotta</a></li>
+				<li><a href="/recipes/ingrid-hoffmann/adobo-grilled-chicken-salad-in-a-tortilla-bowl-recipe/index.html">Adobo Grilled Chicken Salad in a Tortilla Bowl</a></li>
+				<li><a href="/recipes/chuck-hughes/adobo-pork-shanks-with-fried-rice-recipe/index.html">Adobo Pork Shanks with Fried Rice (Chuck Hughes)</a></li>
+				<li><a href="/recipes/adrianas-pasta-pie-recipe/index.html">Adriana's Pasta Pie</a></li>
+				<li><a href="/recipes/adult-shamrock-mint-shake-the-irish-pirate-recipe/index.html">Adult Shamrock Mint Shake (The Irish Pirate)</a></li>
+				<li><a href="/recipes/aerial-recipe/index.html">Aerial</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/affogato-recipe/index.html">Affogato</a></li>
+				<li><a href="/recipes/chuck-hughes/affogato-with-chucks-coffee-cigars-recipe/index.html">Affogato with Chuck's Coffee Cigars</a></li>
+				<li><a href="/recipes/afghani-chicken-recipe/index.html">Afghani Chicken (Rachael Ray)</a></li>
+				<li><a href="/recipes/mario-batali/agnolotti-recipe/index.html">Agnolotti</a></li>
+				<li><a href="/recipes/mark-bittman/agua-fresca-recipe/index.html">Agua Fresca (Mark Bittman)</a></li>
+				<li><a href="/recipes/ahi-palette-dancer-recipe/index.html">Ahi Palette Dancer</a></li>
+				<li><a href="/recipes/ahi-poke-recipe/index.html">Ahi Poke</a></li>
+				<li><a href="/recipes/ahi-poketini-recipe/index.html">Ahi Poketini</a></li>
+				<li><a href="/recipes/ahi-tuna-recipe/index.html">Ahi Tuna</a></li>
+				<li><a href="/recipes/ahi-tuna-cadiz-recipe/index.html">Ahi Tuna Cadiz</a></li>
+				<li><a href="/recipes/aioli-recipe/index.html">Aioli</a></li>
+				<li><a href="/recipes/emeril-lagasse/aioli-recipe/index.html">Aioli</a></li>
+				<li><a href="/recipes/ajiaco-cuban-soup-made-with-beef-pork-and-tropical-vegetables-recipe/index.html">Ajiaco: Cuban Soup Made with Beef, Pork, and Tropical Vegetables</a></li>
+				<li><a href="/recipes/emeril-lagasse/ajiaco-emerilized-recipe/index.html">Ajiaco-Emerilized</a></li>
+				<li><a href="/recipes/emeril-lagasse/al-forno-and-johanne-killeens-grilled-pizza-recipe/index.html">Al Forno and Johanne Killeen's Grilled Pizza</a></li>
+				<li><a href="/recipes/emeril-lagasse/al-forno-inspired-pizza-recipe/index.html">Al Forno Inspired Pizza (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/emeril-lagasse/alains-broiled-catfish-with-lima-beans-recipe/index.html">Alain's Broiled Catfish with Lima Beans (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/emeril-lagasse/alains-sweet-and-spicy-asian-drumsticks-recipe/index.html">Alain's Sweet and Spicy Asian Drumsticks</a></li>
+				<li><a href="/recipes/alaskan-amber-salmon-marinade-recipe/index.html">Alaskan Amber Salmon Marinade</a></li>
+				<li><a href="/recipes/nigella-lawson/alcoholic-hot-chocolate-recipe/index.html">Alcoholic Hot Chocolate</a></li>
+				<li><a href="/recipes/rachael-ray/alder-roasted-salmon-with-rosemary-polenta-and-wild-mushroom-pearl-onion-ragout-recipe/index.html">Alder Roasted Salmon with Rosemary Polenta and Wild Mushroom-Pearl Onion Ragout (Rachael Ray)</a></li>
+				<li><a href="/recipes/emeril-lagasse/alder-smoked-arctic-char-with-wild-mushroom-and-white-bean-ragout-recipe/index.html">Alder Smoked Arctic Char with Wild Mushroom and White Bean Ragout (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/michael-chiarello/alder-planked-salmon-with-egg-sauce-recipe/index.html">Alder-Planked Salmon with Egg Sauce (Michael Chiarello)</a></li>
+				<li><a href="/recipes/emeril-lagasse/aldies-veal-chop-with-arugula-and-tomatoes-recipe/index.html">Aldie's Veal Chop with Arugula and Tomatoes (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/dave-lieberman/ale-simmered-chicken-with-dried-plums-recipe/index.html">Ale-Simmered Chicken with Dried Plums</a></li>
+				<li><a href="/recipes/alie-and-georgias-spiked-scone-cream-recipe/index.html">Alie and Georgia's Spiked Scone Cream</a></li>
+				<li><a href="/recipes/nadia-g/all-dressed-g-style-pizza-recipe/index.html">All Dressed G Style Pizza (Nadia G)</a></li>
+				<li><a href="/recipes/rachael-ray/all-day-roast-pork-spicy-apple-chutney-mashed-citrus-sweet-potatoes-sauteed-chard-recipe/index.html">All-Day Roast Pork, Spicy Apple Chutney, Mashed Citrus Sweet Potatoes, Sauteed Chard</a></li>
+				<li><a href="/recipes/alligator-ribs-recipe/index.html">Alligator Ribs</a></li>
+				<li><a href="/recipes/ching-he-huang/all-purpose-stir-fry-sauce-recipe/index.html">All-Purpose Stir-Fry Sauce (Ching-He Huang)</a></li>
+				<li><a href="/recipes/nigella-lawson/allspice-gravy-recipe/index.html">Allspice Gravy (Nigella Lawson)</a></li>
+				<li><a href="/recipes/annie-sibonney/almejas-a-la-marinera-sailors-clams-recipe/index.html">Almejas a la Marinera (Sailor's Clams) (Annie Sibonney)</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/almond-and-chocolate-clusters-recipe/index.html">Almond and Chocolate Clusters</a></li>
+				<li><a href="/recipes/mario-batali/almond-and-grain-tart-pastiera-di-mandorle-recipe/index.html">Almond and Grain Tart (Pastiera di Mandorle)</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/almond-and-lemon-biscotti-dipped-in-white-chocolate-recipe/index.html">Almond and Lemon Biscotti Dipped in White Chocolate</a></li>
+				<li><a href="/recipes/almond-and-pine-nut-cookies-recipe/index.html">Almond and Pine Nut Cookies</a></li>
+				<li><a href="/recipes/bill-granger/almond-and-raspberry-slice-recipe/index.html">Almond and Raspberry Slice (Bill Granger)</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/almond-blueberry-cookies-recipe/index.html">Almond Blueberry Cookies</a></li>
+				<li><a href="/recipes/mario-batali/almond-brittle-croccante-recipe/index.html">Almond Brittle (Croccante)</a></li>
+				<li><a href="/recipes/almond-burfi-recipe/index.html">Almond Burfi</a></li>
+				<li><a href="/recipes/emeril-lagasse/almond-butter-cookies-with-fresh-lemon-and-lavender-ice-cream-recipe/index.html">Almond Butter Cookies with Fresh Lemon and Lavender Ice Cream</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/almond-cake-recipe/index.html">Almond Cake</a></li>
+				<li><a href="/recipes/mario-batali/almond-custards-with-almond-milk-biancomangiare-recipe/index.html">Almond Custards with Almond Milk (Biancomangiare)</a></li>
+				<li><a href="/recipes/almond-joy-martini-recipe/index.html">Almond Joy Martini</a></li>
+				<li><a href="/recipes/almond-meringue-cake-with-peaches-recipe/index.html">Almond Meringue Cake with Peaches (Laura Calder)</a></li>
+				<li><a href="/recipes/almond-pine-nut-apricot-crumb-cake-recipe/index.html">Almond, Pine Nut, Apricot Crumb Cake</a></li>
+				<li><a href="/recipes/bal-arneson/almond-shake-recipe/index.html">Almond Shake (Bal Arneson)</a></li>
+				<li><a href="/recipes/ching-he-huang/almond-shortbread-cookies-recipe/index.html">Almond Shortbread Cookies</a></li>
+				<li><a href="/recipes/almond-tart-crostata-alle-mandorle-recipe/index.html">Almond Tart: Crostata alle Mandorle</a></li>
+				<li><a href="/recipes/mario-batali/almond-crusted-fig-tart-crostata-di-fichi-mandorlati-recipe/index.html">Almond-Crusted Fig Tart: Crostata di Fichi Mandorlati</a></li>
+				<li><a href="/recipes/anjum-anand/aloo-keema-chops-recipe/index.html">Aloo Keema Chops (Anjum Anand)</a></li>
+				<li><a href="/recipes/aloo-paratha-recipe/index.html">Aloo Paratha</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<ul class="list">
+				<li><a href="/recipes/aloo-pie-with-apple-mango-chutney-recipe/index.html">Aloo Pie with Apple-Mango Chutney</a></li>
+				<li><a href="/recipes/alpine-burgers-recipe/index.html">Alpine Burgers</a></li>
+				<li><a href="/recipes/alpine-martini-recipe/index.html">Alpine Martini</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/amaretti-torta-recipe/index.html">Amaretti Torta</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/amaretto-and-raspberry-smoothie-recipe/index.html">Amaretto and Raspberry Smoothie (Giada De Laurentiis)</a></li>
+				<li><a href="/recipes/amaretto-brownie-sundae-recipe/index.html">Amaretto Brownie Sundae</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/amaretto-chocolate-chip-cookie-sandwiches-recipe/index.html">Amaretto Chocolate Chip Cookie Sandwiches</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/amaretto-float-recipe/index.html">Amaretto Float (Giada De Laurentiis)</a></li>
+				<li><a href="/recipes/amaretto-sour-with-prosecco-recipe/index.html">Amaretto Sour with Prosecco</a></li>
+				<li><a href="/recipes/nigella-lawson/amaretto-syllabub-recipe/index.html">Amaretto Syllabub (Nigella Lawson)</a></li>
+				<li><a href="/recipes/jamie-oliver/amazing-pickled-and-marinated-vegetables-recipe/index.html">Amazing Pickled and Marinated Vegetables</a></li>
+				<li><a href="/recipes/ambrosia-extreme-makeover-recipe/index.html">Ambrosia Extreme Makeover</a></li>
+				<li><a href="/recipes/amys-freaky-good-apple-tart-recipe/index.html">Amy's Freaky Good Apple Tart</a></li>
+				<li><a href="/recipes/mario-batali/anatra-al-sale-duck-in-salt-crust-recipe/index.html">Anatra al Sale (Duck in Salt Crust)</a></li>
+				<li><a href="/recipes/rachael-ray/ancho-chipotle-turkey-chili-recipe/index.html">Ancho-Chipotle Turkey Chili</a></li>
+				<li><a href="/recipes/ancho-lime-marinated-bbq-chicken-recipe/index.html">Ancho-Lime Marinated BBQ Chicken</a></li>
+				<li><a href="/recipes/david-rocco/anchovies-in-love-recipe/index.html">Anchovies in Love (David Rocco)</a></li>
+				<li><a href="/recipes/mario-batali/anchovies-ontona-style-alici-ontona-recipe/index.html">Anchovies, Ontona Style: Alici Ontona</a></li>
+				<li><a href="/recipes/mario-batali/anchovy-bruschetta-bruschetti-di-alici-recipe/index.html">Anchovy Bruschetta: Bruschetti di Alici</a></li>
+				<li><a href="/recipes/mario-batali/anchovy-fritters-alici-in-polpette-recipe/index.html">Anchovy Fritters: Alici in Polpette</a></li>
+				<li><a href="/recipes/david-rocco/anchovy-marinade-recipe/index.html">Anchovy Marinade (David Rocco)</a></li>
+				<li><a href="/recipes/david-rocco/anchovy-tuna-and-mascarpone-dip-recipe/index.html">Anchovy, Tuna and Mascarpone Dip (David Rocco)</a></li>
+				<li><a href="/recipes/andong-beef-roll-recipe/index.html">Andong Beef Roll</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-and-chicken-jambalaya-recipe/index.html">Andouille and Chicken Jambalaya</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-and-potato-soup-recipe/index.html">Andouille and Potato Soup</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-cheese-bread-recipe4/index.html">Andouille Cheese Bread (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-cheese-bread-recipe/index.html">Andouille Cheese Bread</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-cheese-grits-with-crawfish-sauce-recipe/index.html">Andouille Cheese Grits with Crawfish Sauce</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-crusted-black-drum-with-sauteed-kale-and-pecan-butter-sauce-recipe/index.html">Andouille Crusted Black Drum with Sauteed Kale and Pecan Butter Sauce (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-crusted-redfish-with-a-roasted-pecan-vegetable-relish-meuniere-sauce-and-a-pile-of-shoestring-potatoes-recipe/index.html">Andouille Crusted Redfish with a Roasted Pecan Vegetable Relish, Meuniere Sauce and a Pile of Shoestring Potatoes</a></li>
+				<li><a href="/recipes/andouille-dressing-recipe/index.html">Andouille Dressing</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-potato-cakes-with-fresh-corn-and-tomato-salsa-recipe/index.html">Andouille Potato Cakes with Fresh Corn and Tomato Salsa</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-sausage-recipe/index.html">Andouille Sausage</a></li>
+				<li><a href="/recipes/andouille-smothered-beans-recipe/index.html">Andouille Smothered Beans</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-spoonbread-recipe/index.html">Andouille Spoonbread</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-stuffed-double-cut-pork-chops-recipe/index.html">Andouille Stuffed Double Cut Pork Chops</a></li>
+				<li><a href="/recipes/emeril-lagasse/andouille-stuffed-jalapenos-recipe/index.html">Andouille Stuffed Jalapenos</a></li>
+				<li><a href="/recipes/andreas-hand-cranked-coffee-cavatelli-recipe/index.html">Andrea's Hand Cranked Coffee Cavatelli</a></li>
+				<li><a href="/recipes/angel-cake-with-blackberries-and-white-currants-recipe/index.html">Angel Cake with Blackberries and White Currants (Laura Calder)</a></li>
+				<li><a href="/recipes/alton-brown/angel-food-cake-recipe/index.html">Angel Food Cake</a></li>
+				<li><a href="/recipes/michael-symon/angel-food-cake-with-macerated-berries-and-mascarpone-recipe/index.html">Angel Food Cake with Macerated Berries and Mascarpone (.Michael Symon)</a></li>
+				<li><a href="/recipes/ellie-krieger/angel-food-cake-with-mangoes-recipe/index.html">Angel Food Cake with Mangoes (Ellie Krieger)</a></li>
+				<li><a href="/recipes/emeril-lagasse/angel-hair-aglio-olio-recipe/index.html">Angel Hair Aglio Olio</a></li>
+				<li><a href="/recipes/emeril-lagasse/angel-hair-pasta-with-black-truffles-recipe/index.html">Angel Hair Pasta with Black Truffles</a></li>
+				<li><a href="/recipes/anglers-creekside-grilled-bruschetta-recipe/index.html">Angler's Creekside Grilled Bruschetta</a></li>
+				<li><a href="/recipes/one-flew-over-the-bad-piggies-castle-egg-yolk-cookies-recipe/index.html">Angry Birds' One Flew Over The Bad Piggies' Castle Egg Yolk Cookies</a></li>
+				<li><a href="/recipes/rachael-ray/angry-hushpuppies-recipe/index.html">Angry Hushpuppies (Rachael Ray)</a></li>
+				<li><a href="/recipes/michael-chiarello/angry-shrimp-with-citrusspinach-salad-recipe/index.html">Angry Shrimp with Citrus/Spinach salad</a></li>
+				<li><a href="/recipes/mario-batali/animelle-con-tartufo-sweetbreads-with-truffles-recipe/index.html">Animelle con Tartufo (Sweetbreads with Truffles)</a></li>
+				<li><a href="/recipes/mario-batali/anisette-glazed-bittersweet-chocolate-tart-torta-di-cioccolata-amara-con-glasse-di-anice-recipe/index.html">Anisette Glazed Bittersweet Chocolate Tart: Torta di Cioccolata Amara con Glasse di Anice</a></li>
+				<li><a href="/recipes/ann-kerneys-pan-seared-squab-with-rice-dressing-recipe/index.html">Ann Kerney's Pan-Seared Squab with Rice Dressing</a></li>
+				<li><a href="/recipes/debi-mazar-and-gabriele-corcos/annalisas-speciale-recipe/index.html">Annalisa's Speciale (Debi Mazar and Gabriele Corcos)</a></li>
+				<li><a href="/recipes/laura-calder/anne-willans-home-canned-tomatoes-recipe/index.html">Anne Willan's Home Canned Tomatoes</a></li>
+				<li><a href="/recipes/annelies-irish-stout-mayonnaise-recipe/index.html">Annelie's Irish Stout Mayonnaise</a></li>
+				<li><a href="/recipes/annelies-steak-carpet-bagger-recipe/index.html">Annelie's Steak Carpet-Bagger</a></li>
+				<li><a href="/recipes/anoops-weekend-roti-recipe/index.html">Anoop's Weekend Roti (Bal Arneson)</a></li>
+				<li><a href="/recipes/anthonys-deluxe-all-cowgirl-grilled-cheese-recipe/index.html">Anthony's Deluxe All Cowgirl Grilled Cheese</a></li>
+				<li><a href="/recipes/nigella-lawson/antioxidant-fruit-salad-recipe/index.html">Antioxidant Fruit Salad (Nigella Lawson)</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/antipasti-de-salumi-recipe/index.html">Antipasti de Salumi</a></li>
+				<li><a href="/recipes/emeril-lagasse/antipasti-platter-recipe/index.html">Antipasti Platter</a></li>
+				<li><a href="/recipes/giada-de-laurentiis/antipasti-platter-recipe/index.html">Antipasti Platter</a></li>
+				<li><a href="/recipes/dave-lieberman/antipasto-di-casa-recipe/index.html">Antipasto di Casa (Dave Lieberman)</a></li>
+				<li><a href="/recipes/david-rocco/antipasto-di-ricotta-simple-ricotta-antipasto-recipe/index.html">Antipasto di Ricotta: Simple Ricotta Antipasto (David Rocco)</a></li>
+				<li><a href="/recipes/emeril-lagasse/antipasto-pasta-salad-recipe/index.html">Antipasto Pasta Salad (Emeril Lagasse)</a></li>
+				<li><a href="/recipes/antipasto-platter-of-hard-sausages-recipe/index.html">Antipasto Platter of Hard Sausages</a></li>
+				<li><a href="/recipes/kelsey-nixon/antipasto-summer-lettuce-wraps-recipe/index.html">Antipasto Summer Lettuce Wraps (Kelsey Nixon)</a></li>
+				<li><a href="/recipes/antipasto-trifle-salad-recipe/index.html">Antipasto Trifle Salad</a></li>
+				<li><a href="/recipes/ants-climbing-a-tree-recipe/index.html">Ants Climbing a Tree</a></li>
+				<li><a href="/recipes/apache-fry-bread-recipe/index.html">Apache Fry Bread</a></li>
+				<li><a href="/recipes/debi-mazar-and-gabriele-corcos/aperol-spritz-recipe/index.html">Aperol Spritz (Debi Mazar and Gabriele Corcos)</a></li>
+				<li><a href="/recipes/michael-chiarello/apple-and-blueberry-hand-pies-recipe/index.html">Apple and Blueberry Hand Pies</a></li>
+				<li><a href="/recipes/emeril-lagasse/apple-and-cherry-pie-with-oatmeal-crumble-topping-recipe/index.html">Apple and Cherry Pie with Oatmeal Crumble Topping</a></li>
+				<li><a href="/recipes/bill-granger/apple-and-cherry-tarts-recipe/index.html">Apple and Cherry Tarts (Bill Granger)</a></li>
+				<li><a href="/recipes/lisa-lillien/apple-and-onion-stuffing-recipe/index.html">Apple and Onion Stuffing (Lisa Lillien)</a></li>
+				<li><a href="/recipes/apple-and-pear-streusel-pie-recipe/index.html">Apple and Pear Streusel Pie</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--[if IE]><center><![endif]-->
+	<div class="pagi clrfix">
+		<span class="nextprev prev">&laquo; Previous</span><span class="current">1</span><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_A-2,00.html">2</a><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_A-3,00.html">3</a><a href="/cook/about_us/index/0,1001204,COOK_42605_93219_A-2,00.html">Next &raquo;</a>
+	</div>
+	<!--[if IE]></center><![endif]-->
+</div>
+
+	]]></code>
+</xml>

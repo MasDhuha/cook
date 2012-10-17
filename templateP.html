@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+	<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+	<script type="text/javascript">
+        function XML2JSON( xml ){
+            var $xml = $(xml), json = {};
+
+            function getItem( n ){
+            	var i = $xml.find(n);
+            	return i.length ? i.text() : '';
+        	}
+        	function getAttribute( n, a ){
+            	var i = $xml.find(n);
+            	return i.length ? i.attr(a) : '';
+        	}
+            
+            json.title = $.trim(getItem('title'));
+            json.location = $.trim(getItem('location'));
+            json.dependencies = $.trim(getItem('dependencies'));
+            json.head = $.trim(getItem('head'));
+            json.region = $.trim(getItem('region'));
+            json.regionId = $.trim(getAttribute('region', 'id'));
+            json.code = $.trim(getItem('code'));
+            json.bodyClass = $.trim(getAttribute('code', 'bodyClass'));
+            json.iframe = $.trim(getItem('iframe'));
+
+            return json;
+        }
+        function encodeValue( v ){
+            return v ? v.replace( /</g, '&lt;' ).replace( />/g, '&gt;' ) : '';
+        }
+        function decodeValue( v ){
+            return v ? v.replace( /&lt;/g, '<' ).replace( /&gt;/g, '>' ) : '';
+        }
+        function isHidden( content ){
+            var t = content.substring( 0, 20 );
+            return content && t === '<!-- sni::hidden -->';           
+        }
+        function haveIFrame( content ){
+            var f;
+            if ( content.iframe ){
+                f = content.iframe;
+            }
+            return f;
+        }
+        function fillHead( content ){
+            var h = content.head, f;
+            
+            if ( !isHidden( h ) ){
+                if (h){
+                    $('head').append( h );
+                }
+                f = haveIFrame( content );
+                if (!f){
+                    $('head').append( '<base href="http://www.cookingchanneltv.com" target="_blank">' );
+                }
+            }
+        }
+        function fillRegion( content ){
+            var r = content.region, rid = content.regionId, $region =  $( '#cctv-code' );
+            
+            if ( !isHidden( r ) ){
+                if( r ){
+                    $region = $( '#site-wrapper' );
+                    $region.html( r );    
+                }                
+            } 
+            rid = rid || 'site-wrapper'
+            $region = $region.find( '#'+rid );                                     
+                      
+            return $region;                     
+        }
+        function fillCode( $region, content ){
+            var c = content.code, bclass, f;
+            
+            f = haveIFrame( content );
+            if ( f ){
+                $region.html( f ); 
+            }else{
+                if ( !isHidden( c ) ){
+                    bclass = content.bodyClass;
+                
+                    if ( bclass ){
+                        $( 'body' ).addClass( bclass );
+                    }
+                    $region.html( c );
+                }
+            }         
+        }
+        function connectEvents(){
+            $('body').delegate('nav .wrap-code', 'click', function(e){
+                e.preventDefault();
+                if ($(this).text() == 'wrap'){
+                    $(this).text('unwrap');
+                    $(this).closest('section').find('.content').css('word-wrap', 'break-word');
+                }else{
+                    $(this).text('wrap');
+                    $(this).closest('section').find('.content').css('word-wrap', 'normal'); 
+                }
+                
+            });
+            $('body').delegate('nav .hide-code', 'click', function(e){
+                e.preventDefault();
+                if ($(this).text() == 'hide'){
+                    $(this).text('show');
+                    $(this).closest('section').find('.content').slideUp('slow');
+                }else{
+                    $(this).text('hide');
+                    $(this).closest('section').find('.content').slideDown('slow');
+                }
+                
+            });
+            $('body').delegate('nav .xml-code', 'click', function(e){
+                e.preventDefault();
+                var x = location.href.split('?'),
+                p = x[0],
+                q = x[1];
+                
+                p = p.split('/')
+                p[p.length-1] = '';
+                p = p.join('/');
+                location = p+q;
+                
+            });                                        
+            $('body').delegate('nav .index-code', 'click', function(e){
+                e.preventDefault();
+                var x = location.href.split('?'),
+                p = x[0],
+                q = x[1];
+                
+                p = p.split('/')
+                p[p.length-1] = '';
+                p = p.join('/');
+                location = p+'index.html';
+                
+            });                                            
+        }
+        function fillContent(content){
+            var title, rid, loc, loctxt, loctgt, dep, code, head, 
+            $region, $location, $dependencies, $head;
+            
+            //-- preview ------------------------
+            $region = fillRegion( content );
+            fillCode( $region, content );
+            //doInserts( content.insert || [] );
+
+            //-- title ------------------------
+            title = $.trim( decodeValue( content.title ) );
+            $('.info header h1').text( title );
+
+            //-- code ---------------------------
+            rid = $.trim( decodeValue( content.regionId ) );
+            $('#definition span#region').text('region '+ rid );        
+            content.code && $('#definition code').html( encodeValue( content.code.replace( '<!-- sni::hidden -->', '' ) ) );
+
+            //-- location -----------------------
+            loc = $.trim( decodeValue( content.location ) );
+            loctxt = $.trim( decodeValue( content.locationText ) );
+            loctgt = $.trim( decodeValue( content.locationTarget ) )
+            $location = $( '#location' );
+            if (loctxt){
+                $location.find('.content').html('<a href="'+loc+'" '+( loctgt ? 'target="'+loctgt+'"' : '' )+'>' + loctxt + '</a>');
+            }else if ( loc ){
+                $location.find('.content').html('<a href="'+loc+'">'+loc+'</a>');
+            }else{
+                $location.hide();
+            }
+
+            //-- dependencies -----------------------
+            dep = $.trim( decodeValue( content.dependencies ) );
+            $dependencies = $( '#dependencies' );
+            if ( dep ){
+                $dependencies.find('.content').html( dep );
+            }else{
+                $dependencies.hide();
+            }
+            
+            //-- head ------------------------
+            head = $.trim( encodeValue( content.head.replace( '<!-- sni::hidden -->', '' ) ) );
+            $head = $( '#head' );
+            if( head ){
+                $head.find('code').html( head );
+            }else{
+                $head.hide();
+            }
+
+        }        
+	</script>	
+		
+</head>
+<body>		
+	<!-- preview ------------------------------------------------------------------------- -->
+	<section id="preview">
+		<section id="cctv-code">
+			<div id="sni-hd"><!-- cctv header start -->
+				<div class="masthead clrfix">
+					<a class="logo-wrap" href="http://www.cookingchanneltv.com/" title="Cooking Channel Logo" rel="gh-logo"><img alt="Cooking Channel Logo" id="cc-logo" src="http://cooktv.sndimg.com/webcook/imgs/le/CC_logo-header.gif"/></a>
+					<div class="search">
+						
+					</div>
+					<div class="ad-sponsor-logo" style="margin-top:10px;">
+					</div>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav clrfix">
+						
+					</div>
+				</div>
+			</div><!-- cctv header end -->
+			
+            <!-- cctv module code -->			
+			<div id="site-wrapper"></div>
+		</section>
+		<!-- cctv code end -->
+	</section>
+	<!-- preview end -->
+	
+	<section class="info"><!-- info start -->
+		<div class="info-wrapper"><!-- wrapper start -->
+			<header>
+				<h1></h1>
+			</header>
+            <!-- source code --------------------------------------------------------------------- -->
+            <section id="definition">
+                <header>
+                <h2>Body &nbsp;<span id="region"></span></h2>
+                <nav>
+                  <ul>
+                      <li><a class="wrap-code" href="#">wrap</a></li>
+                      <li><a class="hide-code" href="#">hide</a></li>
+                      <li><a class="xml-code"  href="#">xml</a></li>
+                      <li><a class="index-code"  href="#">index</a></li>
+                  </ul>
+                </nav>
+                </header>
+                <div>
+                	<figure class="content">
+                    	<code></code>
+                    </figure>
+                </div>
+            </section>
+            <!-- location -------------------------------------------------------------------- -->
+            <section id="location">
+                <header>
+                    <h2>Location</h2>
+                    <nav>
+                        <ul>
+                            <li><a class="hide-code" href="#">hide</a></li>
+                            <li><a class="xml-code"  href="#">xml</a></li>
+                            <li><a class="index-code"  href="#">index</a></li>
+                        </ul>
+                    </nav>                                        
+                </header>
+                <div>
+                    <div class="content"></div>
+                </div>
+            </section>
+            <!-- dependencies -------------------------------------------------------------------- -->
+            <section id="dependencies">
+                <header>
+                	<h2>Dependencies</h2>
+					<nav>
+                        <ul>
+                            <li><a class="hide-code" href="#">hide</a></li>
+                            <li><a class="xml-code"  href="#">xml</a></li>
+                            <li><a class="index-code"  href="#">index</a></li>
+                        </ul>
+                  	</nav>                    
+                </header>
+                <div>
+                	<div class="content"></div> 
+                </div>
+            </section>
+           <!-- source head --------------------------------------------------------------------- -->
+            <section id="head">
+                <header>
+                  <h2>Head</h2>
+                  <nav>
+                    <ul>
+                        <li><a class="wrap-code" href="#">wrap</a></li>
+                        <li><a class="hide-code" href="#">hide</a></li>
+                        <li><a class="xml-code"  href="#">xml</a></li>
+                        <li><a class="index-code"  href="#">index</a></li>
+                    </ul>
+                  </nav>
+                </header>
+                <div>
+                    <figure class="content">
+                        <code></code>
+                    </figure>                
+                </div>
+            </section>            
+		</div><!-- wrapper end -->		
+	</section><!-- info end -->	
+<script>
+$(function(){
+    connectEvents();
+    $.ajax({
+        async:false,
+        dataType:'xml',
+        url:location.href.split('?')[1],
+        success:function( xml ){
+        	var content = XML2JSON( xml );
+            fillHead(content);
+            fillContent(content);
+        }
+    }); 
+})
+</script>	
+</body>
+</html>

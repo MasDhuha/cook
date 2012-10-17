@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>16. Video Thumbnail Carousel (S)</title>
+<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+<script src="encoder.js" type="text/javascript" charset="utf-8"></script>
+<style>
+    .clear { clear:both; }
+    pre.code { margin: 5px; border: 2px solid black; background-color: #c0c0c0; font-size: 90%; overflow: scroll; padding:20px}
+	textarea.code {display: none}
+    h1.demo { font-size: 200%; font-weight: bold; line-height: 140%; }
+    h2.demo { font-size: 150%; font-weight: bold; line-height: 130%; }
+    div.demo.deps { margin: 5px; padding: 5px; border: 2px solid black; }
+    ul.demo li { list-style-type: circle; list-style-position: inside; }
+</style>
+<script type="text/javascript">
+$(function(){
+	$('pre').html(Encoder.htmlEncode($('textarea').text()));			
+});
+</script>
+<base href="http://www.cookingchanneltv.com" target="_blank" />
+</head>
+
+<body>
+
+		<!-- preview ------------------------------------------------------------------------- -->
+    	<h1 class="demo">16. Video Thumbnail Carousel (S)</h1>
+    	<h2 class="demo">Demo</h2>
+		<div id="site-wrapper">
+		  <div id="sni-bd"  class="clrfix"><!-- content area between header & footer start -->
+		    	<div id="sni-e" class="clrfix"><!-- right rail start -->
+
+		<!-- module code start -->	
+
+		<div id="cooking-videos" class="pro-pod crsl">
+			<div class="hd clrfix">
+				<h3>Cooking Videos</h3>
+			</div>
+			<div class="crsl-wrap">
+				<ul>
+					<li><a rel="cv-1" href="/cook/video/channel/0,1001203,COOK_42654_60606_63581,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146650_92x69.jpg" width="92" height="69"/><span class="desc">Best Three-Bean Beef Chili<span> [05:01]</span></span></a></li>
+					<li><a rel="cv-2" href="/cook/video/channel/0,1001203,COOK_42654_60606_89410,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146663_92x69.jpg" width="92" height="69"/><span class="desc">Old-Fashioned Turkey Meatloaf<span> [00:06:00]</span></span></a></li>
+					<li><a rel="cv-3" href="/cook/video/channel/0,1001203,COOK_42654_60606_54011,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0139/0139609_92x69.jpg" width="92" height="69"/><span class="desc">Pulled Barbecue Chicken<span> [02:42]</span></span></a></li>
+					<li><a rel="cv-4" href="/cook/video/channel/0,1001203,COOK_42654_60606_75551,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0139/0139052_92x69.jpg" width="92" height="69"/><span class="desc">The Girl Burger<span> [02:45]</span></span></a></li>
+					<li><a rel="cv-5" href="/cook/video/channel/0,1001203,COOK_42654_60606_63826,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0152/0152229_92x69.jpg" width="92" height="69"/><span class="desc">5 Spice Stir-Fry Chicken Soup<span> [03:32]</span></span></a></li>
+					<li><a rel="cv-6" href="/cook/video/channel/0,1001203,COOK_42654_60606_89411,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146723_92x69.jpg" width="92" height="69"/><span class="desc">Rustic Puttanesca Pasta<span> [00:04:13]</span></span></a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+					SNI.Common.Carousel("#cooking-videos", {visible:2, miniNav:true});
+					SNI.CC.Omniture.MultiVar("#cooking-videos", "Cooking Videos");	
+				</script>
+
+		<!-- module code end -->
+
+		    	</div><!-- right rail end -->
+		  	</div><!-- content area between header & footer end -->
+		</div>
+
+		<div class="clear" />
+
+		<!-- source code --------------------------------------------------------------------- -->
+		<h2 class="demo">Markup</h2>
+		<textarea class="code">
+
+			<div id="cooking-videos" class="pro-pod crsl">
+				<div class="hd clrfix">
+					<h3>Cooking Videos</h3>
+				</div>
+				<div class="crsl-wrap">
+					<ul>
+						<li><a rel="cv-1" href="/cook/video/channel/0,1001203,COOK_42654_60606_63581,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146650_92x69.jpg" width="92" height="69"/><span class="desc">Best Three-Bean Beef Chili<span> [05:01]</span></span></a></li>
+						<li><a rel="cv-2" href="/cook/video/channel/0,1001203,COOK_42654_60606_89410,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146663_92x69.jpg" width="92" height="69"/><span class="desc">Old-Fashioned Turkey Meatloaf<span> [00:06:00]</span></span></a></li>
+						<li><a rel="cv-3" href="/cook/video/channel/0,1001203,COOK_42654_60606_54011,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0139/0139609_92x69.jpg" width="92" height="69"/><span class="desc">Pulled Barbecue Chicken<span> [02:42]</span></span></a></li>
+						<li><a rel="cv-4" href="/cook/video/channel/0,1001203,COOK_42654_60606_75551,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0139/0139052_92x69.jpg" width="92" height="69"/><span class="desc">The Girl Burger<span> [02:45]</span></span></a></li>
+						<li><a rel="cv-5" href="/cook/video/channel/0,1001203,COOK_42654_60606_63826,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0152/0152229_92x69.jpg" width="92" height="69"/><span class="desc">5 Spice Stir-Fry Chicken Soup<span> [03:32]</span></span></a></li>
+						<li><a rel="cv-6" href="/cook/video/channel/0,1001203,COOK_42654_60606_89411,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146723_92x69.jpg" width="92" height="69"/><span class="desc">Rustic Puttanesca Pasta<span> [00:04:13]</span></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+						SNI.Common.Carousel("#cooking-videos", {visible:2, miniNav:true});
+						SNI.CC.Omniture.MultiVar("#cooking-videos", "Cooking Videos");	
+					</script>
+
+		</textarea>		
+
+		<pre class="code"></pre>
+
+		<!-- dependencies -------------------------------------------------------------------- -->
+		<h2 class="demo">Styling Dependencies</h2>
+		<div class="demo deps">
+uses function SNI.Common.Carousel
+uses function SNI.CC.Omniture.MultiVar
+		</div>
+
+		<!-- location -------------------------------------------------------------------- -->
+		<h2 class="demo">Location</h2>
+		<div>
+http://www.cookingchanneltv.com/
+		</div>
+	
+</body>
+</html>

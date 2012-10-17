@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+	<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+	<script type="text/javascript">
+		function connectEvents(){
+			$('#head nav .wrap-code').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'wrap'){
+					$(this).text('unwrap');
+					$('#head').find('figure').css('word-wrap', 'break-word');
+				}else{
+					$(this).text('wrap');
+					$('#head').find('figure').css('word-wrap', 'normal');	
+				}
+				
+			});
+			$('#head nav .hide-code').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'hide'){
+					$(this).text('show');
+					$('#head').find('figure').slideUp('slow');
+				}else{
+					$(this).text('hide');
+					$('#head').find('figure').slideDown('slow');
+				}
+				
+			});		
+			$('#definition nav .wrap-code').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'wrap'){
+					$(this).text('unwrap');
+					$('#definition').find('figure').css('word-wrap', 'break-word');
+				}else{
+					$(this).text('wrap');
+					$('#definition').find('figure').css('word-wrap', 'normal');	
+				}
+				
+			});
+			$('#definition nav .hide-code').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'hide'){
+					$(this).text('show');
+					$('#definition').find('figure').slideUp('slow');
+				}else{
+					$(this).text('hide');
+					$('#definition').find('figure').slideDown('slow');
+				}
+				
+			});
+			$('#dependencies nav .hide-code').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'hide'){
+					$(this).text('show');
+					$('#dependencies').find('.content').slideUp('slow');
+				}else{
+					$(this).text('hide');
+					$('#dependencies').find('.content').slideDown('slow');
+				}
+				
+			});
+			$('#location nav .hide-code').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'hide'){
+					$(this).text('show');
+					$('#location').find('.content').slideUp('slow');
+				}else{
+					$(this).text('hide');
+					$('#location').find('.content').slideDown('slow');
+				}
+				
+			});						
+			$('nav .xml-code').click(function(e){
+				e.preventDefault();
+				var x = location.href.split('?'),
+				p = x[0],
+				q = x[1];
+				
+				p = p.split('/')
+				p[p.length-1] = '';
+				p = p.join('/');
+				location = 'view-source:'+p+'/'+q;
+				
+			});						
+		}
+		function fillHead($content){
+			var t = $.trim($content.find('title').text()),
+			h = $content.find('head').text();
+			$('head title').html(t);
+			if (h){
+				$('head').append(h);
+			}
+			$('head').append('<base href="http://www.cookingchanneltv.com" target="_blank">');	//todo: take this back to the html head	
+		}
+		function fillRegion($region){
+			var r = $.trim($region.text()),
+			rid = $region.attr('id'); //indicates content left or right rail
+			
+			$region = $('#sni-bd div'); //left or right rail region container
+			$region.attr('id', rid);
+			if(r){
+				$region.html(r);
+				$region =$region.find('div');				
+			}
+			return $region;						
+		}
+		function fillCode($region, $code){
+			var c = $code.text(),
+			bclass = $code.attr('bodyClass');
+			
+			if (bclass){
+				$('body').addClass(bclass);
+			}
+			$region.html(c);
+			return $code;			
+		}
+		function doInserts($inserts){
+			$inserts.each(function(){
+				var t = $(this).attr('appendTo'),
+				appendTo = true,
+				c = $(this).text(),
+				$t;
+				if(!t){
+					t = $(this).attr('target');
+					appendTo = false;
+				}
+				$t = $(t);
+				if ($t[0].nodeName.toUpperCase() == 'IFRAME'){
+					$t = $t.contents().find($(this).attr('select'));
+				}
+				if(!appendTo){
+					$t.html(c);
+				}else{
+					$(c).appendTo($t);
+				}
+			});
+		}
+		function fillContent(){
+			var $content = $(fillContent.content),
+			t = $.trim($content.find('title').text()),
+			l = $.trim($content.find('location').text()),
+			d = $.trim($content.find('dependencies').text()),
+			c, h, $region, $code;
+			
+			$('#location .content a').attr('href', l).html(l);
+			$('#dependencies .content').html(d);
+			$('.info header h1').text(t);
+			$region = fillRegion($($content.find('region')));
+			$code = fillCode($region, $($content.find('code')));
+			doInserts($($content.find('insert')));
+			h = $.trim($content.find('head').text());
+			if(h){
+				h = h.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+				$('#head code').html(h);
+			}else{
+				$('#head').hide();
+			}
+			$('#definition span#region').text('region '+$region.attr('id'));
+			c = $code.text().replace(/</g, '&lt;').replace(/>/g, '&gt;');			
+			$('#definition code').html(c);
+		}
+		(function (){
+			$.ajax({
+				async:false,
+				dataType:'xml',
+				url:location.href.split('?')[1], 
+				success:function(content){
+					fillHead($(content));
+					fillContent.content = content;
+				}
+			})
+		})();
+		$(function(){
+			fillContent();
+			connectEvents();
+		})
+	</script>	
+		
+</head>
+<body>		
+	<!-- preview ------------------------------------------------------------------------- -->
+	<section id="preview">
+		<section id="cctv-code">
+			<div id="sni-hd"><!-- cctv header start -->
+				<div class="masthead clrfix">
+					<a class="logo-wrap" href="http://www.cookingchanneltv.com/" title="Cooking Channel Logo" rel="gh-logo"><img alt="Cooking Channel Logo" id="cc-logo" src="http://cooktv.sndimg.com/webcook/imgs/le/CC_logo-header.gif"/></a>
+					<div class="search">
+						
+					</div>
+					<div class="ad-sponsor-logo" style="margin-top:10px;">
+					</div>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav clrfix">
+						
+					</div>
+				</div>
+			</div><!-- cctv header end -->
+						
+			<div id="site-wrapper">
+				<div id="sni-bd" class="clrfix"><!-- content area between header & footer start -->
+					<div class="clrfix"><!-- content left (sni-w) or the right rail (sni-e) start -->	
+					</div><!-- content left (sni-w) or the right rail (sni-e) end -->
+				</div><!-- content area between header & footer end -->
+			</div>
+		</section>
+		<!-- cctv code end -->
+	</section>
+	<!-- preview end -->
+	
+	<section class="info"><!-- info start -->
+		<div class="info-wrapper"><!-- wrapper start -->
+			<header>
+				<h1></h1>
+			</header>
+        
+            <!-- source code --------------------------------------------------------------------- -->
+            <section id="head">
+                <header>
+                  <h2>Head Code</h2>
+                  <nav>
+                    <ul>
+                        <li><a class="wrap-code" href="#">wrap</a></li>
+                        <li><a class="hide-code" href="#">hide</a></li>
+                        <li><a class="xml-code"  href="#">xml</a></li>
+                    </ul>
+                  </nav>
+                </header>
+                <div>
+					<figure>
+                    	<code></code>
+                    </figure>                
+                </div>
+            </section>
+            <section id="definition">
+                <header>
+                <h2>Body Markup &nbsp;<span id="region"></span></h2>
+                <nav>
+                  <ul>
+                      <li><a class="wrap-code" href="#">wrap</a></li>
+                      <li><a class="hide-code" href="#">hide</a></li>
+                      <li><a class="xml-code"  href="#">xml</a></li>
+                  </ul>
+                </nav>
+                </header>
+                <div>
+                	<figure>
+                    	<code></code>
+                    </figure>
+                </div>
+            </section>
+            <!-- definition end -->
+            <!-- dependencies -------------------------------------------------------------------- -->
+            <section id="dependencies">
+                <header>
+                	<h2>Dependencies</h2>
+					<nav>
+                        <ul>
+                            <li><a class="hide-code" href="#">hide</a></li>
+                            <li><a class="xml-code"  href="#">xml</a></li>
+                        </ul>
+                  	</nav>                    
+                </header>
+                <div>
+                	<div class="content"></div> 
+                </div>
+            </section>
+            <!-- dependencies end -->
+            <!-- location -------------------------------------------------------------------- -->
+            <section id="location">
+                <header>
+                	<h2>Location</h2>
+					<nav>
+                        <ul>
+                            <li><a class="hide-code" href="#">hide</a></li>
+                            <li><a class="xml-code"  href="#">xml</a></li>
+                        </ul>
+                  	</nav>                                        
+                </header>
+                <div>
+                    <div class="content"><a href="#"></a></div>
+                </div>
+            </section>
+            <!-- location end-->
+		</div><!-- wrapper end -->		
+	</section><!-- info end -->	
+</body>
+</html>

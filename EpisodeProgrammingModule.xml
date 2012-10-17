@@ -1,0 +1,100 @@
+<xml>
+<title>
+<![CDATA[ 30. Episode Programming Module (C)]]>
+</title>
+<region id="sni-ww">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-ww"></div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="episode-detail">
+<![CDATA[
+<div id="episode-featured">
+				<h3>More Mexican from Hungry Girl</h3>
+				<ul class="ep-featured">
+
+			        <li class="first clrfix">
+			            <a href="http://www.cookingchanneltv.com/cooking-hungry-girl/videos/index.html?channel=49245">
+			                <img src="http://cooktv.sndimg.com/COOK/2011/03/25/CCHGL109_Hungry-Girl-Mexican_s4x3_tz.jpg" alt="Hungry Girl: To the Mex" />
+			            </a>
+			            <div class="description">
+			                <h3>
+			                    <a href="http://www.cookingchanneltv.com/cooking-hungry-girl/videos/index.html?channel=49245">Missed the Show?</a>
+			                </h3>
+			                Don't sweat it! You can watch Lisa make some of the top recipes from this episode of <em>Hungry Girl.</em><br/>
+			              <a href=" http://www.cookingchanneltv.com/cooking-hungry-girl/videos/index.html?channel=49245" class="watch-video">Watch Now</a>
+
+			            </div>
+			        </li>
+
+				<li class="clrfix">
+			            <a href="http://www.cookingchanneltv.com/recipes/lisa-lillien/exploding-chicken-taquitos-recipe/index.html" class="thumb">
+			                <img src="http://img.foodnetwork.com/FOOD/2010/12/02/CCHGL108_Exploding-Chicken-Taquitos_s4x3_sm.jpg" alt="Hungry Girl's Exploding Chicken Taquitos" width="92" height="69" /><div class="vid-play"></div>
+			            </a>
+			            <div class="description">
+			                <a href="http://www.cookingchanneltv.com/recipes/lisa-lillien/exploding-chicken-taquitos-recipe/index.html" class="lnk-title">Exploding Chicken Taquitos</a><br />
+			                <p>
+			                    A tasty snack, packed with flavor—and protein! The only thing missing is the fat and calories.
+			                </p>
+			                <a href="http://www.cookingchanneltv.com/recipes/lisa-lillien/exploding-chicken-taquitos-recipe/index.html" class="watch-video">See the Recipe</a>
+			            </div>
+			        </li>
+
+				<li class="clrfix">
+			            <a href="http://www.cookingchanneltv.com/recipes/hungry-girlrsquos-guilt-free-mexican-pantry/index.html" class="thumb">
+			                <img src="http://cooktv.sndimg.com/COOK/2011/02/03/CCHGL_Hungry-Girl-shopping-cart_s4x3_sm.jpg" alt="Hungry Girl's Mexican Pantry" width="92" height="69" /><div class="vid-play"></div>
+			            </a>
+			            <div class="description">
+			                <a href="http://www.cookingchanneltv.com/recipes/hungry-girlrsquos-guilt-free-mexican-pantry/index.html" class="lnk-title">Guilt-Free Mexican Shopping List</a><br />
+			                <p>
+			                    Want to keep a pantry stocked for guilt-free Mexican cooking?</p>
+			                <a href="http://www.cookingchanneltv.com/recipes/hungry-girlrsquos-guilt-free-mexican-pantry/index.html" class="watch-video">Get Hungry Girl's List</a>
+			            </div>
+			        </li>
+
+
+			        <li class="clrfix">
+			            <a href="http://www.hungry-girl.com/show/episodes/to-the-mex" class="thumb" target=”_new”>
+			                <img src="http://cooktv.sndimg.com/COOK/2010/12/13/HG_Hungry-Girl-Logo_s4x3_sm.jpg" alt="hungry-girl.com" width="92" height="69" /><div class="vid-play"></div>
+			            </a>
+			            <div class="description">
+			                <a href="http://www.hungry-girl.com/show/episodes/to-the-mex" class="lnk-title" target=”_new”>Bonus! Extra Tips from the Episode</a><br />
+			                <p>
+			                    Visit Hungry Girl's site for even more tips, picks and tricks from this episode.
+			                </p>
+			                <a href="http://www.hungry-girl.com/show/episodes/to-the-mex" class="watch-video" target=”_new”>www.hungry-girl.com</a>
+			            </div>
+			        </li>
+
+
+				<li class="clrfix">
+			            <a href="http://blog.cookingchanneltv.com/2010/12/14/the-411-on-lisa-lillien-aka-hungry-girl/" class="thumb">
+			                <img src="http://cooktv.sndimg.com/COOK/2010/12/28/CCHGL_Lisa-Lillien-aka-Hungry-Girl_s4x3_sm.jpg" alt="Lisa Lillien a.k.a. Hungry Girl" width="92" height="69" /><div class="vid-play"></div>
+			            </a>
+			            <div class="description">
+			                <a href="http://blog.cookingchanneltv.com/2010/12/14/the-411-on-lisa-lillien-aka-hungry-girl/" class="lnk-title">Who Is Hungry Girl?</a><br />
+			                <p>
+			                    Lisa Lillien aka 'Hungry Girl' wants you to enjoy eating whatever you want, without any guilt.
+			                </p>
+			                <a href="http://blog.cookingchanneltv.com/2010/12/14/the-411-on-lisa-lillien-aka-hungry-girl/" class="watch-video">All About Hungry Girl</a>
+			            </div>
+			        </li>
+
+			    </ul>
+			</div>
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/hungry-girl/to-the-max/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+depends on episode-detail class in body tag top gap is to differentiate from top module in lead section
+]]>
+</dependencies>
+</xml>

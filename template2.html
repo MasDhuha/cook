@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<textarea class="module-title">
+5. TIL One (S)
+</textarea>
+<textarea class="module-location">
+depends on the class "section" in tag body uses function SNI.CC.Omniture.MultiVar	
+</textarea>
+<textarea class="module-dependencies">
+http://www.cookingchanneltv.com/
+</textarea>
+<textarea class="module-region">
+	<div id="sni-ww"><!-- content well left start -->	
+	</div><!-- content well left end -->	
+</textarea>	
+<!-- module code start -->
+<textarea class="code">
+	<div class="pod spotlight clrfix" id="chef-spotlight">
+		<h3>Show Spotlight</h3>
+		<a rel="csi-1" href="/symons-suppers/index.html" title="Symon's Suppers"><img src="http://cooktv.sndimg.com/COOK/2012/01/09/CCCLC_Michael-Symon-03_s4x3_med.jpg" alt="Symon's Suppers" height="120" width="160"></a><a class="chefname" rel="cs-1" title="Symon's Suppers" href="/symons-suppers/index.html">Symon's Suppers</a>Chef Michael Symon is serving up crowd-pleasing recipes for his family and friends.
+		<p>
+			<a class="morelink" rel="ft-1" title="Best Recipes from Michael Symon" href="/symons-suppers/index.html">Fried Chicken, Spaghetti With Meatballs and More</a>
+		</p>
+	</div>
+	<script type="text/javascript"> SNI.CC.Omniture.MultiVar('#chef-spotlight', 'Homepage Spotlight');</script>
+</textarea>
+<!-- module code end -->
+<head>
+	<title></title>
+	<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+	<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var t = $.trim($('textarea.module-title').text()),
+			l = $.trim($('textarea.module-location').text()),
+			d = $.trim($('textarea.module-dependencies').text()),
+			r = $.trim($('textarea.module-region').text()),
+			$c = $('textarea.code');
+			$('head title').html(t);
+			$('#location a').attr('href', l).html(l);
+			$('#dependencies div').html(d);
+			$('.definition-area header h1').text(t);
+			if(r){
+				$('#sni-w').html(r);
+				$('#sni-w div').html($c);				
+			}else{
+				$('#sni-w').html($c);
+			}
+			$($c).appendTo('#definition div');			
+		});
+	</script>	
+	<base href="http://www.cookingchanneltv.com" target="_blank"/>
+</head>
+<body class="section">		
+	<!-- preview ------------------------------------------------------------------------- -->
+	<section id="preview">
+		<section id="cctv-code">
+			<div id="sni-hd"><!-- cctv header start -->
+				<div class="masthead clrfix">
+					<a class="logo-wrap" href="http://www.cookingchanneltv.com/" title="Cooking Channel Logo" rel="gh-logo"><img alt="Cooking Channel Logo" id="cc-logo" src="http://cooktv.sndimg.com/webcook/imgs/le/CC_logo-header.gif"/></a>
+					<div class="search">
+						
+					</div>
+					<div class="ad-sponsor-logo" style="margin-top:10px;">
+					</div>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav clrfix">
+						
+					</div>
+				</div>
+			</div><!-- cctv header end -->
+						
+			<div id="site-wrapper">
+				<div id="sni-bd" class="clrfix"><!-- content area between header & footer start -->
+					<div id="sni-w" class="clrfix"><!-- content area left to the right rail start -->	
+					</div><!-- content area left to the right rail end -->
+				</div><!-- content area between header & footer end -->
+			</div>
+		</section>
+		<!-- cctv code end -->
+	</section>
+	<!-- preview end -->
+	
+	<section class="definition-area">
+		<header>
+			<h1></h1>
+		</header>
+		<!-- source code --------------------------------------------------------------------- -->
+		<section id="definition">
+			<h2>Markup</h2>
+			<div>
+			</div>
+		</section>
+		<!-- definition end -->
+		<!-- dependencies -------------------------------------------------------------------- -->
+		<section id="dependencies">
+			<h2>Dependencies</h2>
+			<div>	 
+			</div>
+		</section>
+		<!-- dependencies end -->
+		<!-- location -------------------------------------------------------------------- -->
+		<section id="location">
+			<h2>Location</h2>
+			<div>
+				 <a href="#"></a>
+			</div>
+		</section>
+		<!-- location end-->		
+	</section>
+</body>
+</html>

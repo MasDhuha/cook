@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>7. Poll (C)</title>
+<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+<script src="encoder.js" type="text/javascript" charset="utf-8"></script>
+<style>
+    .clear { clear:both; }
+    pre.code { margin: 5px; border: 2px solid black; background-color: #c0c0c0; font-size: 90%; overflow: scroll; padding:20px}
+	textarea.code {display: none}
+    h1.demo { font-size: 200%; font-weight: bold; line-height: 140%; }
+    h2.demo { font-size: 150%; font-weight: bold; line-height: 130%; }
+    div.demo.deps { margin: 5px; padding: 5px; border: 2px solid black; }
+    ul.demo li { list-style-type: circle; list-style-position: inside; }
+</style>
+<script type="text/javascript">
+$(function(){
+	$('pre').html(Encoder.htmlEncode($('textarea').text()));			
+});
+</script>
+<base href="http://www.cookingchanneltv.com" target="_blank" />
+</head>
+
+<body class="section">
+
+		<!-- preview ------------------------------------------------------------------------- -->
+    	<h1 class="demo">7. Poll (C)</h1>
+    	<h2 class="demo">Demo</h2>
+		<div id="site-wrapper">
+		  <div id="sni-bd"  class="clrfix"><!-- content area between header & footer start -->
+		    	<div id="sni-w" class="clrfix"><!-- content area left to the right rail start -->
+					<div id="sni-ww"><!-- content well left start -->
+
+		<!-- module code start -->	
+
+		<div class="pod poll">
+			<h3>Quick Vote</h3>
+			<div id="inputPanel" class="bd clrfix">
+				<p>
+					Which world cuisine do you love to cook at home?
+				</p>
+				<form id="quick-vote-poll" method="post" action="/cr/cda/updatePoll/1,1274,,00.html">
+					<blockquote class="errormsg">
+						Pick one to vote!
+					</blockquote>
+					<ul class="clrfix">
+						<li><input type="radio" name="Rating" class="required" value="1">Italian</li>
+						<li><input type="radio" name="Rating" class="required" value="2">Mexican</li>
+						<li><input type="radio" name="Rating" class="required" value="3">Greek</li>
+						<li><input type="radio" name="Rating" class="required" value="4">Spanish</li>
+						<li><input type="radio" name="Rating" class="required" value="5">Chinese</li>
+						<li><input type="radio" name="Rating" class="required" value="6">French</li>
+						<li><input type="radio" name="Rating" class="required" value="7">Thai</li>
+						<li><input type="radio" name="Rating" class="required" value="8">Vietnamese</li>
+						<li><input type="radio" name="Rating" class="required" value="9">Indian</li>
+					</ul>
+					<input type="hidden" name="active" value="1"/>
+					<input type="hidden" name="PollId" value="95909"/>
+					<input type="hidden" name="PollType" value="Opinion"/>
+					<input type="hidden" name="Site" value="COOK"/>
+					<input type="hidden" name="Role" value=""/>
+					<input type="hidden" name="PollRedirectToResults" value="no"/>
+					<input type="hidden" name="PollSctn" value="HOME"/>
+					<div class="btn-cont clrfix">
+						<button class="button" type="submit" id="quick-vote-submit"><span><em>Vote</em></span></button>
+					</div>
+					<p class="view-more">
+						 or <a id="poll-result-link" href="/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html">View Results</a>
+					</p>
+				</form>
+				<a href="http://www.cookingchanneltv.com/best-international-recipes-global-food-and-cooking/package/index.html">Find a new cuisine to love here.</a>
+			</div>
+			<div class="submitting bd">
+				<p>
+					Submitting Vote
+				</p>
+				<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+			</div>
+			<div class="loading bd">
+				<p>
+					Loading Results
+				</p>
+				<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+			</div>
+			<div id='resultsPanel' class='bd clrfix'>
+			</div>
+			<div class="ft">
+			</div>
+			<script	type="text/javascript">SNI.CC.QuickVote.init(95909, '/cr/cda/updatePoll/1,1274,,00.html', '/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html');</script>
+		</div>
+
+		<!-- module code end -->
+
+					</div><!-- content well left end -->
+		    	</div><!-- content area left to the right rail end -->
+		  	</div><!-- content area between header & footer end -->
+		</div>
+
+		<div class="clear" />
+
+		<!-- source code --------------------------------------------------------------------- -->
+		<h2 class="demo">Markup</h2>
+		<textarea class="code">
+
+			<div class="pod poll">
+				<h3>Quick Vote</h3>
+				<div id="inputPanel" class="bd clrfix">
+					<p>
+						Which world cuisine do you love to cook at home?
+					</p>
+					<form id="quick-vote-poll" method="post" action="/cr/cda/updatePoll/1,1274,,00.html">
+						<blockquote class="errormsg">
+							Pick one to vote!
+						</blockquote>
+						<ul class="clrfix">
+							<li><input type="radio" name="Rating" class="required" value="1">Italian</li>
+							<li><input type="radio" name="Rating" class="required" value="2">Mexican</li>
+							<li><input type="radio" name="Rating" class="required" value="3">Greek</li>
+							<li><input type="radio" name="Rating" class="required" value="4">Spanish</li>
+							<li><input type="radio" name="Rating" class="required" value="5">Chinese</li>
+							<li><input type="radio" name="Rating" class="required" value="6">French</li>
+							<li><input type="radio" name="Rating" class="required" value="7">Thai</li>
+							<li><input type="radio" name="Rating" class="required" value="8">Vietnamese</li>
+							<li><input type="radio" name="Rating" class="required" value="9">Indian</li>
+						</ul>
+						<input type="hidden" name="active" value="1"/>
+						<input type="hidden" name="PollId" value="95909"/>
+						<input type="hidden" name="PollType" value="Opinion"/>
+						<input type="hidden" name="Site" value="COOK"/>
+						<input type="hidden" name="Role" value=""/>
+						<input type="hidden" name="PollRedirectToResults" value="no"/>
+						<input type="hidden" name="PollSctn" value="HOME"/>
+						<div class="btn-cont clrfix">
+							<button class="button" type="submit" id="quick-vote-submit"><span><em>Vote</em></span></button>
+						</div>
+						<p class="view-more">
+							 or <a id="poll-result-link" href="/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html">View Results</a>
+						</p>
+					</form>
+					<a href="http://www.cookingchanneltv.com/best-international-recipes-global-food-and-cooking/package/index.html">Find a new cuisine to love here.</a>
+				</div>
+				<div class="submitting bd">
+					<p>
+						Submitting Vote
+					</p>
+					<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+				</div>
+				<div class="loading bd">
+					<p>
+						Loading Results
+					</p>
+					<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+				</div>
+				<div id='resultsPanel' class='bd clrfix'>
+				</div>
+				<div class="ft">
+				</div>
+				<script	type="text/javascript">SNI.CC.QuickVote.init(95909, '/cr/cda/updatePoll/1,1274,,00.html', '/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html');</script>
+			</div>
+
+		</textarea>		
+
+		<pre class="code"></pre>
+
+		<!-- dependencies -------------------------------------------------------------------- -->
+		<h2 class="demo">Styling Dependencies</h2>
+		<div class="demo deps">
+depends on class "section" in tag body
+uses function in sni-core-2.0.js for submit result
+		</div>
+
+		<!-- location -------------------------------------------------------------------- -->
+		<h2 class="demo">Location</h2>
+		<div>
+http://www.cookingchanneltv.com/
+		</div>
+	
+</body>
+</html>

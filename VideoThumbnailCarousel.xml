@@ -1,0 +1,41 @@
+<xml>
+	<title>
+16. Video Thumbnail Carousel (S)
+	</title>
+	<dependencies><![CDATA[
+		uses function SNI.Common.Carousel<br>
+		uses function SNI.CC.Omniture.MultiVar
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-e"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-e" class="clrfix">
+				</div>
+			</div>		
+	]]></region>	
+	<code><![CDATA[
+
+		<div id="cooking-videos" class="pro-pod crsl">
+			<div class="hd clrfix">
+				<h3>Cooking Videos</h3>
+			</div>
+			<div class="crsl-wrap">
+				<ul>
+					<li><a rel="cv-1" href="/cook/video/channel/0,1001203,COOK_42654_60606_63581,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146650_92x69.jpg" width="92" height="69"/><span class="desc">Best Three-Bean Beef Chili<span> [05:01]</span></span></a></li>
+					<li><a rel="cv-2" href="/cook/video/channel/0,1001203,COOK_42654_60606_89410,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146663_92x69.jpg" width="92" height="69"/><span class="desc">Old-Fashioned Turkey Meatloaf<span> [00:06:00]</span></span></a></li>
+					<li><a rel="cv-3" href="/cook/video/channel/0,1001203,COOK_42654_60606_54011,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0139/0139609_92x69.jpg" width="92" height="69"/><span class="desc">Pulled Barbecue Chicken<span> [02:42]</span></span></a></li>
+					<li><a rel="cv-4" href="/cook/video/channel/0,1001203,COOK_42654_60606_75551,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0139/0139052_92x69.jpg" width="92" height="69"/><span class="desc">The Girl Burger<span> [02:45]</span></span></a></li>
+					<li><a rel="cv-5" href="/cook/video/channel/0,1001203,COOK_42654_60606_63826,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0152/0152229_92x69.jpg" width="92" height="69"/><span class="desc">5 Spice Stir-Fry Chicken Soup<span> [03:32]</span></span></a></li>
+					<li><a rel="cv-6" href="/cook/video/channel/0,1001203,COOK_42654_60606_89411,00.html"><img data-src="http://images.scrippsnetworks.com/up/images/0146/0146723_92x69.jpg" width="92" height="69"/><span class="desc">Rustic Puttanesca Pasta<span> [00:04:13]</span></span></a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+					SNI.Common.Carousel("#cooking-videos", {visible:2, miniNav:true});
+					SNI.CC.Omniture.MultiVar("#cooking-videos", "Cooking Videos");	
+				</script>
+
+	]]></code>
+</xml>

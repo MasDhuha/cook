@@ -1,0 +1,113 @@
+<xml>
+<title>
+<![CDATA[ 31. Thumbnail Grid (S) ]]>
+</title>
+<region id="sni-w">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+			<div id="package-tabs" class="pod clrfix">
+				<h3>Breakfast Recipes: Start the Day Right</h3>
+				<ul class="grid clrfix">
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/grapefruit-salad-with-honey-mint-dressing-recipe/index.html">
+					<img src="http://img.foodnetwork.com/FOOD/2010/10/06/CCBAB111L_Grapefruit-Salad_s4x3_med.jpg" alt="Grapefruit Salad With Honey and Mint"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/grapefruit-salad-with-honey-mint-dressing-recipe/index.html">Grapefruit Salad With Honey and Mint</a>
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/indian-doughnuts-gulab-jabun-recipe/index.html">
+					<img src="http://img.foodnetwork.com/FOOD/2010/06/17/CCSPG105_Gulab-Juban_s4x3_med.jpg" alt="Cardamom-Glazed Doughnuts"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/indian-doughnuts-gulab-jabun-recipe/index.html">Cardamom-Glazed Doughnuts</a>
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/videos/buttermilk-pancakes/53498.html">
+					<img src="http://img.foodnetwork.com/FOOD/2008/10/05/AI0109_Buttermilk-Pancakes_med.jpg" alt="Video: You'll Flip for Aida's Flapjacks"/>
+					<span class="play-button">Play Video</span>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/videos/buttermilk-pancakes/53498.html">Video: You'll Flip for Aida's Flapjacks </a>
+					</div>
+					<div class="sub-caption">
+						 (04:21)
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/ellie-krieger/vanilla-spice-oatmeal-recipe/index.html">
+					<img src="http://img.foodnetwork.com/FOOD/2007/09/11/EK0310_Vanilla_Spice_Oatmeal_med.jpg" alt="Vanilla Spice Oatmeal"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/ellie-krieger/vanilla-spice-oatmeal-recipe/index.html">Vanilla Spice Oatmeal</a>
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/videos/spinach-omelet-souffle/54770.html">
+					<img src="http://img.foodnetwork.com/FOOD/2010/05/13/CCFFA103_Souffleed-Spinach-Omelette_s4x3_med.jpg" alt="Video: Laura Calder's Puffy Omelet How-To"/>
+					<span class="play-button">Play Video</span>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/videos/spinach-omelet-souffle/54770.html">Video: Laura Calder's Puffy Omelet How-To</a>
+					</div>
+					<div class="sub-caption">
+						 (03:46)
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/country-ham-and-fried-egg-on-angel-biscuits-recipe/index.html">
+					<img src="http://cooktv.sndimg.com/COOK/2010/10/04/CCBAB103L_Biscuit-Sandwiches_s4x3_med.jpg" alt="Country Ham and Egg Biscuits"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/country-ham-and-fried-egg-on-angel-biscuits-recipe/index.html">Country Ham and Egg Biscuits</a>
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/roasted-tomatoes-with-bread-crumbs-recipe/index.html">
+					<img src="http://cooktv.sndimg.com/COOK/2010/10/04/CCBAB102L_Roasted-Tomatoes_s4x3_med.jpg" alt="Roasted Tomatoes"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/roasted-tomatoes-with-bread-crumbs-recipe/index.html">Roasted Tomatoes</a>
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/patatas-bravas-home-fries-with-roasted-tomato-aioli-recipe/index.html">
+					<img src="http://cooktv.sndimg.com/COOK/2010/10/04/CCBAB105L_Patatas-Bravas_s4x3_med.jpg" alt="Bobby's Patatas Bravas Home Fries"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/bobby-flay/patatas-bravas-home-fries-with-roasted-tomato-aioli-recipe/index.html">Bobby's Patatas Bravas Home Fries</a>
+					</div>
+					</li>
+					<li>
+					<a href="http://www.cookingchanneltv.com/recipes/brunch-worthy-drinks/pictures/index.html">
+					<img src="http://img.foodnetwork.com/FOOD/2008/03/18/mothersday_lemonade_med.jpg" alt="Photos: Brunch-Worthy Drinks"/>
+					</a>
+					<div class="caption">
+						<a href="http://www.cookingchanneltv.com/recipes/brunch-worthy-drinks/pictures/index.html">Photos: Brunch Drinks</a>
+					</div>
+					</li>
+				</ul>
+			</div>
+
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/breakfast-brunch-recipes-ideas/package/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+]]>
+</dependencies>
+</xml>

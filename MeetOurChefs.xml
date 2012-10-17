@@ -1,0 +1,59 @@
+<xml>
+<title>
+20. Meet Our Chefs (COOK) (S)
+</title>
+<region id="sni-e">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-e" class="clrfix">
+					
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+<div id="meet-talent" class="pod crsl">
+	<div class="hd clrfix">
+		<h3>Meet Our Chefs</h3>
+	</div>
+	<div class="crsl-wrap">
+		<ul>
+			<li><a href="http://www.cookingchanneltv.com/kelsey-nixon/index.html">
+			<img src="http://cooktv.sndimg.com/COOK/2011/06/13/CCKEL207_Kelsey-Nixon_s4x3_sm.jpg" alt="CCKEL207_Kelsey-Nixon_s4x3" height="69" width="92"><span class="desc">Kelsey Nixon</span>
+			</a></li>
+			<li><a href="http://www.cookingchanneltv.com/jeffrey-saad/index.html">
+			<img src="http://cooktv.sndimg.com/COOK/2011/07/11/CCUTA211_Jeffrey-Saad-Anchor-Brewing_s4x3_sm.jpg" alt="CCUTA211_Jeffrey-Saad-Anchor-Brewing_s4x3" height="69" width="92"><span class="desc">Jeffrey Saad</span>
+			</a></li>
+			<li><a href="http://www.cookingchanneltv.com/david-rocco/index.html">
+			<img src="http://img.foodnetwork.com/COOK/2010/05/06/bts-DRD_David-Rocco-at-Italian-restaurant-Terroni-02_s4x3_sm.jpg" alt="bts-DRD_David-Rocco-at-Italian-restaurant-Terroni-02_s4x3" height="69" width="92"><span class="desc">David Rocco</span>
+			</a></li>
+			<li><a href="http://www.cookingchanneltv.com/roger-mooking/index.html">
+			<img src="http://img.foodnetwork.com/COOK/2010/05/06/EDE_Roger-Mooking-pink-shirt-02_s3x4_sm.jpg" alt="EDE_Roger-Mooking-pink-shirt-02_s3x4" height="69" width="92"><span class="desc">Roger Mooking</span>
+			</a></li>
+			<li><a href="http://www.cookingchanneltv.com/laura-calder/index.html">
+			<img src="http://img.foodnetwork.com/COOK/2010/05/06/bts-FFA_Laura-Calder-at-George-Restaurant-in-Toronto-03_s4x3_sm.jpg" alt="bts-FFA_Laura-Calder-at-George-Restaurant-in-Toronto-03_s4x3" height="69" width="92"><span class="desc">Laura Calder</span>
+			</a></li>
+			<li><a href="http://www.cookingchanneltv.com/chuck-hughes/index.html">
+			<img src="http://cooktv.sndimg.com/COOK/2010/05/10/bts-CDO_Chuck-Hughes-at-his-restaurant-Garde-Manger-in-Montreal-09_s4x3_sm.jpg" alt="bts-CDO_Chuck-Hughes-at-his-restaurant-Garde-Manger-in-Montreal-09_s4x3" height="69" width="92"><span class="desc">Chuck Hughes</span>
+			</a></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+ SNI.Common.Carousel("#meet-talent", {visible:2, displayPage:true});
+ </script>
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/shows/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[ uses SNI.Common.Carousel ]]>
+</dependencies>
+<head>
+<![CDATA[ ]]>
+</head>
+</xml>

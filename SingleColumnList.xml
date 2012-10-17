@@ -1,0 +1,39 @@
+<xml>
+	<title>
+6. Single Column List (S)
+	</title>
+	<dependencies><![CDATA[
+depends on class "section" in tag body<br>
+uses function SNI.CC.Omniture.MultiVar
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-ww"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-ww"></div>
+				</div>
+			</div>		
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div id="food-trend" class="pod trends">
+			<h3>What We're Loving:</h3>
+			<ul>
+				<li><a rel="ft-1" title="Shamrock Shake Recipe" href="http://blog.cookingchanneltv.com/2012/02/09/adult-shamrock-mint-shake-recipe/#Shamrock Shake Recipe">Spiked Shamrock Shake</a></li>
+				<li><a rel="ft-2" title="Birthday Cake Oreos" href="http://blog.cookingchanneltv.com/2012/02/17/birthday-cake-oreo-recipes/#Birthday Cake Oreos">Birthday Cake + Oreos</a></li>
+				<li><a rel="ft-3" title="Not My Mama's Meals with Bobby Deen" href="/not-my-mamas-meals/index.html">Bobby Deen's New Show</a></li>
+				<li><a rel="ft-4" title="Cajun Shrimp Po' Boys Recipe" href="/recipes/kelsey-nixon/cajun-shrimp-po-boys-recipe/index.html">Cajun Shrimp Po' Boys</a></li>
+				<li><a rel="ft-5" title="Michael Symon's New Show" href="/symons-suppers/index.html">Symon's Suppers</a></li>
+				<li><a rel="ft-6" title="General Tso's Chicken Recipe" href="/recipes/ching-he-huang/general-tsos-chicken-recipe/index.html">General Tso's Chicken</a></li>
+				<li><a rel="ft-7" title="Mom's Spaghetti and Meatballs Recipe" href="/recipes/michael-symon/spaghetti-with-meatballs-recipe/index.html">Mom's Spaghetti and Meatballs</a></li>
+				<li><a rel="ft-8" title="No-Knead Bread Recipe" href="/recipes/no-knead-bread-recipe/index.html">No-Knead Bread</a></li>
+				<li><a rel="ft-9" title="Bacon Chocolate Chip Cookies Recipe" href="/recipes/bacon-chocolate-chip-cookies-recipe/index.html">Bacon Chocolate Chip Cookies</a></li>
+				<li><a rel="ft-10" title="Take-Out at Home Recipes" href="/best-international-recipes-global-food-and-cooking/package/index.html">Take-Out at Home</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript"> SNI.CC.Omniture.MultiVar('#food-trend', 'Homepage Food Trending');</script>
+
+	]]></code>
+</xml>

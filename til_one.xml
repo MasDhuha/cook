@@ -1,0 +1,31 @@
+<xml>
+	<title>
+5. TIL One (S)
+	</title>
+	<dependencies><![CDATA[
+depends on the class "section" in tag body<br>
+uses function SNI.CC.Omniture.MultiVar
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-ww"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-ww"></div>
+				</div>
+			</div>	
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div class="pod spotlight clrfix" id="chef-spotlight">
+				<h3>Show Spotlight</h3>
+				<a rel="csi-1" href="/symons-suppers/index.html" title="Symon's Suppers"><img src="http://cooktv.sndimg.com/COOK/2012/01/09/CCCLC_Michael-Symon-03_s4x3_med.jpg" alt="Symon's Suppers" height="120" width="160"></a><a class="chefname" rel="cs-1" title="Symon's Suppers" href="/symons-suppers/index.html">Symon's Suppers</a>Chef Michael Symon is serving up crowd-pleasing recipes for his family and friends.
+				<p>
+					<a class="morelink" rel="ft-1" title="Best Recipes from Michael Symon" href="/symons-suppers/index.html">Fried Chicken, Spaghetti With Meatballs and More</a>
+				</p>
+		</div>
+		<script type="text/javascript"> SNI.CC.Omniture.MultiVar('#chef-spotlight', 'Homepage Spotlight');</script>
+
+	]]></code>
+</xml>

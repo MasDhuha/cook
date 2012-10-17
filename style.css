@@ -1,0 +1,26 @@
+body { font-family: arial, helvetica, clean, sans-serif; font-size:small }
+
+.module-index {background: #fff; padding: 2em; color:#277BC4 }
+.module-index h1{font-size: larger; font-weight:bold; text-transform:uppercase; margin-bottom:2em}
+.module-index h2{margin:1em; border-bottom: 1px solid #277BC4}
+.module-index .theLinks {margin-bottom: 2em}
+.module-index .theLinks nav ul li{ font-size: 1.1em;	line-height: 1.5em }
+.module-index .theLinks nav ul { padding-left:3em }
+
+.info > div{min-width:74.5em; width:74.5em; margin: 1em auto; background-color:#fff; padding:1em}
+.info h1 {color:#277BC4; font-size: larger; font-weight:bold; text-transform:uppercase}
+.info h2 {color:#277BC4}
+.info header {background-color:#277BC4; color:#fff; border-radius:0.5em}
+.info header h1 {background: url(sn-cms-logo.png) no-repeat center left; color:#fff; padding:1.4em 1em 1.4em 174px; margin-left:1em; line-height:1em}
+
+.info section {margin-top:2em}
+.info header h2 {float:left; margin-right:1em}
+.info header nav li {float:left; margin-right: 1em; font-size:0.8em}
+.info header nav a:visited{color:#277BC4}
+.info section > div{border-top: 1px solid #277BC4; clear:left; overflow:auto}
+
+#definition #region{font-size:0.7em}
+#dependencies .content {padding: 1em}
+#location .content {padding: 1em}
+
+code { white-space:pre }

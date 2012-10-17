@@ -1,0 +1,34 @@
+<xml>
+<title>
+<![CDATA[ 35. Package Navigation Module (S) ]]>
+</title>
+<region id="sni-w-hub">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-w-hub"></div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+	<div id="hub-nav">
+		<ul class="menu button-nav clrfix">
+<li class="hub-about"><a class="selected" href="" onclick="s_objectID="http://www.cookingchanneltv.com/best-mexican-recipes-and-menus/package/index.html_2";return this.s_oc?this.s_oc(e):true"><span class="pb-current">Main</span></a></li><li class="hub-about"><a class="" href="http://www.cookingchanneltv.com/recipes/best-mexican-recipes/pictures/index.html" onclick="s_objectID="http://www.cookingchanneltv.com/recipes/best-mexican-recipes/pictures/index.html_1";return this.s_oc?this.s_oc(e):true"><span class="pb-current">Photos</span></a></li><li class="hub-about"><a class="" href="http://www.cookingchanneltv.com/cooking-mexican-food/videos/index.html" onclick="s_objectID="http://www.cookingchanneltv.com/cooking-mexican-food/videos/index.html_2";return this.s_oc?this.s_oc(e):true"><span class="pb-current">Videos</span></a></li>
+		</ul>
+</div>
+
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/recipes/amazing-vegetarian-recipes/pictures/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+uses SNI.Common.Carousel()
+]]>
+</dependencies>
+</xml>

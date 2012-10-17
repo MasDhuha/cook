@@ -1,0 +1,115 @@
+<xml>
+<title>
+<![CDATA[ 21. Browse More.... (S) ]]>
+</title>
+<region id="sni-w">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="section">
+<![CDATA[
+		<div id="recipe_browser" class="pod clrfix">
+			<h3 class="title-bar">Browse More Recipes</h3>
+			<div id="resultsFilters" class="search-filter">
+				<h4>Course By Course</h4>
+				<ul class="list">
+					<li><a rel="ft-1" title="Appetizers" href="http://www.cookingchanneltv.com/topics/appetizer/index.html">Appetizers</a></li>
+					<li><a rel="ft-2" title="Drinks" href="http://www.cookingchanneltv.com/topics/drinks/index.html">Drinks</a></li>
+					<li><a rel="ft-3" title="Salads" href="http://www.cookingchanneltv.com/topics/salad/index.html">Salads</a></li>
+					<li><a rel="ft-4" title="Main Dishes" href="http://www.cookingchanneltv.com/topics/main-dish/index.html">Main Dishes</a></li>
+					<li><a rel="ft-5" title="Side Dishes" href="http://www.cookingchanneltv.com/topics/side-dish/index.html">Side Dishes</a></li>
+					<li><a rel="ft-6" title="Desserts" href="http://www.cookingchanneltv.com/topics/dessert/index.html">Desserts</a></li>
+				</ul>
+				<h4>By Cuisine</h4>
+				<ul class="list">
+					<li><a rel="ft-1" title="American" href="http://www.cookingchanneltv.com/topics/american/index.html">American</a></li>
+					<li><a rel="ft-2" title="Asian" href="http://www.cookingchanneltv.com/topics/asian/index.html">Asian</a></li>
+					<li><a rel="ft-3" title="French" href="http://www.cookingchanneltv.com/topics/french/index.html">French</a></li>
+					<li><a rel="ft-4" title="Indian" href="http://www.cookingchanneltv.com/topics/indian/index.html">Indian</a></li>
+					<li><a rel="ft-5" title="Italian" href="http://www.cookingchanneltv.com/topics/italian/index.html">Italian</a></li>
+					<li><a rel="ft-6" title="Mexican" href="http://www.cookingchanneltv.com/topics/mexican/index.html">Mexican</a></li>
+				</ul>
+				<h4>In the Mood For</h4>
+				<ul class="list">
+					<li><a rel="ft-1" title="Grilled Cheese" href="http://www.cookingchanneltv.com/search/delegate?searchString=grilled+cheese">Grilled Cheese</a></li>
+					<li><a rel="ft-2" title="Stew" href="http://www.cookingchanneltv.com/topics/stew/index.html">Stew</a></li>
+					<li><a rel="ft-3" title="Appetizers" href="http://www.cookingchanneltv.com/topics/appetizer/index.html">Appetizers</a></li>
+					<li><a rel="ft-4" title="Cocktails" href="http://www.cookingchanneltv.com/topics/cocktail-party/index.html">Cocktails</a></li>
+				</ul>
+			</div>
+			<ul class="cartridge_container">
+				<li>
+				<div class="feature-cartridge clrfix">
+					<h3 class="slug">Better Breakfasts</h3>
+					<a href="/recipes/healthy-french-toast-recipe/index.html" class="thumb" title="Healthy French Toast"><img src="http://img.foodnetwork.com/FOOD/2011/12/08/CCDRP106_French-Toast-Recipe_s4x3_sm.jpg" alt="Healthy French Toast" height="69" width="92"></a>
+					<div class="story">
+						<ul class="list">
+							<li class="active"><a rel="ft-1" title="Healthy French Toast" href="/recipes/healthy-french-toast-recipe/index.html">Healthy French Toast</a></li>
+							<li><a rel="ft-2" title="Garden Veggie Frittata" href="/recipes/kelsey-nixon/garden-vegetable-frittata-recipe/index.html">Garden Veggie Frittata</a></li>
+							<li><a rel="ft-3" title="Ellie's Breakfast Burrito" href="/recipes/ellie-krieger/breakfast-burrito-recipe/index.html">Ellie's Breakfast Burrito</a></li>
+						</ul>
+						<a class="more" rel="ft-1" title="More recipes" href="/recipes/healthy-breakfast-recipes/pictures/index.html">More recipes</a>
+					</div>
+				</div>
+				</li>
+				<li>
+				<div class="feature-cartridge clrfix">
+					<h3 class="slug">Healthier Italian</h3>
+					<a href="/recipes/ellie-krieger/chicken-parmesan-recipe/index.html" class="thumb" title="Chicken Parmesan"><img src="http://img.foodnetwork.com/FOOD/2011/12/06/CC-ellie-krieger_chicken-parmesan-recipe_s4x3_sm.jpg" alt="Chicken Parmesan" height="69" width="92"></a>
+					<div class="story">
+						<ul class="list">
+							<li class="active"><a rel="ft-1" title="Chicken Parmesan" href="/recipes/ellie-krieger/chicken-parmesan-recipe/index.html">Chicken Parmesan</a></li>
+							<li><a rel="ft-2" title="Fettucine With Creamy Red Pepper Sauce" href="/recipes/ellie-krieger/fettuccine-with-creamy-red-pepper-feta-sauce-recipe/index.html">Fettucine With Creamy Red Pepper Sauce</a></li>
+							<li><a rel="ft-3" title="Kelsey's Vegetable Lasagna" href="/recipes/kelsey-nixon/vegetable-lasagna-recipe/index.html">Kelsey's Vegetable Lasagna</a></li>
+						</ul>
+						<a class="more" rel="ft-2" title="More recipes" href="/recipes/healthy-italian-recipes/pictures/index.html">More recipes</a>
+					</div>
+				</div>
+				</li>
+				<li>
+				<div class="feature-cartridge clrfix">
+					<h3 class="slug">Bobby Deen's Lighter Comforts</h3>
+					<a href="/recipes/bobby-deen/steak-tacos-with-black-bean-pico-de-gallo-recipe/index.html" class="thumb" title="Steak Tacos with Black Beans"><img src="http://img.foodnetwork.com/FOOD/2011/11/21/CC-Bobby-Deen_Healthy-Steak-Tacos-with-Black-Bean-Pico-de-Gallo_s4x3_sm.jpg" alt="Steak Tacos with Black Beans" height="69" width="92"></a>
+					<div class="story">
+						<ul class="list">
+							<li class="active"><a rel="ft-1" title="Steak Tacos with Black Beans" href="/recipes/bobby-deen/steak-tacos-with-black-bean-pico-de-gallo-recipe/index.html">Steak Tacos with Black Beans</a></li>
+							<li><a rel="ft-2" title="Mediterranean Chicken Stew" href="/recipes/bobby-deen/mediterranean-chicken-stew-recipe/index.html">Mediterranean Chicken Stew</a></li>
+							<li><a rel="ft-3" title="Sausage, Egg and Cheese Casserole" href="/recipes/bobby-deen/sausage-egg-and-cheese-strata-recipe/index.html">Sausage, Egg and Cheese Casserole</a></li>
+						</ul>
+						<a class="more" rel="ft-3" title="More recipes" href="/recipes/bobby-deens-healthy-takes-on-paula-deen-recipes/pictures/index.html">More recipes</a>
+					</div>
+				</div>
+				</li>
+				<li>
+				<div class="feature-cartridge clrfix">
+					<h3 class="slug">Low-Calorie Desserts</h3>
+					<a href="/recipes/chuck-hughes/honey-tangerine-gelatin-recipe/index.html" class="thumb" title="Honey Tangerine Gelatin"><img src="http://img.foodnetwork.com/FOOD/2010/12/02/CCHGL105_Chocolate-Marshmallow-Madness-Cupcakes_s4x3_sm.jpg" alt="Honey Tangerine Gelatin" height="69" width="92"></a>
+					<div class="story">
+						<ul class="list">
+							<li class="active"><a rel="ft-1" title="Chocolate Marshmallow Cupcakes" href="/recipes/lisa-lillien/chocolate-marshmallow-madness-cupcakes-recipe/index.html">Chocolate Marshmallow Cupcakes</a></li>
+							<li><a rel="ft-2" title="Honey Tangerine Gelatin" href="/recipes/chuck-hughes/honey-tangerine-gelatin-recipe/index.html">Honey Tangerine Gelatin</a></li>
+							<li><a rel="ft-3" title="Triple Chocolate Cookies" href="/recipes/ellie-krieger/triple-chocolate-cookies-recipe/index.html">Triple Chocolate Cookies</a></li>
+						</ul>
+						<a class="more" rel="ft-4" title="More recipes" href="/recipes/low-calorie-dessert-recipes/pictures/index.html">More recipes</a>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript"> SNI.CC.Omniture.SingleVar('#recipe_browser', 'Recipes section - Browse More Recipes', mdManager.getParameter('SctnDspName'));</script>
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/recipes/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+uses SNI.CC.Omniture.SingleVar
+]]>
+</dependencies>
+</xml>

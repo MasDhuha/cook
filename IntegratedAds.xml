@@ -1,0 +1,38 @@
+<xml>
+	<title>
+13. Integrated Ads (S)
+	</title>
+	<dependencies><![CDATA[
+
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-w"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+				</div>
+			</div>
+	]]></region>	
+	<code><![CDATA[
+
+		<div class="adpromotion" id="integrated-ads">
+			<div class="wrap clrfix">
+				<div class="left">
+					<a href="http://www.foodnetwork.com/worst-cooks-in-america/index.html?xp=wcia" title="Watch as Bobby and Anne turn the best out of this year's worst. Sundays 9p/8c" target="_blank"><img src="http://img.foodnetwork.com/FOOD/2012/01/25/WO_Sundays_s234x60.jpg" alt="Watch as Bobby and Anne turn the best out of this year's worst. Sundays 9p/8c" height="60" width="234"></a>
+					<p>
+						<a class="title" rel="ft-1" target="_blank" title="Watch as Bobby and Anne turn the best out of this year's worst. Sundays 9p/8c" href="http://www.foodnetwork.com/worst-cooks-in-america/index.html?xp=wcia">Watch as Bobby and Anne turn the best out of this year&rsquo;s worst. Sundays 9p/8c</a>
+					</p>
+				</div>
+				<div class="right">
+					<a href="http://www.travelchannel.com/tv-shows/bizarre-foods?xp=bizfoods" title="Visit Travel Channel for guides and recipes from Andrew Zimmern." target="_blank"><img src="http://img.foodnetwork.com/FOOD/2011/12/22/BFA_banner_s234x60.jpg" alt="Visit Travel Channel for guides and recipes from Andrew Zimmern." height="60" width="234"></a>
+					<p>
+						<a class="title" rel="ft-2" target="_blank" title="Visit Travel Channel for guides and recipes from Andrew Zimmern." href="http://www.travelchannel.com/tv-shows/bizarre-foods?xp=bizfoods">Visit Travel Channel for guides and recipes from Andrew Zimmern.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript"> SNI.CC.Omniture.MultiVar('#integrated-ads', 'Integrated Ads');</script>
+
+	]]></code>
+</xml>

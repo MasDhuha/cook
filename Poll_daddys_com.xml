@@ -1,0 +1,46 @@
+<xml>
+	<title>
+7. Poll (C)
+	</title>
+	<dependencies><![CDATA[
+depends on class "section" in tag body<br>
+uses function in sni-core-2.0.js for submit result
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-w"><![CDATA[
+		<div id="sni-ww"><!-- content well left start -->
+
+		</div><!-- content well left end -->		
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div class="pod poll">
+			<h3>Quick Vote</h3>
+			<div id="inputPanel" class="bd clrfix">
+<script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/6112940.js"></script>
+<noscript><a href="http://polldaddy.com/poll/6112940/">Which world cuisine do you love to cook at home?</a></noscript>
+			</div>
+			<div class="submitting bd">
+				<p>
+					Submitting Vote
+				</p>
+				<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+			</div>
+			<div class="loading bd">
+				<p>
+					Loading Results
+				</p>
+				<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+			</div>
+			<div id='resultsPanel' class='bd clrfix'>
+			</div>
+			<div class="ft">
+			</div>
+			<script	type="text/javascript">SNI.CC.QuickVote.init(95909, '/cr/cda/updatePoll/1,1274,,00.html', '/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html');</script>
+		</div>
+
+
+	]]></code>
+</xml>

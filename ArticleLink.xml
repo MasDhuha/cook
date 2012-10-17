@@ -1,0 +1,34 @@
+<xml>
+<title>
+<![CDATA[ 25. Article Link (S) ]]>
+</title>
+<region id="sni-we">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-we"></div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="show-detail">
+<![CDATA[
+			<div class="pod">
+				<h3>Seafood Buyer's Guide</h3>
+				<img src="http://cooktv.sndimg.com/COOK/2010/05/21/generic_fish-pink-yellow-dots_s4x3_tz.jpg" alt=""/>
+				<p>
+					What you need to know about the best fish and shellfish to cook at home.
+				</p>
+				<a class="more" href="/how-to/seafood-buyers-guide/index.html">Read about Seafood Buyer's Guide</a>
+			</div>
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/chuck-hughes/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+you need the components in sni-ww (content well left) to push this to the right
+]]>
+</dependencies>
+</xml>

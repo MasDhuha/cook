@@ -1,0 +1,39 @@
+<xml>
+	<title>
+		3. Static Lead - TV Promo (S)
+	</title>
+	<dependencies><![CDATA[
+Not found in live website took it from firefly preview
+	]]></dependencies>
+	<location>
+
+	</location>
+	<region id="sni-w"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+				</div>
+			</div>		
+	]]></region>	
+	<code><![CDATA[
+
+		<div class="lead tv-promo mustard" id="homepage-lead">
+			<div class="text-wrap">
+				<div class="text">
+					<p class="inverted">
+						Fan Appreciation Bonus
+					</p>
+					<h3>Free Episodes</h3>
+					<h4>Limited Time Only</h4>
+					<p>
+						Watch full episodes of <em>Extra Virgin</em> and <em>Nadia G.'s Bitchin' Kitchen</em> online now.
+					</p>
+					<p class="caption">
+						<a rel="ft-1" title="Watch the Episodes" href="http://www.cookingchanneltv.com/shows/fan-appreciation-full-episodes/index.html">Watch the Episodes</a>
+					</p>
+				</div>
+			</div>
+			<img src="http://cooktv.sndimg.com/COOK/2011/10/28/CC-Stunt_Full-Episodes_s616x308.jpg" alt="CC-Stunt_Full-Episodes_s616x308" height="308" width="616">
+		</div>
+
+	]]></code>
+</xml>

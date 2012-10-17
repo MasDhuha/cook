@@ -1,0 +1,117 @@
+<xml>
+<title>
+<![CDATA[ 37. Package Reel (S) ]]>
+</title>
+<region id="bd-wrapper">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-bd-wrap" class="article-gallery sni-wide-cap">
+					<div id="bd-container">
+						<div id="bd-wrapper" class="clrfix"></div>
+					</div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+<div class="banner-large content-reel clrfix default-nav" id="recipe-reel">
+				<div class="promo">
+					<a href="http://www.cookingchanneltv.com/fresh-start-healthy-eating/package/index.html"><img src="http://cooktv.sndimg.com/COOK/2011/12/19/CC-packageReel_Drop-5-Lbs_s214x69.jpg" alt="More From"></a>
+				</div>
+				<div class="controls" style="display: none;">
+				</div>
+				<div class="crsl-wrap">
+					<ul class="clrfix">
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/fresh-start-healthy-eating/package/index.html"><img src="http://cooktv.sndimg.com/COOK/2011/12/21/CCDRP_Melissa-DArabian-06_s4x3_sm.jpg" alt="How To Get Started"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/fresh-start-healthy-eating/package/index.html">How To Get Started</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/recipes/healthy-breakfast-recipes/pictures/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/11/21/CC-Bobby-Deen_Healthy-Blueberry-Almond-Griddle-Cakes_s4x3_sm.jpg" alt="Don't Skip Breakfast"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/recipes/healthy-breakfast-recipes/pictures/index.html">Don't Skip Breakfast</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/healthy-foods-diet/package/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/06/CC-ellie-krieger_chicken-parmesan-recipe_s4x3_sm.jpg" alt="Slim Down Your Faves"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/healthy-foods-diet/package/index.html">Slim Down Your Faves</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/not-my-mamas-meals/index.html"><img src="http://cooktv.sndimg.com/COOK/2011/12/19/CCNMM102_Bobby-Deen-and-Paula-Deen_s4x3_sm.jpg" alt="Steal Mama's Recipe Book"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/not-my-mamas-meals/index.html">Steal Mama's Recipe Book</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/recipes/low-calorie-dessert-recipes/pictures/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/12/02/CCHGL105_Chocolate-Marshmallow-Madness-Cupcakes_s4x3_sm.jpg" alt="Lighten Up Your Desserts"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/recipes/low-calorie-dessert-recipes/pictures/index.html">Lighten Up Your Desserts</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/recipes/healthy-italian-recipes/pictures/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/11/21/CC-Bobby-Deen_Healthy-Bobbys-Southwestern-Style-Pizza_s4x3_sm.jpg" alt="Eat Healthier Italian"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/recipes/healthy-italian-recipes/pictures/index.html">Eat Healthier Italian</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/recipes/superfoods-nutrient-rich-foods-to-eat-every-day/pictures/index.html"><img src="http://cooktv.sndimg.com/COOK/2011/12/20/CC-Superfoods_avocado_s4x3_sm.jpg" alt="Get More Superfoods"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/recipes/superfoods-nutrient-rich-foods-to-eat-every-day/pictures/index.html">Get More Superfoods</a>
+						</h4>
+						</li>
+						<li>
+						<a class="thumb" href="http://www.cookingchanneltv.com/quick-easy-healthy-recipes/package/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/05/10/CCMIN111_Winter-Citrus-Salad-with-Honey-Dressing_s4x3_sm.jpg" alt="Keep It Fresh"></a>
+						<h4>
+						<a href="http://www.cookingchanneltv.com/quick-easy-healthy-recipes/package/index.html">Keep It Fresh</a>
+						</h4>
+						</li>
+						<li class="endcap">
+						                <span class="reel-end"> </span>
+						                <span class="window"><a href="#"> </a></span>
+						            </li>
+					</ul>
+					<div class="post-endcap">
+						<p>
+							See More
+						</p>
+						<p>
+							<a class="target" href="http://www.cookingchanneltv.com/fresh-start-healthy-eating/package/index.html">Healthy Eating</a>
+						</p>
+					</div>
+				</div>
+				<div class="prev-btn">
+					Previous
+				</div>
+				<div class="next-btn">
+					Next
+				</div>
+			</div>
+			<script type="text/javascript">
+					SNI.Common.Carousel('#recipe-reel',{visible: 2.68, scroll: 1, speed: 250});
+					$('#recipe-reel .endcap .window').hover(function() {
+					    $('#recipe-reel .post-endcap').addClass('ui-state-hover');
+					}, function() {
+					    $('#recipe-reel .post-endcap').removeClass('ui-state-hover');
+					});
+					$('#recipe-reel .endcap .window a').attr('href', $('#recipe-reel .post-endcap a.target').attr('href'));
+				    </script>
+
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/recipes/amazing-vegetarian-recipes/pictures/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+uses SNI.Common.Carousel()
+]]>
+</dependencies>
+</xml>

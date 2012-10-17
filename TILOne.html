@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title></title>
+	<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+	<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+	<script type="text/javascript">
+		function connectEvents(){
+			$('#definition .v-menu #wrap a').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'wrap'){
+					$(this).text('unwrap');
+					$('#definition textarea').css('word-wrap', 'break-word');
+				}else{
+					$(this).text('wrap');
+					$('#definition textarea').css('word-wrap', 'normal');	
+				}
+				
+			});
+			$('#definition .v-menu #show a').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'show'){
+					$(this).text('hide');
+					$('#definition textarea').animate({height: '50em'});
+				}else{
+					$(this).text('show');
+				$('#definition textarea').animate({height: '17em'});
+				}
+				
+			});
+		}
+		function fillContent(){
+			var t = $.trim($('.module-title').text()),
+			l = $.trim($('.module-location').text()),
+			d = $.trim($('.module-dependencies').text()),
+			r = $.trim($('.module-region').text()),
+			c = $('.module-code').text();
+			$('head title').html(t);
+			$('#location a').attr('href', l).html(l);
+			$('#dependencies div').html(d);
+			$('.definition-area header h1').text(t);
+			if(r){
+				$('#sni-w').html(r);
+				$('#sni-w div').html(c);				
+			}else{
+				$('#sni-w').html(c);
+			}
+			$('#definition div').html('<textarea class="code">'+c+'</textarea>');
+			$('#definition div .code').css('display', 'inline-block');
+		}
+		function loadContent(){
+			$.get('til_one.html', function(content){
+				$('body').append(content);
+				fillContent();
+				$('head').append('<base href="http://www.cookingchanneltv.com" target="_blank"/>');
+			})
+		}
+		$(function(){
+			connectEvents();
+			loadContent();
+		});
+	</script>	
+</head>
+<body class="section">		
+	<!-- preview ------------------------------------------------------------------------- -->
+	<section id="preview">
+		<section id="cctv-code">
+			<div id="sni-hd"><!-- cctv header start -->
+				<div class="masthead clrfix">
+					<a class="logo-wrap" href="http://www.cookingchanneltv.com/" title="Cooking Channel Logo" rel="gh-logo"><img alt="Cooking Channel Logo" id="cc-logo" src="http://cooktv.sndimg.com/webcook/imgs/le/CC_logo-header.gif"/></a>
+					<div class="search">
+						
+					</div>
+					<div class="ad-sponsor-logo" style="margin-top:10px;">
+					</div>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav clrfix">
+						
+					</div>
+				</div>
+			</div><!-- cctv header end -->
+						
+			<div id="site-wrapper">
+				<div id="sni-bd" class="clrfix"><!-- content area between header & footer start -->
+					<div id="sni-w" class="clrfix"><!-- content area left to the right rail start -->	
+					</div><!-- content area left to the right rail end -->
+				</div><!-- content area between header & footer end -->
+			</div>
+		</section>
+		<!-- cctv code end -->
+	</section>
+	<!-- preview end -->
+	
+	<section class="definition-area">
+		<header>
+			<h1></h1>
+		</header>
+		<!-- source code --------------------------------------------------------------------- -->
+		<section id="definition">
+			<h2>Markup</h2><ul class="v-menu"><li id="wrap"><a href="#">wrap</a></li><li id="show"><a href="#">show</a></li></ul>
+			<div>
+			</div>
+		</section>
+		<!-- definition end -->
+		<!-- dependencies -------------------------------------------------------------------- -->
+		<section id="dependencies">
+			<h2>Dependencies</h2>
+			<div>	 
+			</div>
+		</section>
+		<!-- dependencies end -->
+		<!-- location -------------------------------------------------------------------- -->
+		<section id="location">
+			<h2>Location</h2>
+			<div>
+				 <a href="#"></a>
+			</div>
+		</section>
+		<!-- location end-->		
+	</section>
+</body>
+</html>

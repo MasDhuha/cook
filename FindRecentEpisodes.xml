@@ -1,0 +1,256 @@
+<xml>
+	<title>
+18. Show Listings (COOK) (S)
+	</title>
+	<dependencies><![CDATA[
+uses SNI.CC.FindEpisodeOnTV.init
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/shows/index.html
+	</location>
+	<region id="sni-e"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-e" class="clrfix">
+					
+				</div>
+			</div>	
+	]]></region>	
+	<code><![CDATA[
+
+		<div id="episode-finder" class="pod controls clrfix">
+			<div class="hd">
+				<h3>Find Recent Episodes on TV</h3>
+			</div>
+			<span class="directions">Use either of the fields below</span>
+			<form action="http://www.cookingchanneltv.com/search/episode?" method="get">
+				<div class="bd">
+					<ul class="clrfix">
+						<li class="clrfix">
+						<label for="show-name">Show Name:</label>
+						<select name="showDim" id="show-name">
+							<option value="" class="select-title">Select Show:</option>
+							<option value="4294956048">A Cook's Tour</option>
+							<option value="4294956091">Ace of Cakes</option>
+							<option value="4294956100">Alex's Day Off</option>
+							<option value="4294956360">All-Star Grillfest</option>
+							<option value="4294958254">Ask Aida</option>
+							<option value="4294956578">At the Table With...</option>
+							<option value="4294958423">BBQ with Bobby Flay</option>
+							<option value="4294956587">Bill's Food</option>
+							<option value="4294956584">Bill's Holiday</option>
+							<option value="4294956264">Brunch at Bobby's</option>
+							<option value="4294956326">Caribbean Food Made Easy</option>
+							<option value="4294956560">Challenge</option>
+							<option value="4294956375">Chefography</option>
+							<option value="4294956204">Chefography: Alex Guarnaschelli</option>
+							<option value="4294956572">Chinese Food Made Easy</option>
+							<option value="4294956525">Chuck's Day Off</option>
+							<option value="4294956015">Chuck's Week Off</option>
+							<option value="4294956008">Chuckmas</option>
+							<option value="4294956186">Ciao America</option>
+							<option value="4294955990">Classy Ladies</option>
+							<option value="4294956335">Cook Like an Iron Chef</option>
+							<option value="4294955957">David Rocco's Amalfi Getaway</option>
+							<option value="4294956519">David Rocco's Dolce Vita</option>
+							<option value="4294956033">Double Ovens</option>
+							<option value="4294956504">Drink Up</option>
+							<option value="4294956002">Drop 5 lbs with Good Housekeeping</option>
+							<option value="4294956075">Easy Chinese: San Francisco</option>
+							<option value="4294958565">Easy Entertaining with Michael Chiarello</option>
+							<option value="4294956159">Eat Street</option>
+							<option value="4294955960">Eat This, Drink That</option>
+							<option value="4294959321">Emeril Live</option>
+							<option value="4294956685">Everyday Exotic</option>
+							<option value="4294958747">Everyday Italian</option>
+							<option value="4294956183">Extra Virgin</option>
+							<option value="4294956557">Extreme Cuisine</option>
+							<option value="4294956599">Feasting on...</option>
+							<option value="4294956551">Follow That Food</option>
+							<option value="4294956605">Food 911</option>
+							<option value="4294956545">Food Detectives</option>
+							<option value="4294956469">Food Jammers</option>
+							<option value="4294956378">Food Nation With Bobby Flay</option>
+							<option value="4294956292">Food Truck Revolution</option>
+							<option value="4294956652">Food(ography)</option>
+							<option value="4294956608">FoodCrafters</option>
+							<option value="4294956495">French Food at Home</option>
+							<option value="4294956341">Fresh Food Fast with Emeril Lagasse</option>
+							<option value="4294956116">From Spain With Love</option>
+							<option value="4294956252">From the Kitchens Of...</option>
+							<option value="4294956072">Georgia Roadtrip with G. Garvin</option>
+							<option value="4294958257">Good Deal with Dave Lieberman</option>
+							<option value="4294956243">Good Eats</option>
+							<option value="4294958162">Healthy Appetite with Ellie Krieger</option>
+							<option value="4294956207">Heat Seekers</option>
+							<option value="4294956226">Holiday on the Rocks</option>
+							<option value="4294956246">Hook, Line & Dinner</option>
+							<option value="4294956214">Hungry Girl</option>
+							<option value="4294956593">Indian Food Made Easy</option>
+							<option value="4294955978">Iron Chef America</option>
+							<option value="4294955969">Iron Chef America Countdown</option>
+							<option value="4294956542">Iron Chef Japan</option>
+							<option value="4294956679">Jamie At Home</option>
+							<option value="4294956220">Jamie Cooks Christmas</option>
+							<option value="4294956223">Jamie at Home - Christmas Special</option>
+							<option value="4294956233">Jamie's Family Christmas</option>
+							<option value="4294956176">Jamie's Food Escapes</option>
+							<option value="4294956489">Julia Child</option>
+							<option value="4294956255">Kelsey's Essentials</option>
+							<option value="4294956315">Luke Nguyen's Vietnam</option>
+							<option value="4294956195">Martha Stewart's Christmas Special</option>
+							<option value="4294956198">Martha Stewart's Holiday Cookies</option>
+							<option value="4294956472">Melting Pot</option>
+							<option value="4294958789">Molto Mario</option>
+							<option value="4294956539">My Country, My Kitchen</option>
+							<option value="4294955966">My Grandmother's Ravioli</option>
+							<option value="4294956289">My Life in Food</option>
+							<option value="4294956060">Nadia G's Bitchin' Kitchen</option>
+							<option value="4294956311">Next Food Network Star After Party</option>
+							<option value="4294956103">Nigella Kitchen</option>
+							<option value="4294956415">Nigella Lawson</option>
+							<option value="4294955996">Not My Mama's Meals</option>
+							<option value="4294956024">Pitchin' In</option>
+							<option value="4294956673">Rachael Ray's Tasty Travels</option>
+							<option value="4294956279">Rachael Ray's Week in a Day</option>
+							<option value="4294956513">Rachel Allen: Bake!</option>
+							<option value="4294956643">Sara's Secrets</option>
+							<option value="4294956054">Simply Baking</option>
+							<option value="4294958159">Simply Delicioso with Ingrid Hoffmann</option>
+							<option value="4294956338">Spice Goddess</option>
+							<option value="4294956132">Sweet Dreams</option>
+							<option value="4294955984">Symon's Suppers</option>
+							<option value="4294956021">The Big Cheese</option>
+							<option value="4294956229">The Brass Sisters</option>
+							<option value="4294955963">The Donatella Project</option>
+							<option value="4294956236">The Four Coursemen</option>
+							<option value="4294956536">The Galloping Gourmet</option>
+							<option value="4294956066">The Gourmet Next Door</option>
+							<option value="4294956201">The Great Steak Challenge</option>
+							<option value="4294956192">The Minimalist</option>
+							<option value="4294956120">The Originals with Emeril</option>
+							<option value="4294956094">The Perfect 3</option>
+							<option value="4294956397">The Secret Life of...</option>
+							<option value="4294955981">The Supersizers Go...</option>
+							<option value="4294956658">The Thirsty Traveler</option>
+							<option value="4294956162">The Urban Grocer</option>
+							<option value="4294956217">The Veg Edge</option>
+							<option value="4294955987">Throwdown with Bobby Flay</option>
+							<option value="4294956533">Two Fat Ladies</option>
+							<option value="4294958783">Tyler's Ultimate</option>
+							<option value="4294956466">Unique Eats</option>
+							<option value="4294956135">Unique Sweets</option>
+							<option value="4294956240">United Tastes of America</option>
+							<option value="4294956357">Viva Daisy!</option>
+							<option value="4294956039">Voltaggios Take On: Thanksgiving</option>
+						</select>
+						</li>
+						<li class="clrfix">
+						<label for="chef-name">Chef Name:</label>
+						<select name="talentDim" id="chef-name">
+							<option value="" class="select-title">Select Chef:</option>
+							<option value="4294956258">Aarti Sequeira</option>
+							<option value="4294956611">Aida Mollenkamp</option>
+							<option value="4294956286">Al Roker</option>
+							<option value="4294956166">Alexandra Guarnaschelli</option>
+							<option value="4294955972">Alie Ward and Georgia Hardstark</option>
+							<option value="4294956602">Alton Brown</option>
+							<option value="4294956069">Amy Finley</option>
+							<option value="4294956596">Anjum Anand</option>
+							<option value="4294956079">Anne Burrell</option>
+							<option value="4294956110">Annie Sibonney</option>
+							<option value="4294956045">Anthony Bourdain</option>
+							<option value="4294956637">Bal Arneson</option>
+							<option value="4294956113">Ben Sargent</option>
+							<option value="4294956590">Bill Granger</option>
+							<option value="4294955993">Bobby Deen</option>
+							<option value="4294956575">Bobby Flay</option>
+							<option value="4294956249">Brigitte Nguyen</option>
+							<option value="4294956622">Cat Cora</option>
+							<option value="4294956569">Ching-He Huang</option>
+							<option value="4294956528">Chuck Hughes</option>
+							<option value="4294956481">Clarissa Dickson Wright and Jennifer Paterson</option>
+							<option value="4294956670">Daisy Martinez</option>
+							<option value="4294956507">Darryl Robinson</option>
+							<option value="4294957908">Dave Lieberman</option>
+							<option value="4294956522">David Rocco</option>
+							<option value="4294956179">Debi Mazar and Gabriele Corcos</option>
+							<option value="4294956088">Duff Goldman</option>
+							<option value="4294957930">Ellie Krieger</option>
+							<option value="4294956566">Emeril Lagasse</option>
+							<option value="4294956344">Food Jammers</option>
+							<option value="4294956319">Food Network Kitchens</option>
+							<option value="4294956129">Gale Gand</option>
+							<option value="4294956484">George Duran</option>
+							<option value="4294956617">Giada De Laurentiis</option>
+							<option value="4294956548">Gordon Elliot</option>
+							<option value="4294956510">Graham Kerr</option>
+							<option value="4294956082">Ina Garten</option>
+							<option value="4294957905">Ingrid Hoffmann</option>
+							<option value="4294956145">James Cunningham</option>
+							<option value="4294956682">Jamie Oliver</option>
+							<option value="4294956018">Jason Sobocinski</option>
+							<option value="4294956554">Jeff Corwin</option>
+							<option value="4294956261">Jeffrey Saad</option>
+							<option value="4294956664">Jim O'Connor</option>
+							<option value="4294956492">Julia Child</option>
+							<option value="4294956631">Kelsey Nixon</option>
+							<option value="4294956661">Kevin Brauch</option>
+							<option value="4294956498">Laura Calder</option>
+							<option value="4294956628">Levi Roots</option>
+							<option value="4294956210">Lisa Lillien</option>
+							<option value="4294956051">Lorraine Pascale</option>
+							<option value="4294956329">Luke Nguyen</option>
+							<option value="4294956027">Lynn Crawford</option>
+							<option value="4294956501">Mario Batali</option>
+							<option value="4294956189">Mark Bittman</option>
+							<option value="4294955975">Melissa d'Arabian</option>
+							<option value="4294955999">Melissa d'Arabian</option>
+							<option value="4294957924">Michael Chiarello</option>
+							<option value="4294956625">Michael Symon</option>
+							<option value="4294956042">Michael and Bryan Voltaggio</option>
+							<option value="4294956655">Mo Rocca</option>
+							<option value="4294956273">Nadia G</option>
+							<option value="4294956364">Nigella Lawson</option>
+							<option value="4294956107">Paula Deen</option>
+							<option value="4294956418">Rachael Ray</option>
+							<option value="4294956516">Rachel Allen</option>
+							<option value="4294956036">Robert Irvine</option>
+							<option value="4294956030">Robin Miller</option>
+							<option value="4294956688">Roger Mooking</option>
+							<option value="4294956646">Sara Moulton</option>
+							<option value="4294956085">Sunny Anderson</option>
+							<option value="4294956640">Ted Allen</option>
+							<option value="4294956691">Tyler Florence</option>
+						</select>
+						</li>
+						<li class="clrfix">
+						<label for="keywords">Keyword/s:</label>
+						<div class="input-box">
+							<span><input type="text" name="searchString" id="keywords"></span>
+						</div>
+						</li>
+						<li>
+						<label for="date-from">From:</label>
+						<div class="date-box">
+							<span><input type="text" name="startDate" value="mm/dd/yy" size="8" maxlength="8" id="date-from"></span>
+						</div>
+						<label for="date-to" class="date-to-label">to:</label>
+						<div class="date-box">
+							<span><input type="text" name="endDate" value="mm/dd/yy" size="8" maxlength="8" id="date-to"></span>
+						</div>
+						</li>
+					</ul>
+				</div>
+				<input type="hidden" value="episodeFinder" name="searchType">
+				<p class="submit">
+					<button type="submit" name="" class="button"><span><em>Find</em></span></button>
+				</p>
+			</form>
+			<script type="text/javascript" charset="utf-8">
+			        	SNI.CC.FindEpisodeOnTV.init();
+			   		 </script>
+		</div>
+
+
+	]]></code>
+</xml>

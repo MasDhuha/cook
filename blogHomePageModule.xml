@@ -1,0 +1,56 @@
+<xml>
+	<title>
+8. Blog Homepage Module (S)
+	</title>
+	<dependencies><![CDATA[
+depends on class "section" in tag body<br>
+uses function SNI.CC.Omniture.SingleVar
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-we"><![CDATA[
+					<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-we"></div>
+				</div>
+			</div>		
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div class="pod foodblog" id="modInst2365311">
+			<div class="hd clrfix">
+				<a href="http://blog.cookingchanneltv.com"><img alt="Devour Blog Home Module" src="http://cooktv.sndimg.com/COOK/2010/10/05/cc-banner_blogHome-measure_s406x60.jpg" width="405"></a>
+			</div>
+			<div class="feature clrfix">
+				<a href="http://blog.cookingchanneltv.com/2012/02/24/oscar-party-menu-recipes/#Oscars Party Menu" title="Oscars Party Menu"><img src="http://cooktv.sndimg.com/COOK/2012/02/24/CC-Devour_The-Help_s3x4_med.jpg" alt="Oscars Party Menu" height="120" width="160"></a>
+				<div class="description">
+					<h4><a rel="ft-1" title="Oscars Party Menu" href="http://blog.cookingchanneltv.com/2012/02/24/oscar-party-menu-recipes/#Oscars Party Menu">Oscars-Inspired</a></h4>
+					<h4><a href="http://blog.cookingchanneltv.com/2012/02/24/oscar-party-menu-recipes/">Party Menu</a></h4>
+					<p>
+						We took inspiration from this year's Best Picture nominees to come up with an Oscars-inspired menu.
+					</p>
+					<a rel="ft-1" title="Oscars Party Menu Recipes" href="http://blog.cookingchanneltv.com/2012/02/24/oscar-party-menu-recipes/#Oscars Party Menu Recipes">Plan Your Menu Now</a>
+				</div>
+			</div>
+			<div class="also clrfix">
+				<div class="slug">
+					Two More to Devour
+				</div>
+				<div class="fpbcont">
+					<a href="http://blog.cookingchanneltv.com/2012/02/21/a-dish-for-every-state/">
+					<img alt="Vote For Your State's Best Dish" src="http://cooktv.sndimg.com/COOK/2012/02/21/CC_50-States-50-Dishes-map_s4x3_sm.jpg"><span>Vote For Your State's Best Dish</span>
+					</a>
+				</div>
+				<div class="fpbcont">
+					<a href="http://blog.cookingchanneltv.com/2012/02/09/adult-shamrock-mint-shake-recipe/">
+					<img alt="Shamrock Shake Recipe" src="http://img.foodnetwork.com/FOOD/2006/09/21/ds0304_irish_pirate_sm.jpg"><span>Shamrock Shake, The Adults-Only Version</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript"> SNI.CC.Omniture.SingleVar('#modInst2365311', 'Devour Blog Home Module', mdManager.getParameter('SctnDspName'));</script>
+
+
+	]]></code>
+</xml>

@@ -1,0 +1,48 @@
+<xml>
+	<title>
+9. Center Column Hero (S)
+	</title>
+	<dependencies><![CDATA[
+		depends on class "section" in tag body<br>
+		must be in content well left<br>
+		uses function SNI.CC.Omniture.SingleVar
+		]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-we"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-we"></div>
+				</div>
+			</div>		
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div class="pod cookthis clrfix" id="modInst2342612">
+			<h3>Choose Your Style</h3>
+			<div class="cont">
+				<div class="tab">
+					Alton's Chewy Chocolate Chip Cookies
+				</div>
+				<a href="/recipes/best-chocolate-chip-cookie-recipes/pictures/index.html" title="Chocolate Chip Cookies Recipe"><img src="http://img.foodnetwork.com/FOOD/2011/06/06/EA1C05_The-Chewy_s4x3_lead.jpg" alt="Chocolate Chip Cookies Recipe" height="300" width="400"></a>
+				<a class="occasion" rel="ft-1" title="Chocolate Chip Cookies Recipe" href="/recipes/best-chocolate-chip-cookie-recipes/pictures/index.html">Chocolate Chip Cookies</a>
+				<p>
+					Satisfy your chocolate cravings with these twists on the traditional chocolate chip cookie recipe.
+				</p>
+			</div>
+			<ul class="list">
+				<li><a title="Chewy Chocolate Chip Cookies Recipe" href="/recipes/alton-brown/the-chewy-recipe/index.html">Chewy Chocolate Chip Cookies</a></li>
+				<li><a title="Chocolate Chip Cookie S'mores Recipe" href="/recipes/paula-deen/chocolate-chip-cookie-smores-recipe/index.html">Chocolate Chip Cookie S'mores</a></li>
+			</ul>
+			<ul class="list">
+				<li><a title="Chocolate Chip Biscotti Recipe" href="/recipes/espresso-chocolate-chip-biscotti-recipe/index.html">Chocolate Chip Biscotti</a></li>
+				<li><a title="More Chocolate Chip Cookie Recipes" href="/recipes/best-chocolate-chip-cookie-recipes/pictures/index.html">More Chocolate Chip Cookie Recipes</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript"> SNI.CC.Omniture.SingleVar('#modInst2342612', 'Homepage Center Column Hero', mdManager.getParameter('SctnDspName'));</script>
+
+
+
+	]]></code>
+</xml>

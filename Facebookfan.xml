@@ -1,0 +1,28 @@
+<xml>
+	<title>
+17. Facebook Fan Box (S)
+	</title>
+	<dependencies><![CDATA[
+
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-e"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-e" class="clrfix">
+				</div>
+			</div>		
+	]]></region>	
+	<code><![CDATA[
+
+		<div id="facebook-fan" class="pod facebook">
+			<script type="text/javascript">
+				$(function() {
+				$('#facebook-fan').html('<iframe scrolling=\"no\" width=\"336\" height=\"246\" frameborder=\"0\" src=\"http://www.facebook.com/connect/connect.php?id=153561472759&amp;connections=10&amp;stream=0\" allowtransparency=\"true\"></iframe>');
+				});
+			</script>
+		</div>
+
+	]]></code>
+</xml>

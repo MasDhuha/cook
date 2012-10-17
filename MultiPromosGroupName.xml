@@ -1,0 +1,48 @@
+<xml>
+<title>
+<![CDATA[ 23. Multi-Promos with Group Name (S) ]]>
+</title>
+<region id="sni-ww">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-ww"></div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="show-detail">
+<![CDATA[
+			<div class="extras clrfix">
+				<h3 class="slug">SHOW EXTRAS</h3>
+				<div class="extra-recipe clrfix">
+					<a href="http://www.hungry-girl.com" target="_new"><img src="http://cooktv.sndimg.com/COOK/2010/12/28/CCHGL_Lisa-Lillien-aka-Hungry-Girl_s4x3_a.jpg" alt="Hungry Girl"/></a>
+					<div>
+						<a class="f-title" href="http://www.hungry-girl.com" target="_new">More Hungry Girl</a>
+						<p>
+							Sign up for the Hungry Girl newsletter and receive Lisa’s daily tips and tricks.
+						</p>
+						<a href="http://www.hungry-girl.com" target="_new">www.Hungry-Girl.com</a>
+					</div>
+					<br>
+					<a target="_new" href="http://www.facebook.com/HungryGirl"><img src="http://cooktv.sndimg.com/COOK/2010/12/13/HG_Hungry-Girl-Logo_s4x3_a.jpg" alt=""/></a>
+					<div>
+						<a class="f-title" href="http://www.facebook.com/HungryGirl" target="_new">Get Social with Lisa</a>
+						<p>
+							Follow Hungry Girl on Facebook and Twitter to the get very latest updates from Lisa.
+						</p>
+						<a target="_new" href="http://www.facebook.com/HungryGirl">Hungry Girl on Facebook</a> | <a target="_new" href="http://twitter.com/hungrygirl">Hungry Girl on Twitter</a>
+					</div>
+				</div>
+			</div>
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/hungry-girl/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+depends on show-detail class in the body tag
+]]>
+</dependencies>
+</xml>

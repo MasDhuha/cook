@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title></title>
+	<link rel="icon" type="image/png" href="http://cooktv.sndimg.com/webcook/imgs/le/favicon.png"/>
+	<link href="http://cooktv.sndimg.com/webcook/css/sni-cc.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc-cfg.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.sndimg.com/common/js/sni-core/sni-core.2.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cooktv.sndimg.com/webcook/js/sni-cc.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://www.sndimg.com/common/adimages/networkads/cooking_channel/prod/adRestriction.js"></script>
+		<script type="text/javascript">var mdManager=new MetaDataManager();
+	mdManager.addParameter("Abstract","Do you love to cook? Cooking Channel's shows and top global chefs share their best recipes and demonstrate their specialties in cooking technique videos.");
+	mdManager.addParameter("CategoryDspName","HOME");
+	mdManager.addParameter("Classification","HOME,COOK");
+	mdManager.addParameter("DetailId","41501");
+	mdManager.addParameter("PageNumber","1");
+	mdManager.addParameter("SctnDspName","HOME");
+	mdManager.addParameter("SctnId","41501");
+	mdManager.addParameter("SctnName","HOME");
+	mdManager.addParameter("Site","COOK");
+	mdManager.addParameter("Title","Cooking Channel - Recipes, Shows and Cooking Videos from Top Global Chefs");
+	mdManager.addParameter("Type","SECTION");
+	mdManager.addParameter("UniqueId","COOK-SECTION-41501-1");
+	mdManager.addParameter("Url","/cook/home/0,1001122,,00.html");</script>
+
+
+		<script type="text/javascript">
+		    mdManager.addParameter('UserId', userIdCookieUserId);
+		    mdManager.addParameter('UserIdEmail', userIdEmail);
+		    mdManager.addParameter('UserIdCreateDt', userIdCookieCreateDt);
+		    mdManager.addParameter('UserIdVersion',  userIdCookieVersion);
+		</script>
+
+		<script type="text/javascript">
+		    var adManager = new AdManager();
+		    initAdManager(adManager, mdManager);
+		</script>	
+	<script type="text/javascript">
+		function connectEvents(){
+			$('#definition .v-menu #wrap a').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'wrap'){
+					$(this).text('unwrap');
+					$('#definition textarea').css('word-wrap', 'break-word');
+				}else{
+					$(this).text('wrap');
+					$('#definition textarea').css('word-wrap', 'normal');	
+				}
+				
+			});
+			$('#definition .v-menu #show a').click(function(e){
+				e.preventDefault();
+				if ($(this).text() == 'show'){
+					$(this).text('hide');
+					$('#definition textarea').animate({height: '50em'});
+				}else{
+					$(this).text('show');
+				$('#definition textarea').animate({height: '17em'});
+				}
+				
+			});
+			$('#definition .v-menu #xml a').click(function(e){
+				e.preventDefault();
+				var x = location.href.split('?'),
+				p = x[0],
+				q = x[1];
+				
+				p = p.split('/')
+				p[p.length-1] = '';
+				p = p.join('/');
+				location = 'view-source:'+p+'/'+q;
+				
+			});			
+		}
+		function fillHead(content){
+			var $content = $(content),
+			t = $.trim($content.find('title').text()),
+			$h = $content.find('head'),
+			h = $h.text(),
+			notRender = $h.attr('notRender');
+			notRender = notRender === 'true' ? true : false;
+			$('head title').html(t);
+			if (!notRender && h){
+				$('head').append(h);
+			}
+			$('head').append('<base href="http://www.cookingchanneltv.com">');			
+		}
+		function fillContent(){
+			var $content = $(fillContent.content),
+			t = $.trim($content.find('title').text()),
+			l = $.trim($content.find('location').text()),
+			d = $.trim($content.find('dependencies').text()),
+			r = $.trim($content.find('region').text()),
+			rid = $content.find('region').attr('id'), //indicates content left or right rail
+			$rc, //left or right rail region container
+			$c = $content.find('code'),
+			c = $c.text(),
+			notRender = $c.attr('notRender');
+			notRender = notRender === 'false' ? false : true;
+			bc = $content.find('code').attr('bodyClass');
+
+			$('#location a').attr('href', l).html(l);
+			$('#dependencies div').html(d);
+			$('.definition-area header h1').text(t);
+			if (bc){
+				$('body').addClass(bc);
+			}
+			$rc = $('#sni-bd div');
+			$rc.attr('id', rid);
+			if(r){
+				$rc.html(r);
+				$rc =$rc.find('div');				
+			}
+			if(!notRender){
+				$rc.html(c);
+			}
+			$('#definition span#region').text('region '+$rc.attr('id'));			
+			$('#definition div').html('<textarea class="code">'+c+'</textarea>');
+			$('#definition div .code').css('display', 'inline-block');
+		}
+		(function (){
+			$.ajax({
+				async:false,
+				dataType:'xml',
+				url:location.href.split('?')[1], 
+				success:function(content){
+					fillHead(content);
+					fillContent.content = content;
+				}
+			})
+		})();
+		$(function(){
+			fillContent();
+			connectEvents();
+		})
+	</script>	
+		
+</head>
+<body>		
+	<!-- preview ------------------------------------------------------------------------- -->
+	<section id="preview">
+		<section id="cctv-code">
+			<div id="sni-hd"><!-- cctv header start -->
+				<div class="masthead clrfix">
+					<a class="logo-wrap" href="http://www.cookingchanneltv.com/" title="Cooking Channel Logo" rel="gh-logo"><img alt="Cooking Channel Logo" id="cc-logo" src="http://cooktv.sndimg.com/webcook/imgs/le/CC_logo-header.gif"/></a>
+					<div class="search">
+						
+					</div>
+					<div class="ad-sponsor-logo" style="margin-top:10px;">
+					</div>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav clrfix">
+						
+					</div>
+				</div>
+			</div><!-- cctv header end -->
+						
+			<div id="site-wrapper">
+				<div id="sni-bd" class="clrfix"><!-- content area between header & footer start -->
+					<div id="sni-e" class="clrfix"><!-- content left (sni-w) or the right rail (sni-e) start -->
+						<div class="bigboxad clrfix">
+							<div id="bigbox">
+								<script type="text/javascript">
+									BigboxAd(5);
+									</script>
+							</div>
+							<span>Advertisement</span>
+						</div>							
+					</div><!-- content left (sni-w) or the right rail (sni-e) end -->
+				</div><!-- content area between header & footer end -->
+			</div>
+		</section>
+		<!-- cctv code end -->
+	</section>
+	<!-- preview end -->
+	
+	<section class="definition-area">
+		<div><!-- wrapper start -->
+		<header>
+			<h1></h1>
+		</header>
+		<!-- source code --------------------------------------------------------------------- -->
+		<section id="definition">
+			<h2>Markup <span id="region">region sni-e</span></h2>
+			<ul class="v-menu">
+				<li id="wrap"><a href="#">wrap</a></li>
+				<li id="show"><a href="#">show</a></li>
+				<li id="xml"><a href="#">xml</a></li>
+			</ul>
+			<div>					
+			</div>
+		</section>
+		<!-- definition end -->
+		<!-- dependencies -------------------------------------------------------------------- -->
+		<section id="dependencies">
+			<h2>Dependencies</h2>			
+			<div>	 
+			</div>
+		</section>
+		<!-- dependencies end -->
+		<!-- location -------------------------------------------------------------------- -->
+		<section id="location">
+			<h2>Location</h2>
+			<div>
+				 <a href="#">/</a>
+			</div>
+		</section>
+		<!-- location end-->
+		</div><!-- wrapper end>		
+	</section><!-- definition-area end -->	
+</body>
+</html>

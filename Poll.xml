@@ -1,0 +1,79 @@
+<xml>
+	<title>
+7. Poll (C)
+	</title>
+	<dependencies><![CDATA[
+depends on class "section" in tag body<br>
+uses function in sni-core-2.0.js for submit result
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-ww"><![CDATA[
+					<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-ww"></div>
+				</div>
+			</div>		
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div class="pod poll">
+			<h3>Quick Vote</h3>
+			<div id="inputPanel" class="bd clrfix">
+				<p>
+					Which world cuisine do you love to cook at home?
+				</p>
+				<form id="quick-vote-poll" method="post" action="/cr/cda/updatePoll/1,1274,,00.html">
+					<blockquote class="errormsg">
+						Pick one to vote!
+					</blockquote>
+					<ul class="clrfix">
+						<li><input type="radio" name="Rating" class="required" value="1">Italian</li>
+						<li><input type="radio" name="Rating" class="required" value="2">Mexican</li>
+						<li><input type="radio" name="Rating" class="required" value="3">Greek</li>
+						<li><input type="radio" name="Rating" class="required" value="4">Spanish</li>
+						<li><input type="radio" name="Rating" class="required" value="5">Chinese</li>
+						<li><input type="radio" name="Rating" class="required" value="6">French</li>
+						<li><input type="radio" name="Rating" class="required" value="7">Thai</li>
+						<li><input type="radio" name="Rating" class="required" value="8">Vietnamese</li>
+						<li><input type="radio" name="Rating" class="required" value="9">Indian</li>
+					</ul>
+					<input type="hidden" name="active" value="1"/>
+					<input type="hidden" name="PollId" value="95909"/>
+					<input type="hidden" name="PollType" value="Opinion"/>
+					<input type="hidden" name="Site" value="COOK"/>
+					<input type="hidden" name="Role" value=""/>
+					<input type="hidden" name="PollRedirectToResults" value="no"/>
+					<input type="hidden" name="PollSctn" value="HOME"/>
+					<div class="btn-cont clrfix">
+						<button class="button" type="submit" id="quick-vote-submit"><span><em>Vote</em></span></button>
+					</div>
+					<p class="view-more">
+						 or <a id="poll-result-link" href="/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html">View Results</a>
+					</p>
+				</form>
+				<a href="http://www.cookingchanneltv.com/best-international-recipes-global-food-and-cooking/package/index.html">Find a new cuisine to love here.</a>
+			</div>
+			<div class="submitting bd">
+				<p>
+					Submitting Vote
+				</p>
+				<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+			</div>
+			<div class="loading bd">
+				<p>
+					Loading Results
+				</p>
+				<img src="http://images.foodnetwork.com/webfood/fn20/imgs/fn-loader.gif">
+			</div>
+			<div id='resultsPanel' class='bd clrfix'>
+			</div>
+			<div class="ft">
+			</div>
+			<script	type="text/javascript">SNI.CC.QuickVote.init(95909, '/cr/cda/updatePoll/1,1274,,00.html', '/cook/cda/poll/0,1001234,COOK_95909_POLL-BUILDER_no,00.html');</script>
+		</div>
+
+
+	]]></code>
+</xml>

@@ -1,0 +1,101 @@
+<xml>
+	<title>
+36. In Season Now Accordion (M)
+	</title>
+	<dependencies><![CDATA[
+		module depends on class "section" for width located on body tag<br>
+		module depends on function dependent_dropdowns() data taken from array seems array is populated in server<br>
+		module depends on function SNI.Common.Accordion()
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-ww"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-ww"></div>
+				</div>
+			</div>
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div id="meal-finder" class="widget pod">
+			<div class="bd"><ul class="acco clrfix">
+				<li class="acco-group">
+					<div class="acco-link"><h5>In Season Now</h5></div><div class="acco-bd"><div id="in-season-now" class="wrap">
+						<form action="/search/delegate" method="get">
+							<ol>
+								<li class="one clrfix">
+									<span class="num">1.</span><span>I want to make:</span><select name="mealType">
+										<option class="select-title">Select One</option><option value="breakfast">Breakfast</option><option value="lunch">Lunch</option><option value="dinner">Dinner</option>
+									</select>
+								</li><li class="two clrfix">
+									<span class="num">2.</span><span>With:</span><select name="ingredient">
+										<option class="select-title">Select One</option><option value="grapefruit">Grapefruit</option><option value="potato">Potato</option><option value="tangerine">Tangerine</option><option value="apple">Apple</option><option value="swiss+chard">Swiss Chard</option><option value="onion">Onion</option><option value="butternut+squash">Butternut Squash</option>
+									</select>
+								</li>
+							</ol><p class="widget-button">
+								<button type="submit" class="button"><span><em>Find</em></span></button><input type="hidden" name="searchType" value="mealPlanner">
+							</p>
+						</form><script type="text/javascript" charset="utf-8">var data ={  values:{'breakfast' :{label:'Breakfast', values:{'grapefruit' :{ label :'Grapefruit', values: {}}, 'potato' :{ label :'Potato', values: {}}, 'tangerine' :{ label :'Tangerine', values: {}}, 'apple' :{ label :'Apple', values: {}}, 'swiss+chard' :{ label :'Swiss Chard', values: {}}, 'onion' :{ label :'Onion', values: {}}, 'butternut+squash' :{ label :'Butternut Squash', values: {}}}},'lunch' :{label:'Lunch', values:{'butternut+squash' :{ label :'Butternut Squash', values: {}}, 'potatoes' :{ label :'Potatoes', values: {}}, 'kale' :{ label :'Kale', values: {}}, 'apple' :{ label :'Apple', values: {}}, 'onion' :{ label :'Onion', values: {}}, 'spinach' :{ label :'Spinach', values: {}}}},'dinner' :{label:'Dinner', values:{'butternut+squash' :{ label :'Butternut Squash', values: {}}, 'potato' :{ label :'Potato', values: {}}, 'kale' :{ label :'Kale', values: {}}, 'apple' :{ label :'Apple', values: {}}, 'onion' :{ label :'Onion', values: {}}, 'acorn+squash' :{ label :'Acorn Squash', values: {}}}}},
+						titles: ['Select One', 'Select One', 'Select One'],
+						defaults: {
+							'0000-2400': ['dessert', 'apple', '45-']
+							}};
+							$('#in-season-now').dependent_dropdowns({ data: data });</script>
+						</div></div>
+					</li><li class="acco-group">
+						<div class="acco-link"><h5>Quick Meals</h5></div><div class="acco-bd"><div id="quick-meals" class="wrap">
+							<form action="/search/delegate" method="get">
+								<ol>
+									<li class="one clrfix">
+										<span class="num">1.</span><span>I want to make:</span><select name="mealType">
+											<option class="select-title">Select One</option><option value="breakfast">Breakfast</option><option value="lunch">Lunch</option><option value="dinner">Dinner</option><option value="snack">Snack</option>
+										</select>
+									</li><li class="two clrfix">
+										<span class="num">2.</span><span>With:</span><select name="ingredient">
+											<option class="select-title">Select One</option><option value="eggs">Eggs</option><option value="bacon">Bacon</option><option value="bread">Bread</option><option value="cheese">Cheese</option><option value="fruit">Fruit</option><option value="meat">Meat</option><option value="vegetables">Vegetables</option>
+										</select>
+									</li>
+								</ol><p class="widget-button">
+									<button type="submit" class="button"><span><em>Find</em></span></button><input type="hidden" value="30-" name="time"><input type="hidden" name="searchType" value="mealPlanner">
+								</p>
+							</form><script type="text/javascript" charset="utf-8">var data ={  values:{'breakfast' :{label:'Breakfast', values:{'eggs' :{ label :'Eggs', values: {}}, 'bacon' :{ label :'Bacon', values: {}}, 'bread' :{ label :'Bread', values: {}}, 'cheese' :{ label :'Cheese', values: {}}, 'fruit' :{ label :'Fruit', values: {}}, 'meat' :{ label :'Meat', values: {}}, 'vegetables' :{ label :'Vegetables', values: {}}}},'lunch' :{label:'Lunch', values:{'salad' :{ label :'Salad', values: {}}, 'sandwich' :{ label :'Sandwich', values: {}}, 'soup' :{ label :'Soup', values: {}}, 'pasta' :{ label :'Pasta', values: {}}, 'pizza' :{ label :'Pizza', values: {}}}},'dinner' :{label:'Dinner', values:{'beef' :{ label :'Beef', values: {}}, 'chicken' :{ label :'Chicken', values: {}}, 'pasta' :{ label :'Pasta', values: {}}, 'pork' :{ label :'Pork', values: {}}, 'salmon' :{ label :'Salmon', values: {}}, 'shrimp' :{ label :'Shrimp', values: {}}, 'tilapia' :{ label :'Tilapia', values: {}}}},'snack' :{label:'Snack', values:{'bread' :{ label :'Bread', values: {}}, 'cheese' :{ label :'Cheese', values: {}}, 'fruit' :{ label :'Fruit', values: {}}, 'nuts' :{ label :'Nuts', values: {}}, 'vegetables' :{ label :'Vegetables', values: {}}}}},
+							titles: ['Select One', 'Select One', 'Select One'], 
+							defaults: { '0400-0900': ['breakfast','eggs', '30-'], 
+							'0900-1200': ['lunch', 'salad','30-'], 
+							'1200-0400': ['dinner', 'chicken','30-'] }};
+							$('#quick-meals').dependent_dropdowns({ data: data });</script>
+						</div></div>
+					</li><li class="acco-group">
+						<div class="acco-link"><h5>Chef Recipes</h5></div><div class="acco-bd"><div id="chef-recipes" class="wrap">
+							<form action="/search/delegate" method="get">
+								<ol>
+									<li class="one clrfix">
+										<span class="num">1.</span><span>I want to make:</span><select name="mealType">
+											<option class="select-title">Select One</option><option value="main+dish">Main Dish</option><option value="side+dish">Side Dish</option><option value="appetizer">Appetizer</option><option value="dessert">Dessert</option>
+										</select>
+									</li><li class="two clrfix">
+										<span class="num">2.</span><span>With Chef:</span><select name="chef">
+											<option class="select-title">Select One</option><option value="$chef_id">Bal Arneson</option><option value="$chef_id">Ching-He Huang</option><option value="$chef_id">Chuck Hughes</option><option value="$chef_id">David Rocco</option><option value="$chef_id">Debi Mazar and Gabriele Corcos</option><option value="$chef_id">Emeril Lagasse</option><option value="$chef_id">Jamie Oliver</option><option value="$chef_id">Kelsey Nixon</option><option value="$chef_id">Laura Calder</option><option value="$chef_id">Mark Bittman</option><option value="$chef_id">Nadia G</option><option value="$chef_id">Nigella Lawson</option><option value="$chef_id">Rachael Ray</option><option value="$chef_id">Roger Mooking</option>
+										</select>
+									</li>
+								</ol><p class="widget-button">
+									<button type="submit" class="button"><span><em>Find</em></span></button><input type="hidden" name="searchType" value="mealPlanner">
+								</p>
+							</form><script type="text/javascript" charset="utf-8">var data ={  values:{'main+dish' :{label:'Main Dish', values:{'3148' :{ label :'Bal Arneson', values: {}}, '3125' :{ label :'Ching-He Huang', values: {}}, '2982' :{ label :'Chuck Hughes', values: {}}, '3082' :{ label :'David Rocco', values: {}}, '3962' :{ label :'Debi Mazar and Gabriele Corcos', values: {}}, '2882' :{ label :'Emeril Lagasse', values: {}}, '3085' :{ label :'Jamie Oliver', values: {}}, '3150' :{ label :'Kelsey Nixon', values: {}}, '3084' :{ label :'Laura Calder', values: {}}, '4002' :{ label :'Mark Bittman', values: {}}, '3782' :{ label :'Nadia G', values: {}}, '3222' :{ label :'Nigella Lawson', values: {}}, '3086' :{ label :'Rachael Ray', values: {}}, '3083' :{ label :'Roger Mooking', values: {}}}},'side+dish' :{label:'Side Dish', values:{'3148' :{ label :'Bal Arneson', values: {}}, '3125' :{ label :'Ching-He Huang', values: {}}, '2982' :{ label :'Chuck Hughes', values: {}}, '3082' :{ label :'David Rocco', values: {}}, '3962' :{ label :'Debi Mazar and Gabriele Corcos', values: {}}, '2882' :{ label :'Emeril Lagasse', values: {}}, '3085' :{ label :'Jamie Oliver', values: {}}, '3150' :{ label :'Kelsey Nixon', values: {}}, '3084' :{ label :'Laura Calder', values: {}}, '4002' :{ label :'Mark Bittman', values: {}}, '3782' :{ label :'Nadia G', values: {}}, '3222' :{ label :'Nigella Lawson', values: {}}, '3086' :{ label :'Rachael Ray', values: {}}, '3083' :{ label :'Roger Mooking', values: {}}}},'appetizer' :{label:'Appetizer', values:{'3148' :{ label :'Bal Arneson', values: {}}, '3125' :{ label :'Ching-He Huang', values: {}}, '2982' :{ label :'Chuck Hughes', values: {}}, '3082' :{ label :'David Rocco', values: {}}, '3962' :{ label :'Debi Mazar and Gabriele Corcos', values: {}}, '2882' :{ label :'Emeril Lagasse', values: {}}, '3085' :{ label :'Jamie Oliver', values: {}}, '3150' :{ label :'Kelsey Nixon', values: {}}, '3084' :{ label :'Laura Calder', values: {}}, '4002' :{ label :'Mark Bittman', values: {}}, '3782' :{ label :'Nadia G', values: {}}, '3222' :{ label :'Nigella Lawson', values: {}}, '3086' :{ label :'Rachael Ray', values: {}}, '3083' :{ label :'Roger Mooking', values: {}}}},'dessert' :{label:'Dessert', values:{'3148' :{ label :'Bal Arneson', values: {}}, '3125' :{ label :'Ching-He Huang', values: {}}, '2982' :{ label :'Chuck Hughes', values: {}}, '3082' :{ label :'David Rocco', values: {}}, '3962' :{ label :'Debi Mazar and Gabriele Corcos', values: {}}, '2882' :{ label :'Emeril Lagasse', values: {}}, '3085' :{ label :'Jamie Oliver', values: {}}, '3150' :{ label :'Kelsey Nixon', values: {}}, '3084' :{ label :'Laura Calder', values: {}}, '4002' :{ label :'Mark Bittman', values: {}}, '3782' :{ label :'Nadia G', values: {}}, '3222' :{ label :'Nigella Lawson', values: {}}, '3086' :{ label :'Rachael Ray', values: {}}, '3083' :{ label :'Roger Mooking', values: {}}}}},
+							titles: ['Select One', 'Select One', 'Select One'],
+							defaults: {
+								'2000-0400': ['snack', '79', '15-'],
+								'0400-0900': ['breakfast', '80', '30-'],
+								'0900-1200': ['lunch', '83', '30-'],
+								'1200-2000': ['dinner', '76', '30-']
+								}};
+								$('#chef-recipes').dependent_dropdowns({ data: data });</script>
+							</div></div>
+						</li>
+					</ul></div><script type="text/javascript">SNI.Common.Accordion('#meal-finder .acco');</script>
+				</div>
+
+	]]></code>
+</xml>

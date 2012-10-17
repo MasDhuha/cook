@@ -1,0 +1,29 @@
+<xml>
+<title>
+<![CDATA[ 24. Tune in Time (S) ]]>
+</title>
+<region id="sni-w-hub">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="sni-w-hub"></div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="show-detail">
+<![CDATA[
+			<p class="show_time">
+				<span><em>tune in: </em>Saturdays at 2:00pm ET </span>
+			</p>
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/brunch-at-bobbys/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+depends on show-detail class in the body tag
+]]>
+</dependencies>
+</xml>

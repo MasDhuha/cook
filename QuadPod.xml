@@ -1,0 +1,99 @@
+<xml>
+<title>
+<![CDATA[ 33. Quad Pod (S) ]]>
+</title>
+<region id="sni-w">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+			<div class="pod quad bluefish clrfix">
+				<h3>More Brunch Ideas</h3>
+				<div class="package-wrap clrfix">
+					<div class="package-cartridge">
+						<h4 class="slug">BRUNCH @ BOBBY'S</h4>
+						<div class="story clrfix">
+							<a class="thumb" href="http://www.cookingchanneltv.com/bobby-flay/index.html">
+							<img src="http://img.foodnetwork.com/COOK/2010/05/14/CC-Avatar_Bobby-Flay_s48x48.jpg" alt="Bobby Flay"/>
+							</a>
+							<p class="caption ralign dialog-bubble">
+								Make weekend brunch better with inspired ideas from my kitchen to yours, <a href="http://www.cookingchanneltv.com/brunch-at-bobbys/index.html">every Saturday at 2 pm ET</a>.
+							</p>
+							<p class="caption ralign">
+								from <a href="http://www.cookingchanneltv.com/bobby-flay/index.html">Bobby Flay</a>
+							</p>
+						</div>
+					</div>
+					<div class="package-cartridge">
+						<h4 class="slug">French Toast 3 Ways</h4>
+						<div class="story clrfix">
+							<a class="thumb" href="http://www.cookingchanneltv.com/recipes/savoury-french-toast-recipe/index.html">
+							<img src="http://img.foodnetwork.com/FOOD/2010/05/19/CCFFA106_Savoury-French-Toast_s4x3_sm.jpg" alt="Savory French Toast"/>
+							</a>
+							<p>
+								Tomato jam topping and herbes de Provence turn this sweet favorite savory.
+							</p>
+							<p>
+								<a href="http://www.cookingchanneltv.com/recipes/savoury-french-toast-recipe/index.html">Laura Calder's French Toast</a>
+							</p>
+						</div>
+						<div class="story clrfix">
+							<ul class="list">
+								<li><a href="http://www.cookingchanneltv.com/recipes/aida-mollenkamp/cardamom-orange-french-toast-recipe/index.html ">Aida's Cardamom-Orange French Toast</a></li>
+								<li><a href="http://www.cookingchanneltv.com/recipes/nigella-lawson/doughnut-french-toast-recipe/index.html">Nigella's Doughnut French Toast</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="package-cartridge clrfix">
+						<h4 class="slug">Dressed-Up Breakfast Sandwiches</h4>
+						<div class="story clrfix">
+							<a class="thumb" href="http://www.cookingchanneltv.com/recipes/bacon-and-egg-rolls-with-spicy-tomato-relish-recipe/index.html">
+							<img src="http://img.foodnetwork.com/FOOD/2010/05/25/CCBGH102_bacon-and-egg-rolls_s4x3_sm.jpg" alt="Dressed-Up Breakfast Sandwiches"/>
+							</a>
+							<p>
+								<a href="http://www.cookingchanneltv.com/recipes/bacon-and-egg-rolls-with-spicy-tomato-relish-recipe/index.html">Bacon and Egg Rolls With Tomato Relish</a>
+							</p>
+						</div>
+						<div class="story clrfix">
+							<ul class="list">
+								<li><a href="http://www.cookingchanneltv.com/recipes/aida-mollenkamp/egg-in-a-hole-grilled-cheese-recipe/index.html">Aida's Egg-in-a-Whole Grilled Cheese</a></li>
+								<li><a href="http://www.cookingchanneltv.com/recipes/ellie-krieger/healthy-breakfast-sandwich-recipe/index.html">Healthy Breakfast Sandwich</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="package-cartridge clrfix">
+						<h4 class="slug">Better With Bacon</h4>
+						<div class="story clrfix">
+							<p>
+								Salty bacon makes everything taste better, from potatoes to salad to cheesy tarts.
+							</p>
+						</div>
+						<div class="story clrfix">
+							<ul class="list">
+								<li><a href="http://www.cookingchanneltv.com/recipes/savoury-swiss-chard-tart-recipe/index.html">Laura Calder's Bacon-Chard Tart</a></li>
+								<li><a href="http://www.cookingchanneltv.com/recipes/bobby-flay/peach-and-arugula-salad-with-crispy-pancetta-and-gorgonzola-recipe/index.html">Peach, Arugula and Pancetta Salad</a></li>
+								<li><a href="http://www.cookingchanneltv.com/recipes/dave-lieberman/bacon-rosemary-red-bliss-hash-recipe/index.html">Bacon-Rosemary Potato Hash</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/breakfast-brunch-recipes-ideas/package/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+]]>
+</dependencies>
+</xml>

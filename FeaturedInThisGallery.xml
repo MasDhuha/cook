@@ -1,0 +1,761 @@
+<xml>
+	<title>
+31. Featured in this Gallery (M)
+	</title>
+	<dependencies><![CDATA[
+Content width will depend on container.
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/recipes/chocolate-desserts/pictures/index.html
+	</location>
+	<region id="sni-w"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-bd-wrap" class="article-gallery sni-wide-cap">
+					<div id="bd-container">
+						<div id="bd-wrapper" class="clrfix">
+							<div id="sni-w" class="clrfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+	]]></region>	
+	<code><![CDATA[
+
+<!-- Featured in this Gallery - Live FF -->
+<div class="featured pg-featured">
+	<h2>Featured In This Gallery</h2>
+	<div class="related-link-wrap">
+		<ul>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/dark-chocolate-peppermint-pattie-cake-recipe/index.html" alt="Dark Chocolate Peppermint Pattie Cake">Dark Chocolate Peppermint Pattie Cake</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>14 hr 15 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/dark-chocolate-peppermint-pattie-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/19/CCSWD125_Chocolate-Peppermint-Pattie-Cake-Recipe-1_s4x3_sm.jpg" alt="Dark Chocolate Peppermint Pattie Cake" title="Dark Chocolate Peppermint Pattie Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/alton-brown/cocoa-brownies-recipe/index.html" alt="Cocoa Brownies">Cocoa Brownies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 15 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/alton-brown/cocoa-brownies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/25/CC_Alton-Brown-Cocoa-Brownies_s4x3_sm.jpg" alt="Cocoa Brownies" title="Cocoa Brownies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chocolate-cream-puffs-recipe/index.html" alt="Chocolate Cream Puffs">Chocolate Cream Puffs</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 25 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chocolate-cream-puffs-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/18/CC-Zoe-Francois_Chocolate-Cream-Puffs-Recipe_s4x3_sm.jpg" alt="Chocolate Cream Puffs" title="Chocolate Cream Puffs" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/ellie-krieger/triple-chocolate-cookies-recipe/index.html" alt="Triple Chocolate Cookies">Triple Chocolate Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>47 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/ellie-krieger/triple-chocolate-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/06/CC-ellie-krieger_triple-chocolate-cookies-recipe_s4x3_sm.jpg" alt="Triple Chocolate Cookies" title="Triple Chocolate Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/rachel-allen/chocolate-cake-recipe/index.html" alt="Chocolate Cake">Chocolate Cake</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/rachel-allen/index.html" alt="Rachel Allen">Rachel Allen</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 5 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/rachel-allen/chocolate-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/10/FN_021-Chocolate-Cake_s4x3_sm.jpg" alt="Chocolate Cake" title="Chocolate Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/moelleux-au-chocolat-recipe/index.html" alt="Moelleux au Chocolat">Moelleux au Chocolat</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/laura-calder/index.html" alt="Laura Calder">Laura Calder</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 35 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/moelleux-au-chocolat-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/05/19/CCFFA108_Moelleux-au-Chocolat_s4x3_sm.jpg" alt="Moelleux au Chocolat" title="Moelleux au Chocolat" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chocolate-and-caramel-shortbreads-recipe/index.html" alt="Chocolate and Caramel Shortbreads">Chocolate and Caramel Shortbreads</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 55 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chocolate-and-caramel-shortbreads-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/08/CC-Cookies_Chocolate-Caramel-016_s4x3_sm.jpg" alt="Chocolate and Caramel Shortbreads" title="Chocolate and Caramel Shortbreads" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/flourless-chocolate-almond-cake-recipe/index.html" alt="Flourless Chocolate-almond Cake">Flourless Chocolate-almond Cake</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>--
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>--
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/flourless-chocolate-almond-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/04/08/CC_Flourless-Chocolate-Cake_s4x3_sm.jpg" alt="Flourless Chocolate-almond Cake" title="Flourless Chocolate-almond Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/tyler-florence/chocolate-pudding-recipe/index.html" alt="Chocolate Pudding">Chocolate Pudding</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>4 hr 20 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/tyler-florence/chocolate-pudding-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/26/CC_Chocolate-Pudding-Recipe_s4x3_sm.jpg" alt="Chocolate Pudding" title="Chocolate Pudding" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/mark-bittman/dipped-chocolate-anything-recipe/index.html" alt="Dipped Chocolate Anything">Dipped Chocolate Anything</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/mark-bittman/index.html" alt="Mark Bittman">Mark Bittman</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>40 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/mark-bittman/dipped-chocolate-anything-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/05/10/CCMIN113_Chocolate-Dipped-Pretzels_s4x3_sm.jpg" alt="Dipped Chocolate Anything" title="Dipped Chocolate Anything" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/dave-lieberman/chocolate-stout-cupcakes-recipe/index.html" alt="Chocolate Stout Cupcakes">Chocolate Stout Cupcakes</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>40 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/dave-lieberman/chocolate-stout-cupcakes-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2006/07/11/da0305_cupcakes_sm.jpg" alt="Chocolate Stout Cupcakes" title="Chocolate Stout Cupcakes" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/sweet-and-salty-cake-recipe/index.html" alt="Sweet and Salty Cake">Sweet and Salty Cake</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>--
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/sweet-and-salty-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/06/16/CC_Baked-Sweet-and-Salty-Cake_s3x4_sm.jpg" alt="Sweet and Salty Cake" title="Sweet and Salty Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/lorraine-pascale/cookies-and-cream-fudge-brownies-recipe/index.html" alt="Cookies and Cream Fudge Brownies">Cookies and Cream Fudge Brownies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>45 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/lorraine-pascale/cookies-and-cream-fudge-brownies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/09/29/ccbme_cookies-and-cream-brownies-recipe-02_s4x3_sm.jpg" alt="Cookies and Cream Fudge Brownies" title="Cookies and Cream Fudge Brownies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/mini-bittersweet-chocolate-chip-cookies-with-maldon-sea-salt-recipe/index.html" alt="Mini Bittersweet Chocolate Chip Cookies with Maldon Sea Salt">Mini Bittersweet Chocolate Chip Cookies with Maldon Sea Salt</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>38 hr 0 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/mini-bittersweet-chocolate-chip-cookies-with-maldon-sea-salt-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/08/16/cc_mini-bittersweet-chocolate-chip-cookies-recipe_s4x3_sm.jpg" alt="Mini Bittersweet Chocolate Chip Cookies with Maldon Sea Salt" title="Mini Bittersweet Chocolate Chip Cookies with Maldon Sea Salt" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/aida-mollenkamp/double-chocolate-malted-tart-recipe/index.html" alt="Double Chocolate Malted Tart">Double Chocolate Malted Tart</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/aida-mollenkamp/index.html" alt="Aida Mollenkamp">Aida Mollenkamp</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 20 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/aida-mollenkamp/double-chocolate-malted-tart-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2009/02/22/AI0203-1_Double-Chocolate-Tart_s4x3_sm.jpg" alt="Double Chocolate Malted Tart" title="Double Chocolate Malted Tart" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/double-chocolate-walnut-meringue-cookies-recipe/index.html" alt="Double Chocolate-Walnut Meringue Cookies">Double Chocolate-Walnut Meringue Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>55 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/double-chocolate-walnut-meringue-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/11/09/CC_Bobby-Deen-Double-Chocolate-Walnut-Meringue-Cookies-2_s4x3_sm.jpg" alt="Double Chocolate-Walnut Meringue Cookies" title="Double Chocolate-Walnut Meringue Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			 li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/nigella-lawson/chocolate-cherry-trifle-recipe/index.html" alt="Chocolate Cherry Trifle">Chocolate Cherry Trifle</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>12 hr 45 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/nigella-lawson/chocolate-cherry-trifle-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2007/09/21/seasons_ChocolateCherryTrifle_sm.jpg" alt="Chocolate Cherry Trifle" title="Chocolate Cherry Trifle" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/emeril-lagasse/new-york-style-chocolate-cheesecake-recipe/index.html" alt="New York Style Chocolate Cheesecake">New York Style Chocolate Cheesecake</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>6 hr 40 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/emeril-lagasse/new-york-style-chocolate-cheesecake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2009/01/13/vday_newyorkcheese_4749_s4x3_sm.jpg" alt="New York Style Chocolate Cheesecake" title="New York Style Chocolate Cheesecake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/dave-lieberman/candy-bar-chocolate-brownies-recipe/index.html" alt="Candy Bar Chocolate Brownies">Candy Bar Chocolate Brownies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>40 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/dave-lieberman/candy-bar-chocolate-brownies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/08/03/CC-Sickelka_candy-bar-chocolate-brownies-recipe-4_s4x3_sm.jpg" alt="Candy Bar Chocolate Brownies" title="Candy Bar Chocolate Brownies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/lisa-lillien/pb-n-chocolate-bread-pudding-bonanza-recipe/index.html" alt="PB 'n Chocolate Bread Pudding Bonanza">PB 'n Chocolate Bread Pudding Bonanza</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/lisa-lillien/index.html" alt="Lisa Lillien">Lisa Lillien</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 10 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/lisa-lillien/pb-n-chocolate-bread-pudding-bonanza-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/12/02/CCHGL103_PB-n-Chocolate-Bread-Pudding-Bonanza_s3x4_sm.jpg" alt="PB 'n Chocolate Bread Pudding Bonanza" title="PB 'n Chocolate Bread Pudding Bonanza" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/david-roccos-chocolate-espresso-cookies-recipe/index.html" alt="David Rocco's Chocolate Espresso Cookies">David Rocco's Chocolate Espresso Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 0 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/david-roccos-chocolate-espresso-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/08/CC-Cookies_Espresso-011_s4x3_sm.jpg" alt="David Rocco's Chocolate Espresso Cookies" title="David Rocco's Chocolate Espresso Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/emeril-lagasse/chocolate-covered-peanut-butter-pie-recipe/index.html" alt="Chocolate Covered Peanut Butter Pie">Chocolate Covered Peanut Butter Pie</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>4 hr 40 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>--
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/emeril-lagasse/chocolate-covered-peanut-butter-pie-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/10/FN_016-Chocolate-Peanut-Butter-Pie_s4x3_sm.jpg" alt="Chocolate Covered Peanut Butter Pie" title="Chocolate Covered Peanut Butter Pie" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chuck-hughes/red-velvet-cupcakes-recipe/index.html" alt="Red Velvet Cupcakes">Red Velvet Cupcakes</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 20 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chuck-hughes/red-velvet-cupcakes-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/26/CCCDO202_Red-Velvet-Cupcakes-Recipe_s4x3_sm.jpg" alt="Red Velvet Cupcakes" title="Red Velvet Cupcakes" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/giada-de-laurentiis/chocolate-amaretti-cake-recipe/index.html" alt="Chocolate Amaretti Cake">Chocolate Amaretti Cake</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/giada-de-laurentiis/index.html" alt="Giada De Laurentiis">Giada De Laurentiis</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 5 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/giada-de-laurentiis/chocolate-amaretti-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2003/11/18/ei1b05_chocolate_amaretti_cake_sm.jpg" alt="Chocolate Amaretti Cake" title="Chocolate Amaretti Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/thick-and-chewy-peanut-butter-chocolate-chip-bars-recipe/index.html" alt="Thick and Chewy Peanut Butter Chocolate Chip Bars">Thick and Chewy Peanut Butter Chocolate Chip Bars</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>45 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/thick-and-chewy-peanut-butter-chocolate-chip-bars-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/08/16/cc_thick-chewy-chocolate-chip-bars-recipe-03_s4x3_sm.jpg" alt="Thick and Chewy Peanut Butter Chocolate Chip Bars" title="Thick and Chewy Peanut Butter Chocolate Chip Bars" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/giada-de-laurentiis/chocolate-chip-and-mascarpone-cupcakes-recipe/index.html" alt="Chocolate Chip and Mascarpone Cupcakes">Chocolate Chip and Mascarpone Cupcakes</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/giada-de-laurentiis/index.html" alt="Giada De Laurentiis">Giada De Laurentiis</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 55 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/giada-de-laurentiis/chocolate-chip-and-mascarpone-cupcakes-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/04/07/EI1209_mascarpone_cupcake_s4x3_sm.jpg" alt="Chocolate Chip and Mascarpone Cupcakes" title="Chocolate Chip and Mascarpone Cupcakes" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/giada-de-laurentiis/espresso-chocolate-mousse-with-orange-mascarpone-whipped-cream-recipe/index.html" alt="Espresso Chocolate Mousse with Orange Mascarpone Whipped Cream">Espresso Chocolate Mousse with Orange Mascarpone Whipped Cream</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>3 hr 10 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/giada-de-laurentiis/espresso-chocolate-mousse-with-orange-mascarpone-whipped-cream-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/10/FN_030-Espresso-Chocolate-Mousse_s4x3_sm.jpg" alt="Espresso Chocolate Mousse with Orange Mascarpone Whipped Cream" title="Espresso Chocolate Mousse with Orange Mascarpone Whipped Cream" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chocolate-truffle-cake-recipe/index.html" alt="Chocolate Truffle Cake">Chocolate Truffle Cake</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>8 hr 0 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chocolate-truffle-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/05/31/CC_Sarabeths-Truffle-Cake_s3x4_sm.jpg" alt="Chocolate Truffle Cake" title="Chocolate Truffle Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chocolate-cherry-cookies-recipe/index.html" alt="Chocolate Cherry Cookies">Chocolate Cherry Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>--
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>--
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chocolate-cherry-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/12/01/MA_Chocolate-Cherry-Cookies_s4x3_sm.jpg" alt="Chocolate Cherry Cookies" title="Chocolate Cherry Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/red-velvet-cake-recipe/index.html" alt="Red Velvet Cake">Red Velvet Cake</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 0 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/red-velvet-cake-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/12/LCC_Loveless-Red-Velvet-Cake_s3x4_sm.jpg" alt="Red Velvet Cake" title="Red Velvet Cake" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chocolate-cloud-cookies-recipe/index.html" alt="Chocolate Cloud Cookies">Chocolate Cloud Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>--
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chocolate-cloud-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/08/CCB_Sugar-Sugar-Chocolate-Cloud_s3x4_sm.jpg" alt="Chocolate Cloud Cookies" title="Chocolate Cloud Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/lisa-lillien/chocolate-marshmallow-madness-cupcakes-recipe/index.html" alt="Chocolate Marshmallow Madness Cupcakes">Chocolate Marshmallow Madness Cupcakes</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/lisa-lillien/index.html" alt="Lisa Lillien">Lisa Lillien</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 5 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/lisa-lillien/chocolate-marshmallow-madness-cupcakes-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/12/02/CCHGL105_Chocolate-Marshmallow-Madness-Cupcakes_s4x3_sm.jpg" alt="Chocolate Marshmallow Madness Cupcakes" title="Chocolate Marshmallow Madness Cupcakes" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/bacon-chocolate-chip-cookies-recipe/index.html" alt="Bacon Chocolate Chip Cookies">Bacon Chocolate Chip Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 25 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/bacon-chocolate-chip-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/08/CC-Cookies_Bacon-Chocolate-008_s4x3_sm.jpg" alt="Bacon Chocolate Chip Cookies" title="Bacon Chocolate Chip Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/hot-fudge-sauce-recipe/index.html" alt="Hot Fudge Sauce">Hot Fudge Sauce</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>35 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/hot-fudge-sauce-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/19/CCSWD103_Hot-Fudge-Sauce_s4x3_sm.jpg" alt="Hot Fudge Sauce" title="Hot Fudge Sauce" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/spicy-mexican-hot-chocolate-cookies-recipe/index.html" alt="Spicy Mexican Hot Chocolate Cookies">Spicy Mexican Hot Chocolate Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>55 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/spicy-mexican-hot-chocolate-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/11/09/CC_Neely-Dozier-Spicy-Mexican-Hot-Chocolate-Cookies_s4x3_sm.jpg" alt="Spicy Mexican Hot Chocolate Cookies" title="Spicy Mexican Hot Chocolate Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/debi-mazar-and-gabriele-corcos/scorze-di-arancia-al-cioccolato-recipe/index.html" alt="Scorze Di Arancia Al Cioccolato">Scorze Di Arancia Al Cioccolato</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>3 hr 40 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/debi-mazar-and-gabriele-corcos/scorze-di-arancia-al-cioccolato-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/11/09/CC_David-Rocco-Scorze-Di-Arancia-Al-Cioccolato_s4x3_sm.jpg" alt="Scorze Di Arancia Al Cioccolato" title="Scorze Di Arancia Al Cioccolato" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/emeril-lagasse/chocolate-souffle-recipe/index.html" alt="Chocolate Souffle">Chocolate Souffle</a></h3>
+				<p class="rcourtesy">
+					Recipe courtesy of <a href="/emeril-lagasse/index.html" alt="Emeril Lagasse">Emeril Lagasse</a>
+				</p>
+				<div class="rtime">
+					<b>Total Time</b><br/>45 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/emeril-lagasse/chocolate-souffle-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/11/05/CCEFF120_Chocolate-Souffle_s4x3_sm.jpg" alt="Chocolate Souffle" title="Chocolate Souffle" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/mint-thins-recipe/index.html" alt="Mint Thins">Mint Thins</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>--
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/mint-thins-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/08/CCB_Cookiepedia-Thin-Mints_s4x3_sm.jpg" alt="Mint Thins" title="Mint Thins" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/hostess-with-the-most-ess-cupcakes-recipe/index.html" alt="Hostess with the Most-ess Cupcakes">Hostess with the Most-ess Cupcakes</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 20 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/hostess-with-the-most-ess-cupcakes-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/09/21/CC-zac-young_hostess-cupcakes-recipe_s4x3_sm.jpg" alt="Hostess with the Most-ess Cupcakes" title="Hostess with the Most-ess Cupcakes" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/tyler-florence/my-big-fat-chocolate-chip-cookies-recipe/index.html" alt="My Big, Fat Chocolate Chip Cookies">My Big, Fat Chocolate Chip Cookies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>45 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/tyler-florence/my-big-fat-chocolate-chip-cookies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/25/CC_Tyler-Florence-My-Big-Fat-Chocolate-Chip-Cookie_s4x3_sm.jpg" alt="My Big, Fat Chocolate Chip Cookies" title="My Big, Fat Chocolate Chip Cookies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/michael-chiarello/hot-spiced-mexican-hot-chocolate-with-ice-cream-dusted-with-chili-powder-recipe/index.html" alt="Hot Spiced Mexican Hot Chocolate with Ice Cream Dusted with Chili Powder">Hot Spiced Mexican Hot Chocolate with Ice Cream Dusted with Chili Powder</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>10 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/michael-chiarello/hot-spiced-mexican-hot-chocolate-with-ice-cream-dusted-with-chili-powder-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2004/07/20/mo1b09_mexican_hot_chocolate_sm.jpg" alt="Hot Spiced Mexican Hot Chocolate with Ice Cream Dusted with Chili Powder" title="Hot Spiced Mexican Hot Chocolate with Ice Cream Dusted with Chili Powder" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/lighter-brownies-recipe/index.html" alt="Lighter Brownies">Lighter Brownies</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 35 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/lighter-brownies-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/06/CCDRP103_Lighter-Brownies-Recipe_s4x3_sm.jpg" alt="Lighter Brownies" title="Lighter Brownies" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/spiked-date-and-fudge-balls-recipe/index.html" alt="Spiked Date and Fudge Balls">Spiked Date and Fudge Balls</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 0 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/spiked-date-and-fudge-balls-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/10/25/CC-HGG_Date-Rye-Whiskey-Balls-Recipe_s4x3_sm.jpg" alt="Spiked Date and Fudge Balls" title="Spiked Date and Fudge Balls" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/low-fat-chocolate-pudding-recipe/index.html" alt="Low-Fat Chocolate Pudding">Low-Fat Chocolate Pudding</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>20 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/low-fat-chocolate-pudding-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/08/CCDRP104_Chocolate-Pudding-Recipe_s4x3_sm.jpg" alt="Low-Fat Chocolate Pudding" title="Low-Fat Chocolate Pudding" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/lisa-lillien/dreamy-chocolate-peanut-butter-fudge-recipe/index.html" alt="Dreamy Chocolate Peanut Butter Fudge">Dreamy Chocolate Peanut Butter Fudge</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 45 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/lisa-lillien/dreamy-chocolate-peanut-butter-fudge-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/16/CCHGL206_Dreamy-Chocolate-Peanut-Butter-Fudge-Recipe_s4x3_sm.jpg" alt="Dreamy Chocolate Peanut Butter Fudge" title="Dreamy Chocolate Peanut Butter Fudge" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/snickerdoodle-cookie-pizza-recipe/index.html" alt="Snickerdoodle Cookie Pizza">Snickerdoodle Cookie Pizza</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>50 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Intermediate
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/snickerdoodle-cookie-pizza-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/06/13/CCUQS105_Snickerdoodle-Cookie-Pizza_s4x3_sm.jpg" alt="Snickerdoodle Cookie Pizza" title="Snickerdoodle Cookie Pizza" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/bobby-deen/bobbys-lighter-frozen-chocolate-mousse-pie-recipe/index.html" alt="Bobby's Lighter Frozen Chocolate Mousse Pie">Bobby's Lighter Frozen Chocolate Mousse Pie</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 25 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/bobby-deen/bobbys-lighter-frozen-chocolate-mousse-pie-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/12/12/CCNMM101_Frozen-Chocolate-Mousse-Pie-Recipe_s4x3_sm.jpg" alt="Bobby's Lighter Frozen Chocolate Mousse Pie" title="Bobby's Lighter Frozen Chocolate Mousse Pie" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/mark-bittman/chocolate-truffles-recipe/index.html" alt="Chocolate Truffles">Chocolate Truffles</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>1 hr 55 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/mark-bittman/chocolate-truffles-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2011/05/10/CCMIN113_Chocolate-Truffles_s3x4_sm.jpg" alt="Chocolate Truffles" title="Chocolate Truffles" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article ">
+			<div class="featured-info">
+				<h3><a href="/recipes/chocolate-mousse-served-in-edible-chocolate-dessert-cups-with-raspberry-sauce-recipe/index.html" alt="Chocolate Mousse served in Edible Chocolate Dessert Cups with Raspberry Sauce">Chocolate Mousse served in Edible Chocolate Dessert Cups with Raspberry Sauce</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>12 hr 35 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/chocolate-mousse-served-in-edible-chocolate-dessert-cups-with-raspberry-sauce-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2010/12/14/CCVEG-SP1H_Chocolate-Mousse-Cups_s4x3_sm.jpg" alt="Chocolate Mousse served in Edible Chocolate Dessert Cups with Raspberry Sauce" title="Chocolate Mousse served in Edible Chocolate Dessert Cups with Raspberry Sauce" width="92" height="69"/></a>
+			</div>
+			</li>
+			<li class="clrfix featured-article rlwlast ">
+			<div class="featured-info">
+				<h3><a href="/recipes/giada-de-laurentiis/chocolate-sformato-with-amaretto-whip-cream-recipe/index.html" alt="Chocolate Sformato with Amaretto Whip Cream">Chocolate Sformato with Amaretto Whip Cream</a></h3>
+				<div class="rtime">
+					<b>Total Time</b><br/>2 hr 5 min
+				</div>
+				<div class="rdiff">
+					<b>Level</b><br/>Easy
+				</div>
+			</div>
+			<div class="featured-thumb clrfix">
+				<a href="/recipes/giada-de-laurentiis/chocolate-sformato-with-amaretto-whip-cream-recipe/index.html"><img src="http://img.foodnetwork.com/FOOD/2008/01/31/italiancooking_chocolate_sm.jpg" alt="Chocolate Sformato with Amaretto Whip Cream" title="Chocolate Sformato with Amaretto Whip Cream" width="92" height="69"/></a>
+			</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+	]]></code>
+</xml>

@@ -1,0 +1,341 @@
+<xml>
+	<title>
+18. Show Listings (COOK) (S)
+	</title>
+	<dependencies><![CDATA[
+		uses SNI.Common.Tabs<br>
+		depends on class "section" in tag body
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/shows/index.html
+	</location>
+	<region id="sni-w"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					
+				</div>
+			</div>		
+	]]></region>	
+	<code bodyClass="section"><![CDATA[
+
+		<div class="pod show-listing clrfix" id="tvguide-tabs">
+			<h3>show listing</h3>
+			<ul class="menu button-nav clrfix">
+				<li><a href="#tvpromounit"><span>Don't Miss</span></a></li>
+				<li><a href="#tva-z"><span>Shows A-Z</span></a></li>
+			</ul>
+			<ul id="tvpromounit" class="grid clrfix">
+				<li>
+				<a href="/bitchin-kitchen/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/09/27/CC-ShowChip_Bitchin-Kitchen_s160x120.jpg" alt="Bitchin' Kitchen" height="120" width="160"></a>
+				<div class="caption">
+					Wednesdays at 10:30pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/nadia-g/index.html">Nadia G</a>
+				</div>
+				</li>
+				<li>
+				<a href="/brunch-at-bobbys/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/10/05/CC-ShowChip_Brunch-at-Bobbys_s160x120.jpg" alt="Brunch at Bobby's" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 2:00pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/bobby-flay/index.html">Bobby Flay</a>
+				</div>
+				</li>
+				<li>
+				<a href="/chinese-food-made-easy/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_Chinese-Food-Made-Easy_s160x120.jpg" alt="Chinese Food Made Easy" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 1:00pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/ching-he-huang/index.html">Ching-He Huang</a>
+				</div>
+				</li>
+				<li>
+				<a href="/chucks-day-off/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_Chucks-Day-Off_s160x120.jpg" alt="Chuck's Day Off" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 2pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/chuck-hughes/index.html">Chuck Hughes</a>
+				</div>
+				</li>
+				<li>
+				<a href="/david-roccos-dolce-vita/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_David-Roccos-Dolce-Vita_s160x120.jpg" alt="David Rocco's Dolce Vita" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 1:30pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/david-rocco/index.html">David Rocco</a>
+				</div>
+				</li>
+				<li>
+				<a href="/everyday-italian/index.html"><img src="http://img.foodnetwork.com/COOK/2010/05/14/CC-ShowChip_Everyday-Italian_s160x120.jpg" alt="Everyday Italian" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 8:00pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/giada-de-laurentiis/index.html">Giada De Laurentiis</a>
+				</div>
+				</li>
+				<li>
+				<a href="/foodography/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_Foodography_s160x120.jpg" alt="Food(ography)" height="120" width="160"></a>
+				<div class="caption">
+					Sundays at 9pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/mo-rocca/index.html">Mo Rocca</a>
+				</div>
+				</li>
+				<li>
+				<a href="/french-food-at-home/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_French-Food-At-Home_s160x120.jpg" alt="French Food at Home" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 11:30am ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/laura-calder/index.html">Laura Calder</a>
+				</div>
+				</li>
+				<li>
+				<a href="/indian-food-made-easy/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_Indian-Food-Made-Easy_s160x120.jpg" alt="Indian Food Made Easy" height="120" width="160"></a>
+				<div class="caption">
+					Sundays at 1pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/anjum-anand/index.html">Anjum Anand</a>
+				</div>
+				</li>
+				<li>
+				<a href="/kelseys-essentials/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/10/01/CC-ShowChip_Kelseys-Essentials_s160x120.jpg" alt="Kelsey's Essentials" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 2:30pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/kelsey-nixon/index.html">Kelsey Nixon</a>
+				</div>
+				</li>
+				<li>
+				<a href="/rachael-rays-week-in-a-day/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/14/CC-ShowChip_Rachaels-Week-In-A-Day_s160x120.jpg" alt="Rachael Ray's Week in a Day" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 3:00pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/rachael-ray/index.html">Rachael Ray</a>
+				</div>
+				</li>
+				<li>
+				<a href="/spice-goddess/index.html"><img src="http://img.foodnetwork.com/COOK/2010/05/14/CC-ShowChip_Spice-Goddess_s160x120.jpg" alt="Spice Goddess" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 11:00am ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/bal-arneson/index.html">Bal Arneson</a>
+				</div>
+				</li>
+				<li>
+				<a href="/two-fat-ladies/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_Two-Fat-Ladies_s160x120.jpg" alt="Two Fat Ladies" height="120" width="160"></a>
+				<div class="caption">
+					Saturdays at 10pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/clarissa-dickson-wright-and-jennifer-paterson/index.html">Clarissa Dickson Wright and Jennifer Paterson</a>
+				</div>
+				</li>
+				<li>
+				<a href="/unique-eats/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/05/21/CC-ShowChip_Unique-Eats_s160x120.jpg" alt="Unique Eats" height="120" width="160"></a>
+				<div class="caption">
+					Sundays at 10:00pm ET
+				</div>
+				</li>
+				<li>
+				<a href="/united-tastes-of-america/index.html"><img src="http://cooktv.sndimg.com/COOK/2010/09/30/CC-ShowChip_United-Tastes-of-America_s160x120.jpg" alt="United Tastes of America" height="120" width="160"></a>
+				<div class="caption">
+					Tuesdays at 9:30pm ET
+				</div>
+				<div class="sub-caption">
+					Hosted by: <a href="/jeffrey-saad/index.html">Jeffrey Saad</a>
+				</div>
+				</li>
+			</ul>
+			<div id="tva-z" class="a-z-list">
+				<span class="letter">A</span>
+				<ul>
+					<li><a href="/a-cooks-tour/index.html">A Cook's Tour</a></li>
+					<li><a href="/ace-of-cakes/index.html">Ace of Cakes</a></li>
+					<li><a href="/alexs-day-off/index.html">Alex's Day Off</a></li>
+					<li><a href="/all-star-grillfest/index.html">All-Star Grillfest</a></li>
+					<li><a href="/ask-aida/index.html">Ask Aida</a></li>
+					<li><a href="/at-the-table-with/index.html">At the Table With...</a></li>
+				</ul>
+				<span class="letter">B</span>
+				<ul>
+					<li><a href="/bbq-with-bobby-flay/index.html">BBQ with Bobby Flay</a></li>
+					<li><a href="/bills-food/index.html">Bill's Food</a></li>
+					<li><a href="/bills-holiday/index.html">Bill's Holiday</a></li>
+					<li><a href="/brunch-at-bobbys/index.html">Brunch at Bobby's</a></li>
+				</ul>
+				<span class="letter">C</span>
+				<ul>
+					<li><a href="/caribbean-food-made-easy/index.html">Caribbean Food Made Easy</a></li>
+					<li><a href="/challenge/index.html">Challenge</a></li>
+					<li><a href="/chefography/index.html">Chefography</a></li>
+					<li><a href="/chefography-alex-guarnaschelli/index.html">Chefography: Alex Guarnaschelli</a></li>
+					<li><a href="/chinese-food-made-easy/index.html">Chinese Food Made Easy</a></li>
+					<li><a href="/chucks-day-off/index.html">Chuck's Day Off</a></li>
+					<li><a href="/chucks-week-off/index.html">Chuck's Week Off</a></li>
+					<li><a href="/chuckmas/index.html">Chuckmas</a></li>
+					<li><a href="/ciao-america/index.html">Ciao America</a></li>
+					<li><a href="/classy-ladies/index.html">Classy Ladies</a></li>
+					<li><a href="/cook-like-an-iron-chef/index.html">Cook Like an Iron Chef</a></li>
+				</ul>
+				<span class="letter">D</span>
+				<ul>
+					<li><a href="/david-roccos-amalfi-getaway/index.html">David Rocco's Amalfi Getaway</a></li>
+					<li><a href="/david-roccos-dolce-vita/index.html">David Rocco's Dolce Vita</a></li>
+					<li><a href="/double-ovens/index.html">Double Ovens</a></li>
+					<li><a href="/drink-up/index.html">Drink Up</a></li>
+					<li><a href="/drop-5-lbs-with-good-housekeeping/index.html">Drop 5 lbs with Good Housekeeping</a></li>
+				</ul>
+				<span class="letter">E</span>
+				<ul>
+					<li><a href="/easy-chinese-san-francisco/index.html">Easy Chinese: San Francisco</a></li>
+					<li><a href="/easy-entertaining-with-michael-chiarello/index.html">Easy Entertaining with Michael Chiarello</a></li>
+					<li><a href="/eat-street/index.html">Eat Street</a></li>
+					<li><a href="/eat-this-drink-that/index.html">Eat This, Drink That</a></li>
+					<li><a href="/emeril-live/index.html">Emeril Live</a></li>
+					<li><a href="/everyday-exotic/index.html">Everyday Exotic</a></li>
+					<li><a href="/everyday-italian/index.html">Everyday Italian</a></li>
+					<li><a href="/extra-virgin/index.html">Extra Virgin</a></li>
+					<li><a href="/extreme-cuisine/index.html">Extreme Cuisine</a></li>
+				</ul>
+				<span class="letter">F</span>
+				<ul>
+					<li><a href="/feasting-on/index.html">Feasting on...</a></li>
+					<li><a href="/follow-that-food/index.html">Follow That Food</a></li>
+					<li><a href="/food-911/index.html">Food 911</a></li>
+					<li><a href="/food-detectives/index.html">Food Detectives</a></li>
+					<li><a href="/food-jammers/index.html">Food Jammers</a></li>
+					<li><a href="/food-nation-with-bobby-flay/index.html">Food Nation With Bobby Flay</a></li>
+					<li><a href="/food-truck-revolution/index.html">Food Truck Revolution</a></li>
+					<li><a href="/foodography/index.html">Food(ography)</a></li>
+					<li><a href="/foodcrafters/index.html">FoodCrafters</a></li>
+					<li><a href="/french-food-at-home/index.html">French Food at Home</a></li>
+					<li><a href="/fresh-food-fast-with-emeril-lagasse/index.html">Fresh Food Fast with Emeril Lagasse</a></li>
+					<li><a href="/from-spain-with-love/index.html">From Spain With Love</a></li>
+					<li><a href="/from-the-kitchens-of/index.html">From the Kitchens Of...</a></li>
+				</ul>
+				<span class="letter">G</span>
+				<ul>
+					<li><a href="/georgia-roadtrip-with-g-garvin/index.html">Georgia Roadtrip with G. Garvin</a></li>
+					<li><a href="/good-deal-with-dave-lieberman/index.html">Good Deal with Dave Lieberman</a></li>
+					<li><a href="/good-eats/index.html">Good Eats</a></li>
+				</ul>
+				<span class="letter">H</span>
+				<ul>
+					<li><a href="/healthy-appetite-with-ellie-krieger/index.html">Healthy Appetite with Ellie Krieger</a></li>
+					<li><a href="/heat-seekers/index.html">Heat Seekers</a></li>
+					<li><a href="/holiday-on-the-rocks/index.html">Holiday on the Rocks</a></li>
+					<li><a href="/hook-line-dinner/index.html">Hook, Line & Dinner</a></li>
+					<li><a href="/hungry-girl/index.html">Hungry Girl</a></li>
+				</ul>
+				<span class="letter">I</span>
+				<ul>
+					<li><a href="/indian-food-made-easy/index.html">Indian Food Made Easy</a></li>
+					<li><a href="/iron-chef-america/index.html">Iron Chef America</a></li>
+					<li><a href="/iron-chef-america-countdown/index.html">Iron Chef America Countdown</a></li>
+					<li><a href="/iron-chef-japan/index.html">Iron Chef Japan </a></li>
+				</ul>
+				<span class="letter">J</span>
+				<ul>
+					<li><a href="/jamie-at-home/index.html">Jamie At Home</a></li>
+					<li><a href="/jamie-at-home-christmas-special/index.html">Jamie at Home - Christmas Special</a></li>
+					<li><a href="/jamie-cooks-christmas/index.html">Jamie Cooks Christmas</a></li>
+					<li><a href="/jamies-family-christmas/index.html">Jamie's Family Christmas</a></li>
+					<li><a href="/jamies-food-escapes/index.html">Jamie's Food Escapes</a></li>
+					<li><a href="/the-french-chef-with-julia-child/index.html">Julia Child</a></li>
+				</ul>
+				<span class="letter">K</span>
+				<ul>
+					<li><a href="/kelseys-essentials/index.html">Kelsey's Essentials</a></li>
+				</ul>
+				<span class="letter">L</span>
+				<ul>
+					<li><a href="/luke-nguyens-vietnam/index.html">Luke Nguyen's Vietnam</a></li>
+				</ul>
+				<span class="letter">M</span>
+				<ul>
+					<li><a href="/martha-stewarts-christmas-special/index.html">Martha Stewart's Christmas Special</a></li>
+					<li><a href="/martha-stewarts-holiday-cookies/index.html">Martha Stewart's Holiday Cookies</a></li>
+					<li><a href="/melting-pot/index.html">Melting Pot</a></li>
+					<li><a href="/molto-mario/index.html">Molto Mario</a></li>
+					<li><a href="/my-country-my-kitchen/index.html">My Country, My Kitchen</a></li>
+					<li><a href="/my-grandmothers-ravioli/index.html">My Grandmother's Ravioli</a></li>
+					<li><a href="/my-life-in-food/index.html">My Life in Food</a></li>
+				</ul>
+				<span class="letter">N</span>
+				<ul>
+					<li><a href="/nadia-gs-bitchin-kitchen/index.html">Nadia G's Bitchin' Kitchen</a></li>
+					<li><a href="/next-food-network-star-after-party/index.html">Next Food Network Star After Party</a></li>
+					<li><a href="/nigella-kitchen/index.html">Nigella Kitchen</a></li>
+					<li><a href="/nigella-express/index.html">Nigella Lawson</a></li>
+					<li><a href="/not-my-mamas-meals/index.html">Not My Mama's Meals</a></li>
+				</ul>
+				<span class="letter">P</span>
+				<ul>
+					<li><a href="/pitchin-in/index.html">Pitchin' In</a></li>
+				</ul>
+				<span class="letter">R</span>
+				<ul>
+					<li><a href="/rachael-rays-tasty-travels/index.html">Rachael Ray's Tasty Travels</a></li>
+					<li><a href="/rachael-rays-week-in-a-day/index.html">Rachael Ray's Week in a Day</a></li>
+					<li><a href="/rachel-allen-bake/index.html">Rachel Allen: Bake!</a></li>
+				</ul>
+				<span class="letter">S</span>
+				<ul>
+					<li><a href="/saras-secrets/index.html">Sara's Secrets</a></li>
+					<li><a href="/simply-baking/index.html">Simply Baking</a></li>
+					<li><a href="/simply-delicioso-with-ingrid-hoffmann/index.html">Simply Delicioso with Ingrid Hoffmann</a></li>
+					<li><a href="/spice-goddess/index.html">Spice Goddess</a></li>
+					<li><a href="/sweet-dreams/index.html">Sweet Dreams</a></li>
+					<li><a href="/symons-suppers/index.html">Symon's Suppers</a></li>
+				</ul>
+				<span class="letter">T</span>
+				<ul>
+					<li><a href="/the-big-cheese/index.html">The Big Cheese</a></li>
+					<li><a href="/the-brass-sisters/index.html">The Brass Sisters</a></li>
+					<li><a href="/the-donatella-project/index.html">The Donatella Project</a></li>
+					<li><a href="/the-four-coursemen/index.html">The Four Coursemen</a></li>
+					<li><a href="/the-galloping-gourmet/index.html">The Galloping Gourmet</a></li>
+					<li><a href="/the-gourmet-next-door/index.html">The Gourmet Next Door</a></li>
+					<li><a href="/the-great-steak-challenge/index.html">The Great Steak Challenge</a></li>
+					<li><a href="/the-minimalist/index.html">The Minimalist</a></li>
+					<li><a href="/the-originals-with-emeril/index.html">The Originals with Emeril</a></li>
+					<li><a href="/the-perfect-3/index.html">The Perfect 3</a></li>
+					<li><a href="/the-secret-life-of/index.html">The Secret Life of...</a></li>
+					<li><a href="/the-supersizers-go/index.html">The Supersizers Go...</a></li>
+					<li><a href="/the-thirsty-traveler/index.html">The Thirsty Traveler</a></li>
+					<li><a href="/the-urban-grocer/index.html">The Urban Grocer</a></li>
+					<li><a href="/the-veg-edge/index.html">The Veg Edge</a></li>
+					<li><a href="/throwdown-with-bobby-flay/index.html">Throwdown with Bobby Flay</a></li>
+					<li><a href="/two-fat-ladies/index.html">Two Fat Ladies</a></li>
+					<li><a href="/tylers-ultimate/index.html">Tyler's Ultimate</a></li>
+				</ul>
+				<span class="letter">U</span>
+				<ul>
+					<li><a href="/unique-eats/index.html">Unique Eats</a></li>
+					<li><a href="/unique-sweets/index.html">Unique Sweets</a></li>
+					<li><a href="/united-tastes-of-america/index.html">United Tastes of America</a></li>
+				</ul>
+				<span class="letter">V</span>
+				<ul>
+					<li><a href="/viva-daisy/index.html">Viva Daisy!</a></li>
+					<li><a href="/voltaggios-take-on-thanksgiving/index.html">Voltaggios Take On: Thanksgiving</a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">SNI.Common.Tabs("#tvguide-tabs");</script>
+
+
+	]]></code>
+</xml>

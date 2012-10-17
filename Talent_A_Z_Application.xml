@@ -1,0 +1,143 @@
+<xml>
+	<title>
+24. Talent A-Z Application (M)
+	</title>
+	<dependencies><![CDATA[
+Content width will depend on container.
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/chefs-a-z/index.html
+	</location>
+	<region id="sni-w"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					
+				</div>
+			</div>		
+	]]></region>	
+	<code><![CDATA[
+
+<div class="pod topics-a-z clrfix">
+	<div class="head">
+		<div class="page-title clrfix">
+			<h1>Talents A to Z</h1>
+		</div>
+	</div>
+	<div id="tva-z" class="a-z-list-recipe">
+		<span class="letter">A</span>
+		<ul>
+			<li><a href="/aarti-sequeira/index.html">Aarti Sequeira</a></li>
+			<li><a href="/cook/recipes/talent/0,1001123,COOK_41503_4902,00.html">Aarti Sequeira</a></li>
+			<li><a href="/aida-mollenkamp/index.html">Aida Mollenkamp</a></li>
+			<li><a href="/al-roker/bio/index.html">Al Roker</a></li>
+			<li><a href="/alexandra-guarnaschelli/index.html">Alexandra Guarnaschelli</a></li>
+			<li><a href="/alton-brown/index.html">Alton Brown</a></li>
+			<li><a href="/amy-finley/index.html">Amy Finley </a></li>
+			<li><a href="/anjum-anand/index.html">Anjum Anand</a></li>
+			<li><a href="/anne-burrell/index.html">Anne Burrell</a></li>
+			<li><a href="/annie-sibonney/index.html">Annie Sibonney</a></li>
+		</ul>
+		<span class="letter">B</span>
+		<ul>
+			<li><a href="/bal-arneson/index.html">Bal Arneson</a></li>
+			<li><a href="/ben-sargent/index.html">Ben Sargent</a></li>
+			<li><a href="/bill-granger/index.html">Bill Granger</a></li>
+			<li><a href="/bobby-flay/index.html">Bobby Flay</a></li>
+			<li><a href="/brigitte-nguyen/bio/index.html">Brigitte Nguyen</a></li>
+		</ul>
+		<span class="letter">C</span>
+		<ul>
+			<li><a href="/ching-he-huang/index.html">Ching-He Huang</a></li>
+			<li><a href="/chuck-hughes/index.html">Chuck Hughes</a></li>
+			<li><a href="/clarissa-dickson-wright-and-jennifer-paterson/index.html">Clarissa Dickson Wright and Jennifer Paterson</a></li>
+		</ul>
+		<span class="letter">D</span>
+		<ul>
+			<li><a href="/daisy-martinez/index.html">Daisy Martinez</a></li>
+			<li><a href="/darryl-robinson/index.html">Darryl Robinson</a></li>
+			<li><a href="/dave-lieberman/index.html">Dave Lieberman</a></li>
+			<li><a href="/david-rocco/index.html">David Rocco</a></li>
+			<li><a href="/debi-mazar-and-gabriele-corcos/index.html">Debi Mazar and Gabriele Corcos</a></li>
+			<li><a href="/duff-goldman/index.html">Duff Goldman</a></li>
+		</ul>
+		<span class="letter">E</span>
+		<ul>
+			<li><a href="/ellie-krieger/index.html">Ellie Krieger</a></li>
+			<li><a href="/emeril-lagasse/index.html">Emeril Lagasse</a></li>
+		</ul>
+		<span class="letter">F</span>
+		<ul>
+			<li><a href="/micah-donovan-and-chris-martin-and-nobu-adilman/index.html">Food Jammers</a></li>
+			<li><a href="/food-network-kitchens/index.html">Food Network Kitchens</a></li>
+		</ul>
+		<span class="letter">G</span>
+		<ul>
+			<li><a href="/gale-gand/index.html">Gale Gand</a></li>
+			<li><a href="/george-duran/index.html">George Duran</a></li>
+			<li><a href="/giada-de-laurentiis/index.html">Giada De Laurentiis</a></li>
+			<li><a href="/gordon-elliot/index.html">Gordon Elliot</a></li>
+			<li><a href="/graham-kerr/index.html">Graham Kerr</a></li>
+		</ul>
+		<span class="letter">I</span>
+		<ul>
+			<li><a href="/ina-garten/index.html">Ina Garten</a></li>
+			<li><a href="/ingrid-hoffmann/index.html">Ingrid Hoffmann</a></li>
+		</ul>
+		<span class="letter">J</span>
+		<ul>
+			<li><a href="/james-cunningham/index.html">James Cunningham</a></li>
+			<li><a href="/jamie-oliver/index.html">Jamie Oliver</a></li>
+			<li><a href="/jeffrey-saad/index.html">Jeffrey Saad</a></li>
+			<li><a href="/jim-oconnor/index.html">Jim O'Connor</a></li>
+			<li><a href="/julia-child/index.html">Julia Child</a></li>
+		</ul>
+		<span class="letter">K</span>
+		<ul>
+			<li><a href="/kelsey-nixon/index.html">Kelsey Nixon</a></li>
+			<li><a href="/kevin-brauch/index.html">Kevin Brauch</a></li>
+		</ul>
+		<span class="letter">L</span>
+		<ul>
+			<li><a href="/laura-calder/index.html">Laura Calder</a></li>
+			<li><a href="/levi-roots/index.html">Levi Roots</a></li>
+			<li><a href="/lisa-lillien/index.html">Lisa Lillien</a></li>
+			<li><a href="/luke-nguyen/index.html">Luke Nguyen</a></li>
+		</ul>
+		<span class="letter">M</span>
+		<ul>
+			<li><a href="/mario-batali/index.html">Mario Batali</a></li>
+			<li><a href="/mark-bittman/index.html">Mark Bittman</a></li>
+			<li><a href="/michael-chiarello/index.html">Michael Chiarello</a></li>
+			<li><a href="/michael-symon/index.html">Michael Symon</a></li>
+			<li><a href="/mo-rocca/index.html">Mo Rocca</a></li>
+		</ul>
+		<span class="letter">N</span>
+		<ul>
+			<li><a href="/nadia-g/index.html">Nadia G</a></li>
+			<li><a href="/nigella-lawson/index.html">Nigella Lawson</a></li>
+		</ul>
+		<span class="letter">P</span>
+		<ul>
+			<li><a href="/paula-deen/index.html">Paula Deen</a></li>
+		</ul>
+		<span class="letter">R</span>
+		<ul>
+			<li><a href="/rachael-ray/index.html">Rachael Ray</a></li>
+			<li><a href="/rachel-allen/index.html">Rachel Allen</a></li>
+			<li><a href="/roger-mooking/index.html">Roger Mooking</a></li>
+		</ul>
+		<span class="letter">S</span>
+		<ul>
+			<li><a href="/sara-moulton/index.html">Sara Moulton</a></li>
+			<li><a href="/sunny-anderson/index.html">Sunny Anderson</a></li>
+		</ul>
+		<span class="letter">T</span>
+		<ul class="last">
+			<li><a href="/ted-allen/index.html">Ted Allen</a></li>
+			<li><a href="/tyler-florence/index.html">Tyler Florence</a></li>
+		</ul>
+	</div>
+</div>
+
+	]]></code>
+</xml>

@@ -1,0 +1,32 @@
+<xml>
+	<title>
+16. Newsletter Subscribe (S)
+	</title>
+	<dependencies><![CDATA[
+
+	]]></dependencies>
+	<location>
+http://www.cookingchanneltv.com/
+	</location>
+	<region id="sni-e"><![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-e" class="clrfix">
+				</div>
+			</div>		
+	]]></region>	
+	<code><![CDATA[
+
+		<div class="pod subscribe controls clrfix">
+			<h3><em>Join</em> Us</h3>
+			<div class="bd">
+				<p>
+					Subscribe to our newsletter for recipes, tips and ideas from our hot new chefs and shows.
+				</p>
+				<div class="btn-cont clrfix">
+					<a href="/newsletter-subscribe/package/index.html" class="button"><span>Subscribe</span></a>
+				</div>
+			</div>
+		</div>
+
+	]]></code>
+</xml>

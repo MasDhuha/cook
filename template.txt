@@ -1,0 +1,9 @@
+<div id="sitewrapper">
+  <div id="sni-bd" class="clrfix">
+    <div id="sn-w">
+      <div id="sn-we" class="modulewrapper">
+        <!-- recipe browser goes here -->
+      </div>
+    </div>
+  </div>
+</div>

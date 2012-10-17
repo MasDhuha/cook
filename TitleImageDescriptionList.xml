@@ -1,0 +1,55 @@
+<xml>
+<title>
+<![CDATA[ 32. Title/Image/Description/List (S) ]]>
+</title>
+<region id="sni-w">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+			<div class="pod clrfix">
+				<h3>Breakfast Essentials: All About Eggs</h3>
+				<div class="package-cartridge clrfix">
+					<div class="story lalign">
+						<a class="thumb" href="http://www.cookingchanneltv.com/videos/the-secret-to-scrambled-eggs/56087.html">
+						<img src="http://img.foodnetwork.com/FOOD/2010/06/23/CCCLIWeb1_Scrambled-Eggs_s4x3_sm.jpg" alt="Watch: Michael Symon's Perfect Scrambled Eggs"/>
+						<span class="play-button">Play Video</span>
+						<span class="sub-caption">
+						(02:54) </span>
+						</a>
+						<p>
+							The secret ingredient to <em>Iron Chef</em>-worthy scrambled eggs? It's all about technique.
+						</p>
+						<p>
+							<a href="http://www.cookingchanneltv.com/videos/the-secret-to-scrambled-eggs/56087.html">Make Perfect Eggs With Chef Symon</a>
+						</p>
+					</div>
+					<div class="story ralign">
+						<h4>One-pan Egg Wonders</h4>
+						<ul class="list">
+							<li><a href="http://www.cookingchanneltv.com/recipes/frittata-di-verdura-clean-out-the-fridge-frittata-recipe/index.html">David Rocco's Frittata</a></li>
+							<li><a href="http://www.cookingchanneltv.com/recipes/aida-mollenkamp/baked-eggs-with-canadian-bacon-spinach-and-aged-cheddar-recipe/index.html">Aida's Baked Eggs</a></li>
+							<li><a href="http://www.cookingchanneltv.com/recipes/ingrid-hoffmann/simple-spanish-tortilla-recipe/index.html">Simple Spanish Tortilla</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/breakfast-brunch-recipes-ideas/package/index.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+]]>
+</dependencies>
+</xml>

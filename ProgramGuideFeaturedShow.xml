@@ -1,0 +1,44 @@
+<xml>
+<title>
+<![CDATA[ 29. Program Guide Featured Show (S) ]]>
+</title>
+<region id="program-guide">
+<![CDATA[
+			<div id="sni-bd" class="clrfix">
+				<div id="sni-w" class="clrfix">
+					<div id="program-guide" class="tabbed-well"></div>
+				</div>
+			</div>
+]]>
+</region>
+<code bodyClass="">
+<![CDATA[
+
+			<div class="pod">
+				<h3>GLOBAL FOOD TRIPPING</h3>
+				<div class="bd clrfix">
+					<a class="thumb" href="http://www.cookingchanneltv.com/chucks-day-off/index.html"><img width="96" height="70" alt="Chuck Hughes" src="http://img.foodnetwork.com/COOK/2010/05/10/bts-CDO_Chuck-Hughes-at-his-restaurant-Garde-Manger-in-Montreal-06_s4x3_sm.jpg"></a>
+					<p>
+						<a class="title" href="http://www.cookingchanneltv.com/chucks-day-off/index.html">Chuck's Day Off</a>
+					</p>
+					<p class="byline">
+						Hosted by: <a href="http://www.cookingchanneltv.com/chuck-hughes/index.html">Chuck Hughes</a>
+					</p>
+					<p>
+						His restaurant is amazing but wait until you see what he cooks on his day off.
+					</p>
+				</div>
+			</div>
+
+
+]]>
+</code>
+<location>
+<![CDATA[ http://www.cookingchanneltv.com/cook/programweekly/0,,COOK_42042__EST,00.html ]]>
+</location>
+<dependencies>
+<![CDATA[
+This is a subcomponent of the 20. Program Guide Application (C)
+]]>
+</dependencies>
+</xml>
